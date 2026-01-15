@@ -1,0 +1,56 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts**: Detected and responded to simulated security events in a lab environment, classifying severity levels based on predefined procedures.
+  
+- **Performed Initial Triage of Security Events**: Analyzed endpoint and network data to identify suspicious activity, aligning with SOC workflow methodologies.
+
+- **Gathered Evidence for Incident Response**: Collected relevant system configurations, account activities, and access changes to support thorough investigation.
+
+- **Supported Vulnerability Identification and Remediation Efforts**: Conducted baseline security hardening on Windows endpoints and reviewed system configurations to ensure compliance with best practices.
+  
+- **Maintained Accurate Documentation of Findings**: Created detailed reports documenting investigation outcomes and provided clear explanations for non-technical stakeholders.
+
+- **Collaborated with IT and Security Teams**: Worked closely with peers to enhance detection capabilities and improve response protocols, fostering a collaborative approach in incident handling.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting, aligning with SOC workflows.
+
+Applied preventative maintenance techniques to reduce recurring issues and enhance system reliability.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Configured Antivirus Software and System Updates**: Set up antivirus software and configured updates on simulated endpoints to ensure baseline security.
+  
+- **Analyzed Network Traffic and Logs for Suspicious Activity**: Examined DNS, HTTP, and TCP session data to identify potential threats in a lab environment.
+
+### ATS / SOC Keywords
+
+1. Security alerts
+2. Triage
+3. Incident response
+4. Endpoint security
+5. Network traffic analysis
+6. Log monitoring
+7. Vulnerability identification
+8. Remediation efforts
+9. Documentation
+10. Collaboration
+11. Baseline security hardening
+12. System configurations
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- **Alignment with Job Description**: The revised bullets now directly address the responsibilities outlined in the target job description, emphasizing monitoring, triage, and investigation tasks.
+- **SOC Workflows**: By framing work in terms of SOC workflows like detection, triage, investigation, documentation, and escalation, the experience is presented as directly relevant to an entry-level SOC Analyst role.
+- **Evidence-Based Claims**: Each bullet includes specific actions that can be substantiated with lab outputs or logs, such as "collected relevant system configurations" and "created detailed reports," ensuring defensibility if an interviewer asks for evidence.
+
+**ATS / SOC Keywords:**
+- **Relevance to Job Description**: The keywords are chosen based on the technical expectations and soft skills listed in the job description. They highlight critical abilities like incident response, log monitoring, and documentation.
+- **Focus on Lab Work**: The terms reflect hands-on, lab-based experience that can be easily mapped to real-world SOC scenarios.
+
+By making these changes, the resume becomes more aligned with the desired role and provides concrete evidence of relevant skills and experiences.

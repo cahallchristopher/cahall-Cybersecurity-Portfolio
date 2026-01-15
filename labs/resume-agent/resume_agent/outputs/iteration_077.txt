@@ -1,0 +1,52 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts:** Utilized simulated security alerts in a lab environment to practice initial triage and classification based on severity.
+- **Analyzed Network Traffic Data:** Performed detailed analysis of DNS, HTTP, and TCP session logs from simulated network traffic to identify suspicious activities.
+- **Supported Incident Response Efforts:** Assisted with gathering evidence and documenting findings during simulated incident response scenarios.
+- **Reviewed Endpoint Behavior:** Conducted in-depth analysis of endpoint behavior through labs and PCAPs to detect and understand suspicious activity patterns.
+- **Escalated Findings Appropriately:** Identified potential security issues, documented them clearly, and escalated them according to established procedures.
+- **Maintained Accurate Documentation:** Created detailed reports and documentation for findings from simulated lab exercises, ensuring clear communication of technical details.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Performed Structured Endpoint Troubleshooting:** Diagnosed and resolved common Windows endpoint failures in a structured manner, mirroring SOC workflows for detection and triage.
+- **Analyzed Log Data to Identify Suspicious Activity:** Reviewed system logs and event logs from simulated environments to identify potential security threats.
+- **Reviewed Account Activity and Access Changes:** Monitored user account activity and access changes through labs to ensure compliance with security policies.
+- **Supported Vulnerability Identification and Remediation:** Participated in identifying vulnerabilities and remediation efforts by patching systems and applying baseline security configurations.
+
+**Digital Literacy & Endpoint Security Project**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Designed and Delivered Training Sessions:** Conducted one-on-one digital literacy and cybersecurity training to non-technical users, focusing on endpoint security best practices.
+- **Configured Antivirus Software and Endpoint Protection Tools:** Set up and maintained antivirus software and other endpoint protection tools in simulated environments for optimal performance.
+
+### ATS / SOC Keywords
+1. Security Alerts Monitoring
+2. Network Traffic Analysis
+3. Incident Response Efforts
+4. Suspicious Activity Detection
+5. Endpoint Behavior Analysis
+6. Log Data Review
+7. Evidence Gathering
+8. Documentation and Reporting
+9. Triage Workflows
+10. System Hardening
+11. Vulnerability Identification
+12. User Account Monitoring
+
+### Explanation of Changes
+
+#### **Revised Resume Bullets**
+- **Alignment with Job Description:** The revised bullets now explicitly align with the responsibilities outlined in the target job description, focusing on security monitoring, incident response, and triage.
+- **Lab-Based Evidence:** Each bullet includes specific examples from lab work that demonstrate relevant skills and experience. For instance, "Monitored and Investigated Security Alerts" shows hands-on experience with alert management, while "Performed Structured Endpoint Troubleshooting" mirrors the workflow in a simulated environment.
+- **Clear Communication of Skills:** The language is tailored to showcase how the candidate can apply their IT support and digital literacy skills within an SOC context.
+
+#### **ATS / SOC Keywords**
+- **Relevance to Job Requirements:** These keywords directly correlate with the technical expectations listed in the job description, ensuring that a resume scan will highlight relevant experience.
+- **Specific Terms:** Keywords like "Security Alerts Monitoring," "Incident Response Efforts," and "Suspicious Activity Detection" are used to ensure the candidate's background is clearly aligned with the role.
+
+These revisions enhance the relevance of Christopher Cahall’s experience for an entry-level SOC Analyst or Junior Cybersecurity Analyst position, ensuring that each bullet and keyword supports a clear connection between his academic/volunteer work and the job responsibilities.

@@ -1,0 +1,63 @@
+### Revised Resume Bullets
+
+1. **Monitored and Analyzed Security Alerts**
+   - Observed and documented security alerts from simulated environments using lab-provided SIEM tools, performing initial triage to classify severity.
+   
+2. **Performed Endpoint Analysis for Suspicious Activity**
+   - Conducted in-depth analysis of endpoint systems, identifying anomalous behavior through DNS, HTTP, and TCP session logs.
+
+3. **Investigated Security Incidents**
+   - Investigated security incidents by isolating symptoms, identifying root causes, and validating fixes to ensure accurate identification of suspicious activities.
+   
+4. **Supported Incident Response Efforts**
+   - Assisted in the gathering of evidence and documentation of findings during simulated incident response scenarios, ensuring clear communication and thorough documentation.
+
+5. **Reviewed Account Activity and Access Changes**
+   - Reviewed account activity logs for unauthorized access attempts and changes to system configurations that indicated potential security breaches.
+   
+6. **Supported Vulnerability Identification and Remediation**
+   - Assisted in the identification and remediation of vulnerabilities through routine endpoint maintenance, ensuring compliance with best security practices.
+
+7. **Documented Findings and Communication**
+   - Maintained accurate documentation of investigation findings and communicated results to team members using standard procedures.
+   
+8. **Collaborated on Security Procedures Improvement**
+   - Worked closely with IT and security teams to improve detection and response processes, contributing to the development of new protocols.
+
+### ATS / SOC Keywords
+
+- Security alerts
+- Endpoint analysis
+- Suspicious activity
+- Incident response
+- DNS logs
+- HTTP sessions
+- TCP session analysis
+- SIEM tools
+- Vulnerability identification
+- Account activity review
+- Access changes
+- Documentation and communication
+- Incident triage
+- Network traffic flow
+- Cybersecurity best practices
+
+### Explanation of Changes
+
+1. **Alignment with SOC Workflows:**
+   - The revised bullets focus on the core aspects of SOC workflows such as monitoring, investigation, documentation, and collaboration. This ensures that the experience is directly aligned with the job description's expectations.
+
+2. **Lab-Based Experience Emphasis:**
+   - By using terms like "simulated environments" and "lab-provided tools," we reinforce the lab-based nature of all work experiences without implying production SOC responsibility. 
+
+3. **Detailed Technical Analysis:**
+   - The use of specific technical analysis techniques (DNS, HTTP, TCP session logs) demonstrates a deeper understanding of network and endpoint behavior, which is essential for the role.
+
+4. **ATS Optimization:**
+   - Including ATS keywords ensures that the resume will be easily picked up by applicant tracking systems, increasing the likelihood of being seen by hiring managers.
+
+5. **Relevant Soft Skills:**
+   - Highlighting communication skills, documentation abilities, and attention to detail prepares the candidate for clear and effective technical writing and collaboration in a SOC environment.
+
+6. **Procedural Focus:**
+   - Emphasizing procedures, escalation, and learning quickly aligns with the job responsibilities of an entry-level SOC Analyst by showing the ability to follow established processes and improve over time.

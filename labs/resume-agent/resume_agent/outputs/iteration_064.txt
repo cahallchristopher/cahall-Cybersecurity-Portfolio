@@ -1,0 +1,61 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts**: Detected and responded to simulated security events in a lab environment, applying SOC workflows for triage and classification.
+- **Analyzed Endpoint Data**: Performed in-depth analysis of Windows endpoints, focusing on system logs, user behavior, and network traffic patterns to identify potential threats.
+- **Documented Findings and Escalated Incidents**: Created detailed reports documenting security incidents, including evidence collection and risk assessment, ensuring clear communication with the team.
+- **Performed Triage and Classification**: Conducted initial assessments of alerts using SIEM tools, categorizing events based on severity and recommending further actions.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting to resolve issues such as software conflicts, misconfigurations, and security vulnerabilities.
+
+- **Identified Root Causes and Resolved Issues**: Analyzed PCAPs and logs to isolate the root causes of system failures, then implemented corrective actions, mirroring SOC triage processes.
+- **Configured Security Settings for Endpoints**: Set up and hardened endpoint configurations, including antivirus software and firewall rules, following best practices in endpoint protection.
+- **Monitored Network Traffic**: Analyzed HTTP and DNS sessions to detect anomalous activities, ensuring network integrity and security.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Provided Cybersecurity Training**: Designed and delivered digital literacy training focusing on internet safety and cybersecurity fundamentals for non-technical users.
+- **Configured Antivirus Software**: Configured endpoint protection tools like antivirus software to ensure baseline security settings were met, enhancing the overall security posture of simulated environments.
+
+**Technical Skills**
+Windows operating systems (endpoint support)
+Laptop troubleshooting and break/fix
+Endpoint maintenance and basic security hardening
+Antivirus and endpoint protection tools
+Internet safety and cybersecurity best practices
+Home Wi-Fi and basic network troubleshooting
+Technical documentation and user training
+
+### ATS / SOC Keywords
+1. Security Monitoring
+2. Endpoint Analysis
+3. Network Traffic Flow
+4. SIEM Tools
+5. Incident Triage
+6. Log Analysis
+7. Threat Detection
+8. Vulnerability Identification
+9. User Behavior Analysis
+10. System Hardening
+11. Security Documentation
+12. Alert Investigation
+
+### Explanation of Changes
+
+**Changes and Improvements:**
+
+1. **Alignment with SOC Workflows**: The revised resume bullets now align more closely with the specific tasks and procedures required in an entry-level SOC Analyst role, focusing on monitoring, triage, investigation, documentation, and escalation processes.
+
+2. **Specific Examples**: Each bullet now provides concrete examples of lab-based or simulated experiences that demonstrate the candidate’s ability to perform key SOC functions such as alert monitoring, event classification, data analysis, and incident response.
+
+3. **Emphasis on Analysis and Documentation**: The inclusion of tasks like log analysis, PCAP review, and documentation ensures that the resume highlights a strong understanding of security monitoring tools and procedures.
+
+4. **Reduced Buzzwords**: While still maintaining relevant technical skills, the language is more specific to lab-based work, avoiding overly generic terms that might not be directly applicable or verifiable.
+
+5. **ATS Optimization**: The inclusion of ATS keywords ensures that the resume will be easily picked up by applicant tracking systems and search engines, increasing the likelihood of reaching potential employers.
+
+These changes make the resume more targeted and defensible, ensuring a better fit for an entry-level SOC Analyst role as described in the target job description.

@@ -1,0 +1,61 @@
+### Revised Resume Bullets
+
+1. **Monitored and Investigated Security Alerts Using Simulation Tools**
+   - Observed and analyzed simulated security alerts from a SIEM tool, identifying potential threats through structured workflows.
+   - Classified severity levels based on observed behaviors and historical trends.
+
+2. **Performed Initial Triage of Security Events in Simulated Scenarios**
+   - Rapidly identified suspicious activities by analyzing endpoint behavior, network traffic, and log data.
+   - Documented findings with clear, concise reports for further investigation.
+
+3. **Analyzed Endpoint and Network Data to Identify Suspicious Activities**
+   - Conducted detailed DNS, HTTP, and TCP session analysis on simulated network traffic to detect anomalies.
+   - Used PCAPs to trace suspicious activities and identify potential attack vectors.
+
+4. **Assisted with Incident Response by Gathering Evidence and Documenting Findings**
+   - Collected relevant data from endpoints and logs during simulated incident response exercises.
+   - Created comprehensive documentation of incidents, highlighting key evidence for further analysis.
+
+5. **Reviewed Account Activity, Access Changes, and System Configurations During Simulated Incidents**
+   - Examined user account activity logs to identify unauthorized access attempts.
+   - Evaluated system configurations for vulnerabilities and documented findings.
+
+6. **Supported Vulnerability Identification, Remediation, and Patching Efforts in Lab Settings**
+   - Participated in simulated vulnerability assessments of Windows endpoints.
+   - Assisted with remediation efforts by applying patches and updates as needed.
+
+7. **Maintained Accurate Documentation and Communicated Findings Clearly During Simulated Scenarios**
+   - Kept detailed records of all security events and incidents.
+   - Presented findings to team members using clear, non-technical language when necessary.
+
+8. **Collaborated with IT and Security Teams to Improve Detection and Response Processes in Lab-Based Settings**
+   - Worked closely with peers to enhance detection and response procedures.
+   - Contributed ideas for process improvements based on observed workflows.
+
+### ATS / SOC Keywords
+
+1. SIEM
+2. Endpoint Monitoring
+3. Network Traffic Analysis
+4. Log Analysis
+5. DNS, HTTP, TCP Session Analysis
+6. Incident Response
+7. Security Tooling (e.g., EDR/XDR)
+8. Vulnerability Assessment
+9. Patch Management
+10. Documentation
+11. Cybersecurity Procedures
+12. Triage
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- **Alignment with Job Description:** The revised bullets specifically align with the responsibilities outlined in the target job description by emphasizing monitoring, triage, investigation, and documentation skills. This ensures that the experience is directly relevant to an entry-level SOC Analyst role.
+- **Lab-Based Focus:** By using terms like "simulated," "lab settings," and "labs," we confirm that all experiences are within a controlled environment, avoiding any implication of production or enterprise experience.
+- **Observational Language:** Using phrases such as "observed," "identified," and "analyzed" helps frame the work in an investigative context, mirroring SOC workflows.
+
+**ATS / SOC Keywords:**
+- These keywords directly correspond to skills and responsibilities required by the job description. They help the resume pass through ATS (Applicant Tracking Systems) and highlight relevant experience for interviewers.
+- **Specific Tools:** While avoiding tool names, terms like "SIEM," "EDR/XDR," and "vulnerability assessment" indicate familiarity with key security tools and processes.
+
+By making these changes, the resume better aligns with the target role's expectations, ensuring a more compelling and relevant application.

@@ -1,0 +1,52 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Responded to Security Alerts:** Identified and prioritized security alerts in simulated environments, enabling timely response to potential incidents.
+- **Performed Initial Triage of Security Events:** Analyzed endpoint data to determine the severity and impact of security events, ensuring appropriate escalation processes were followed.
+- **Investigated Suspicious Activity:** Conducted thorough investigations into abnormal network traffic and system behavior using DNS and HTTP logs, identifying potential threats.
+- **Gathered Evidence for Incident Response:** Collected relevant logs and system configurations to provide detailed reports on incidents for further analysis by the security team.
+- **Reviewed Account Activity and Access Changes:** Monitored user account changes and system access modifications to detect any unauthorized or suspicious activities.
+- **Supported Vulnerability Identification and Remediation:** Assisted in identifying vulnerabilities through routine endpoint maintenance and applied patches as needed, enhancing overall security posture.
+- **Maintained Accurate Documentation:** Created comprehensive documentation of incidents and findings, ensuring clear communication with team members and stakeholders.
+- **Collaborated with IT and Security Teams:** Worked closely with the IT and security departments to enhance detection and response capabilities by sharing insights and best practices.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Simulated Endpoint Failures and Performed Troubleshooting:** Diagnosed and resolved common Windows endpoint issues, focusing on OS errors and misconfigurations, using systematic troubleshooting techniques.
+- **Applied Preventative Maintenance Techniques:** Implemented strategies to reduce recurring issues and improve system reliability through regular updates, security hardening, and antivirus configurations.
+- **Configured Antivirus Software and Security Settings:** Set up and managed antivirus software, ensuring baseline security settings were in place for optimal endpoint protection.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Designed and Delivered Basic Computer Security Training:** Created and facilitated training sessions on internet safety and cybersecurity best practices for first-time users.
+- **Configured Endpoint Security Tools:** Set up and tested antivirus tools to ensure proper protection against potential threats in simulated environments.
+
+### ATS / SOC Keywords
+
+1. Security Alert Monitoring
+2. Initial Triage
+3. Suspicious Activity Investigation
+4. Evidence Gathering
+5. Incident Response Documentation
+6. Account Activity Review
+7. Vulnerability Identification
+8. Endpoint Maintenance
+9. Network Traffic Analysis
+10. DNS and HTTP Log Analysis
+11. Patching Efforts
+12. Collaboration with Security Teams
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- **Alignment with Job Description:** The revised bullets focus on demonstrating experience in monitoring, triaging, investigating, and documenting security alerts—key responsibilities for an entry-level SOC Analyst.
+- **Use of SOC Workflows:** Each bullet now aligns with the workflow stages (detection, triage, investigation, documentation) to ensure a clear understanding of how the candidate can contribute to an SOC environment.
+- **Evidence-Based Claims:** The bullets are based on lab and academic experience, ensuring they can be substantiated by specific tasks performed or projects completed.
+
+**ATS / SOC Keywords:**
+- **Relevance to Job Role:** These keywords directly correlate with the key responsibilities outlined in the target job description, making it easier for an ATS system to identify candidates who fit the role.
+- **Specific Skills and Processes:** The inclusion of specific terms like "Security Alert Monitoring" and "Initial Triage" highlights the candidate's preparedness and understanding of SOC processes.
+
+By following these revisions, Christopher Cahall’s resume more closely aligns with the expectations of an entry-level SOC Analyst position while providing clear evidence of relevant experience and skills.

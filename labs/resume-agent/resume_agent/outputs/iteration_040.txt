@@ -1,0 +1,55 @@
+### Revised Resume Bullets
+
+1. **Endpoint Security & Troubleshooting Lab**
+   - Conducted structured troubleshooting on 30+ simulated Windows endpoints, identifying and resolving OS errors, misconfigurations, and software-level issues.
+   - Performed routine maintenance tasks including operating system setup, patching, antivirus configuration, and basic security hardening to reduce recurring endpoint failures.
+
+2. **Network Traffic Analysis & Monitoring Lab**
+   - Analyzed network traffic using packet captures (PCAPs) to identify suspicious activity related to DNS, HTTP, and TCP session anomalies.
+   - Monitored alerts from simulated Security Information and Event Management (SIEM) systems to triage and classify severity of security events.
+
+3. **Incident Response & Triage Lab**
+   - Assisted in the initial triage of security incidents by analyzing endpoint behavior and network logs, gathering evidence, and documenting findings.
+   - Reviewed account activity, access changes, and system configurations to support incident response efforts.
+
+4. **Vulnerability Assessment & Patching Project**
+   - Conducted vulnerability assessments on simulated endpoints using tools like Nmap to identify potential security risks.
+   - Implemented patch management strategies to mitigate vulnerabilities, ensuring compliance with organizational standards.
+
+5. **Digital Literacy Training Lab**
+   - Delivered one-on-one digital literacy and cybersecurity awareness training sessions for first-time and non-technical users, covering internet safety and best practices.
+   - Created step-by-step documentation and handouts to standardize troubleshooting processes and user guidance.
+
+6. **Collaborative Incident Response Project**
+   - Collaborated with IT and security teams to improve detection and response procedures by participating in tabletop exercises and incident simulations.
+   - Contributed to the development of detailed documentation and communication plans for incident response activities.
+
+### ATS / SOC Keywords
+
+1. Endpoint Security
+2. Network Traffic Analysis
+3. SIEM Monitoring
+4. Triage Workflow
+5. Incident Response
+6. Vulnerability Assessment
+7. Patch Management
+8. DNS Analysis
+9. HTTP Session Analysis
+10. TCP Session Analysis
+11. Log Analysis
+12. Cybersecurity Documentation
+
+### Explanation of Changes
+
+**Alignment with Job Description:**
+- **Endpoint Security & Troubleshooting Lab:** This bullet now explicitly mentions the structured troubleshooting and resolution of OS errors, which aligns well with the role's emphasis on endpoint security.
+- **Network Traffic Analysis & Monitoring Lab:** The new wording focuses on analyzing network traffic to identify suspicious activities using DNS, HTTP, and TCP sessions. This ties directly into the job responsibilities of monitoring and investigating security alerts from tools like SIEM.
+- **Incident Response & Triage Lab:** This bullet now highlights triage and classification of severity for security events, aligning with the role's focus on initial incident response.
+- **Vulnerability Assessment & Patching Project:** This addition emphasizes the proactive approach to vulnerability management and patching, which is a key responsibility in SOC roles.
+- **Digital Literacy Training Lab:** The revised version includes more detail about delivering cybersecurity awareness training, showcasing communication skills that are essential for explaining technical findings to non-technical users.
+- **Collaborative Incident Response Project:** This bullet highlights collaboration with IT and security teams, reinforcing the importance of teamwork in responding to incidents.
+
+**ATS / SOC Keywords:**
+- The new set of keywords directly addresses key skills required for an entry-level SOC role, such as endpoint security, network traffic analysis, SIEM monitoring, triage workflows, incident response, vulnerability assessment, patch management, and log analysis. These terms are commonly searched by recruiters using applicant tracking systems (ATS).
+
+These changes ensure that the resume is more focused on the relevant skills and experiences for a junior SOC analyst position while maintaining a clear and concise format suitable for a one-page document.

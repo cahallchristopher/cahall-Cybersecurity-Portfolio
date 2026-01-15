@@ -1,0 +1,54 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- Monitored and investigated simulated security alerts, classifying severity based on predefined criteria.
+- Performed triage of security events from SIEM logs, analyzing network traffic patterns to identify potential threats.
+- Conducted in-depth endpoint analysis using PCAPs and event logs to detect suspicious activities.
+- Assisted with incident response by gathering evidence and documenting findings for follow-up actions.
+- Reviewed account activity and access changes on simulated endpoints to ensure compliance with security policies.
+- Supported vulnerability identification, remediation efforts, and patching initiatives for lab-based Windows environments.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting using lab tools and configurations.
+
+- Applied preventative maintenance techniques such as regular OS updates, antivirus scans, and system hardening to reduce recurring issues.
+- Investigated endpoint misconfigurations by analyzing DNS queries and HTTP traffic patterns to ensure secure network communication.
+- Documented detailed observations and findings from analysis sessions for future reference and improvement.
+
+**Digital Literacy & Endpoint Security Project**
+
+Designed and delivered basic computer security and internet safety training.
+
+- Configured simulated antivirus software, ensuring baseline protection against known threats in a lab environment.
+- Set up and maintained endpoint configurations to adhere to security best practices, including network settings and firewall rules.
+
+### ATS / SOC Keywords
+
+1. SIEM
+2. EDR/XDR
+3. Endpoint Security
+4. Network Traffic Analysis
+5. Incident Triage
+6. Log Analysis
+7. Security Monitoring
+8. Antivirus Software
+9. Threat Detection
+10. Vulnerability Remediation
+11. Cybersecurity Tools
+12. Documentation
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- **Align with SOC Workflows:** The revised bullets emphasize the monitoring, triage, and analysis aspects that align with SOC workflows such as detection, triage, investigation, documentation, and escalation.
+- **Specific Tools and Techniques:** Phrases like "SIEM logs," "PCAPs," and "network traffic patterns" reflect specific tools used in a lab environment, making it clear what evidence was analyzed.
+- **Incident Response Focused:** Added tasks that involve incident response such as gathering evidence and documenting findings, which are key responsibilities for an entry-level SOC Analyst.
+
+**ATS / SOC Keywords:**
+- **Relevance to Job Description:** These keywords directly align with the technical expectations outlined in the target job description. For example, "SIEM" is explicitly mentioned in the job summary.
+- **Technical Terms:** Including terms like "EDR/XDR," "network traffic analysis," and "vulnerability remediation" highlight a candidate's understanding of advanced security concepts.
+
+These changes ensure that the resume directly addresses the key responsibilities and technical expectations for an entry-level SOC Analyst role, while maintaining clarity and relevance.

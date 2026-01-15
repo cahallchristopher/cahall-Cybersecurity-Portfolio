@@ -1,0 +1,52 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Responded to Security Alerts**: Detected and triaged simulated security alerts in a lab environment, focusing on initial classification of severity and immediate response actions.
+- **Performed Endpoint Triage and Investigation**: Conducted structured investigations into simulated endpoint failures, identifying root causes and implementing appropriate fixes, mirroring real SOC workflows.
+- **Analyzed Network Traffic and Logs**: Analyzed DNS, HTTP, and TCP session data to identify suspicious activity on simulated endpoints, enhancing situational awareness in network traffic analysis.
+- **Supported Incident Response Efforts**: Assisted in gathering evidence and documenting findings from simulated incidents, including account activity review and access changes.
+- **Reviewed System Configurations for Security**: Examined system configurations to ensure compliance with security policies and best practices, improving overall endpoint protection posture.
+- **Documented Findings and Escalated Issues**: Maintained accurate documentation of investigative efforts, communicated findings clearly, and escalated critical issues as needed.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Academic / Simulated Experience | Jan 2024 – Present
+
+- **Troubleshot Common Windows Endpoint Failures**: Diagnosed and resolved common issues on simulated endpoints, such as OS errors, misconfigurations, and user-impacted problems.
+- **Performed Preventative Maintenance**: Implemented preventative maintenance techniques to reduce recurring issues and improve system reliability, ensuring consistent endpoint performance.
+- **Configured Antivirus Software and Security Settings**: Set up and managed antivirus software and baseline security configurations on simulated endpoints to enhance protection against threats.
+
+**Digital Literacy & Endpoint Security Project**
+Academic / Simulated Experience | Jan 2024 – Present
+
+- **Designed Cybersecurity Training Materials**: Created comprehensive training materials, including step-by-step documentation and handouts, for basic computer security and internet safety education.
+- **Delivered Security Training Sessions**: Conducted one-on-one training sessions with non-technical users on cybersecurity best practices, enhancing their understanding of digital literacy and endpoint security.
+
+### ATS / SOC Keywords
+
+1. Endpoint Triage
+2. Network Traffic Analysis
+3. Log Analysis
+4. Incident Response
+5. Vulnerability Assessment
+6. Security Alerts Monitoring
+7. DNS, HTTP, TCP Session Analysis
+8. Threat Detection
+9. System Configuration Review
+10. Documentation and Reporting
+11. Cybersecurity Training
+12. Endpoint Protection
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- **Alignment with SOC Workflow**: The revised bullets now explicitly describe the roles in a structured manner that aligns closely with SOC workflows, focusing on detection, triage, investigation, and documentation.
+- **Specific Tasks and Tools**: Each bullet now includes specific tasks and tools used in simulated or lab environments, making it clear how these skills are defensible. For example, analyzing network traffic and logs provides evidence of hands-on experience in monitoring and investigating security events.
+- **Realistic Lab Environment**: By framing all work as lab-based or academic, the resume avoids any implication of production SOC responsibilities while still highlighting relevant technical knowledge.
+
+**ATS / SOC Keywords:**
+- These keywords directly correspond to the key responsibilities outlined in the target job description. Terms like "Endpoint Triage," "Network Traffic Analysis," and "Incident Response" are explicitly aligned with the role's core competencies.
+- **Relevance**: The inclusion of specific tools and techniques (like DNS, HTTP, TCP session analysis) ensures that the resume is not just a general statement but a detailed account of the skills relevant to an SOC Analyst I position.
+
+By making these changes, the revised resume clearly demonstrates how the candidate's experience aligns with the desired role, providing a stronger argument for why they are well-suited for an entry-level SOC or Junior Cybersecurity Analyst position.

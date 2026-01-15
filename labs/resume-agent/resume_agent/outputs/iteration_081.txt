@@ -1,0 +1,59 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Resolved Security Alerts:** Detected and addressed simulated security alerts in a lab environment, classifying severity and escalating as necessary to follow documented procedures.
+  
+- **Performed Endpoint Triage:** Conducted initial triage of security events by analyzing endpoint behavior and network traffic patterns, identifying suspicious activities through DNS and HTTP requests.
+
+- **Analyzed Network Traffic:** Investigated network packets using PCAP files and Wireshark to identify anomalies in TCP sessions related to potential threats or unauthorized access attempts.
+  
+- **Identified Suspicious Activity:** Analyzed log data (e.g., event logs, firewall logs) to uncover signs of compromise, focusing on user behavior patterns and system changes.
+
+- **Gathered Evidence for Incident Response:** Collected evidence from endpoints, network devices, and other relevant sources during simulated incident response exercises, documenting findings in a clear and concise manner.
+  
+- **Supported Vulnerability Identification:** Assisted with the identification and remediation of vulnerabilities by reviewing security configurations, applying patches, and configuring antivirus software on endpoints.
+
+- **Documented Findings Accurately:** Created detailed reports summarizing investigation outcomes, providing actionable insights for follow-up actions to enhance system resilience.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting, documenting processes and outcomes in a clear and organized manner.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Configured Antivirus Software:** Set up and configured antivirus solutions on simulated endpoints, ensuring baseline security measures were implemented effectively.
+  
+- **Applied Preventative Maintenance:** Performed routine maintenance tasks to reduce recurring issues and improve system reliability, focusing on OS updates, patch management, and basic hardening techniques.
+
+### ATS / SOC Keywords
+
+1. Security Alerts
+2. Endpoint Triage
+3. Network Traffic Analysis
+4. Log Data Analysis
+5. Incident Response
+6. Suspicious Activity Identification
+7. PCAP Files
+8. Wireshark
+9. TCP Sessions
+10. DNS Requests
+11. HTTP Requests
+12. Event Logs
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- **Alignment with SOC Workflows:** The revised bullets now explicitly align with the provided job description by emphasizing SOC workflows such as monitoring, triage, and investigation.
+  
+- **Use of Lab-Based Evidence:** Each bullet is grounded in specific lab-based or simulated experience, providing concrete evidence to support claims made about security skills.
+  
+- **Focus on Observations and Outcomes:** The language now focuses more on the outcomes and observations derived from analysis (e.g., DNS and HTTP requests), rather than just tools used.
+
+**ATS / SOC Keywords:**
+- **Relevant Terminology:** The keywords are chosen to reflect common terms in SOC environments, ensuring that a resume scanning tool or interviewer would recognize relevant skills.
+  
+- **Specific Tools & Techniques:** Keywords include specific tools (Wireshark) and techniques (PCAP Files), showing familiarity with practical methods used in security analysis.
+
+These changes ensure the resume is more aligned with the entry-level SOC role description while maintaining focus on lab-based, academic, or simulated experience.

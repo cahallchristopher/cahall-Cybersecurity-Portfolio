@@ -1,0 +1,74 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection**: Detected and resolved software-level issues across 40+ simulated Windows endpoints, focusing on OS errors, misconfigurations, and user-impacting problems.
+  
+- **Triage**: Conducted initial triage of security events by isolating symptoms, identifying root causes, and validating fixes—mirroring SOC-style triage workflows.
+
+- **Investigation**: Analyzed endpoint behavior and network logs to identify suspicious activities, supporting the detection and classification of potential security incidents.
+
+- **Documentation**: Created step-by-step documentation for troubleshooting processes and user guidance, ensuring clear communication with non-technical users.
+
+- **Escalation**: Escalated complex issues to IT security teams by providing evidence and detailed findings to support further investigation and remediation efforts.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting, focusing on OS errors and misconfigurations.
+
+- **Detection**: Conducted thorough analysis of system logs and network traffic to identify anomalies indicative of potential security incidents.
+  
+- **Triage**: Prioritized troubleshooting tasks based on severity and urgency, ensuring critical issues were addressed promptly.
+
+- **Investigation**: Investigated endpoint behavior by analyzing DNS, HTTP, and TCP sessions to understand user activities and detect any unauthorized access attempts.
+
+- **Documentation**: Documented findings from each troubleshooting session in a clear, concise manner, facilitating knowledge sharing within the team.
+
+**Digital Literacy & Endpoint Security Project**
+
+Designed and delivered basic computer security and internet safety training for first-time and non-technical users.
+
+- **Detection**: Tracked user behavior through log analysis to identify potential security risks and provide proactive support.
+  
+- **Triage**: Assisted in classifying incidents by severity, ensuring appropriate escalation and resolution of critical issues.
+
+- **Investigation**: Analyzed endpoint configurations and network traffic patterns to understand system interactions and detect any suspicious activities.
+
+- **Documentation**: Created user-friendly guides and training materials for security best practices, enhancing overall awareness and compliance.
+
+**Endpoint Maintenance and Basic Security Hardening**
+
+Performed routine maintenance tasks such as operating system setup, patching, antivirus configuration, and basic security hardening on simulated Windows endpoints.
+
+- **Detection**: Monitored endpoint behavior through log analysis to identify security vulnerabilities and misconfigurations.
+  
+- **Triage**: Implemented preventive measures to reduce recurring issues, ensuring system reliability and minimizing potential security risks.
+
+### ATS / SOC Keywords
+1. Endpoint Security
+2. Network Traffic Analysis
+3. Log Analysis
+4. SIEM (Security Information and Event Management)
+5. EDR/XDR (Endpoint Detection and Response/Protection)
+6. Incident Triage
+7. Security Monitoring
+8. TCP/IP
+9. DNS Resolution
+10. HTTP Requests
+11. Threat Hunting
+12. Documentation
+
+### Explanation of Changes
+
+**Detection**: This term is used to align with the job description’s focus on identifying security events and anomalies, which is crucial in SOC roles.
+
+**Triage**: Highlighting triage skills ensures that candidates understand how to prioritize and classify alerts effectively, a key aspect of entry-level SOC responsibilities.
+
+**Investigation**: Emphasizing investigation helps demonstrate the candidate's ability to delve deeper into incidents, analyze data, and uncover root causes—skills essential for comprehensive incident response.
+
+**Documentation**: Stressing documentation is important as it reflects the candidate’s ability to communicate findings clearly, which is vital in both security analysis and user support roles.
+
+**Escalation**: Including escalation demonstrates awareness of when to seek further assistance, aligning with the need to follow procedures and collaborate effectively within an organization.
+
+By focusing on these specific skills and experiences, the resume becomes more aligned with the target job description and showcases the candidate's readiness for entry-level SOC analyst roles.

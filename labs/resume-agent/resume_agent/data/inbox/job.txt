@@ -1,0 +1,29 @@
+ROLE SUMMARY:
+
+Entry-level Cybersecurity / SOC Analyst responsible for monitoring, investigating, and responding to security alerts in a corporate environment. The role focuses on endpoint security, network traffic analysis, and incident triage while following documented procedures.
+
+KEY RESPONSIBILITIES:
+
+- Monitor and investigate alerts from security tools (SIEM, EDR/XDR, endpoint platforms).
+- Perform initial triage of security events and classify severity.
+- Analyze endpoint, network, and log data to identify suspicious activity.
+- Assist with incident response by gathering evidence and documenting findings.
+- Review account activity, access changes, and system configurations.
+- Support vulnerability identification, remediation, and patching efforts.
+- Maintain accurate documentation and communicate findings clearly.
+- Collaborate with IT and security teams to improve detection and response.
+
+TECHNICAL EXPECTATIONS:
+
+- Understanding of Windows operating systems and endpoint behavior.
+- Basic knowledge of TCP/IP, DNS, HTTP, and network traffic flow.
+- Familiarity with log analysis and security monitoring concepts.
+- Exposure to antivirus, endpoint protection, and security tooling.
+- Ability to follow procedures, escalate appropriately, and learn quickly.
+
+SOFT SKILLS:
+
+- Strong communication and documentation skills.
+- Ability to explain technical issues to non-technical users.
+- Attention to detail and willingness to learn.
+- Ability to manage multiple tasks and prioritize effectively.

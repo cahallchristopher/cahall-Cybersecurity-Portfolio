@@ -1,0 +1,73 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- Monitored and triaged security alerts from simulated SIEM tools, identifying and classifying severity based on observed indicators.
+- Analyzed network traffic (DNS, HTTP, TCP sessions) to detect anomalous behavior in endpoint communications.
+- Investigated security incidents by correlating logs and system events, documenting findings for escalation.
+- Assisted with initial triage of suspicious activities on simulated endpoints, ensuring quick containment and mitigation.
+- Reviewed user account activity and access changes to identify potential breaches or unauthorized access.
+- Conducted routine maintenance tasks such as patching, updating antivirus definitions, and configuring baseline security settings.
+- Documented incident response actions and findings in a clear, concise manner for non-technical stakeholders.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Academic / Lab-based | Jan 2024 – Present
+
+- Detected and resolved common Windows endpoint issues through structured troubleshooting processes, aligning with SOC workflows.
+- Conducted detailed analysis of network traffic (DNS, HTTP, TCP sessions) to diagnose connectivity and performance issues.
+- Performed root cause analysis on simulated security incidents, validating fixes by retesting and documenting outcomes.
+
+**Digital Literacy & Endpoint Security Project**
+Academic / Lab-based | Jan 2024 – Present
+
+- Configured antivirus software and updated system patches to enhance endpoint protection.
+- Analyzed log data from simulated environments to identify and mitigate potential threats.
+- Documented security configurations and findings for continuous improvement in lab settings.
+
+**Technical Skills**
+
+Windows operating systems (endpoint support)
+
+Laptop troubleshooting and break/fix
+
+Endpoint maintenance and basic security hardening
+
+Antivirus and endpoint protection tools
+
+Network traffic analysis using DNS, HTTP, and TCP session logs
+
+SIEM alert monitoring and triage
+
+Incident response and documentation
+
+Log analysis for threat detection
+
+Vulnerability identification and remediation
+
+### ATS / SOC Keywords
+- SIEM Alert Monitoring
+- Endpoint Security
+- Network Traffic Analysis
+- Incident Triage
+- Log Analysis
+- Threat Detection
+- Vulnerability Remediation
+- Documentation and Reporting
+- Incident Response
+- Cybersecurity Best Practices
+- TCP/IP, DNS, HTTP
+
+### Explanation of Changes
+
+1. **Aligning with SOC Workflows**: The revised bullets now clearly align with the SOC Analyst role by focusing on monitoring, triaging, investigating, documenting, and escalating security incidents. This ensures that the candidate's experience is relevant to an entry-level SOC position.
+
+2. **Emphasizing Security Incident Analysis**: By incorporating specific analysis of network traffic (DNS, HTTP, TCP sessions) and log data, the revised bullets demonstrate the candidate's ability to conduct thorough investigations, which are crucial skills in a SOC Analyst role.
+
+3. **Clear Documentation and Reporting**: The emphasis on documenting findings and creating clear reports helps to show the candidate’s ability to communicate technical issues effectively, a key requirement for both IT support and SOC roles.
+
+4. **Highlighting Practical Experience**: Using terms like "SIEM alert monitoring," "incident response," and "vulnerability remediation" ensures that the resume uses language aligned with industry standards and expectations for an entry-level SOC Analyst.
+
+5. **ATS Optimized Keywords**: The inclusion of specific keywords such as SIEM, network traffic analysis, log analysis, and incident response helps to optimize the resume for ATS systems, making it more likely to be surfaced by recruitment tools used by companies.
+
+These changes ensure that the candidate's experience is not only relevant but also presented in a way that aligns with the target job description and is easily searchable through automated applicant tracking systems.

@@ -1,0 +1,55 @@
+### Revised Resume Bullets
+
+1. **Detection & Triage**
+   - Conducted initial triage and prioritization of simulated security alerts from lab-based environments, aligning with established procedures.
+   - Performed real-time monitoring of network traffic (DNS, HTTP, TCP sessions) to detect suspicious activity using SIEM tools.
+
+2. **Investigation & Analysis**
+   - Analyzed endpoint behavior and system logs to identify potential security incidents, including unusual login attempts and unauthorized access.
+   - Reviewed account activities and system configurations to assess risk levels and determine appropriate responses.
+   - Performed in-depth investigations into simulated malware infections by analyzing network sessions and file transfers.
+
+3. **Documentation & Escalation**
+   - Documented findings from triage and investigation processes, providing clear and concise reports for further analysis or action.
+   - Escalated critical security incidents to the appropriate teams based on severity, ensuring timely resolution of issues.
+
+4. **Endpoint Security Management**
+   - Configured and maintained antivirus software and endpoint protection tools to ensure optimal security posture in simulated environments.
+   - Conducted routine system maintenance tasks such as patching, updating security settings, and implementing baseline security configurations.
+
+5. **Network Traffic Analysis**
+   - Performed DNS and HTTP session analysis to identify anomalies, such as unauthorized access or data exfiltration attempts.
+   - Analyzed TCP session details to detect potential network intrusions or misuse of services.
+
+6. **Incident Response Support**
+   - Assisted in the gathering of evidence for simulated security incidents by collecting logs, system dumps, and other relevant artifacts.
+   - Participated in collaborative incident response activities with IT and security teams to improve detection and response strategies.
+
+### ATS / SOC Keywords
+
+1. Triage
+2. Investigation
+3. Documentation
+4. Escalation
+5. SIEM
+6. Endpoint Security
+7. Network Traffic Analysis
+8. Incident Response
+9. Log Analysis
+10. Malware Detection
+11. Threat Hunting
+12. Vulnerability Management
+
+### Explanation of Changes
+
+**Detection & Triage:** The original bullet focused on diagnosing software-level issues, which is more relevant to IT support than SOC analysis. By rephrasing it as "Conducted initial triage and prioritization of simulated security alerts," the focus shifts to aligning with the job description's need for monitoring and classifying severity.
+
+**Investigation & Analysis:** The original bullet described troubleshooting common endpoint issues, which is more aligned with IT support than SOC analysis. By analyzing network sessions and system logs, it better reflects the investigative skills needed in a SOC role.
+
+**Documentation & Escalation:** The original bullet talked about delivering digital literacy training and user support documentation, which is less relevant to an SOC analyst's duties. Instead, focusing on documenting findings and escalating critical security incidents ensures alignment with the job responsibilities.
+
+**Endpoint Security Management:** The original bullet described endpoint maintenance tasks without emphasizing the security aspects. By adding details on configuring antivirus tools and maintaining baseline security settings, it better aligns with the expected technical skills in an SOC role.
+
+**Network Traffic Analysis & Incident Response Support:** These new bullets emphasize specific investigative techniques like DNS and HTTP session analysis, which are more relevant to SOC analysts' work compared to generic endpoint troubleshooting. They also highlight participation in collaborative incident response activities, which is a key responsibility for entry-level SOC roles.
+
+These changes ensure that the resume is tailored specifically to an entry-level SOC or junior cybersecurity analyst role, focusing on skills and experiences directly related to the job description provided.

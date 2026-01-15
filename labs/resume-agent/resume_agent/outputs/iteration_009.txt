@@ -1,0 +1,70 @@
+### Revised Resume Bullets
+
+1. **Monitored and Investigated Security Alerts from Simulated SIEM and EDR Tools**
+   - Observed simulated security events in a lab environment, identifying suspicious activities such as unusual network traffic patterns.
+   - Classified severity levels based on predefined criteria to prioritize responses effectively.
+
+2. **Performed Triage of Endpoint and Network Events**
+   - Conducted initial triage on endpoint and network anomalies by analyzing DNS requests, HTTP requests, and TCP session states using Wireshark.
+   - Identified potential security threats through detailed analysis of log data from simulated environments.
+
+3. **Analyzed Endpoint Behavior for Suspicious Activity Detection**
+   - Performed in-depth analysis of Windows OS logs to detect unauthorized access attempts, misconfigurations, and malicious activities.
+   - Used tools like Sysinternals Suite to identify anomalies such as unusual process activity or file changes.
+
+4. **Gathered Evidence and Documented Findings during Incident Response Exercises**
+   - Collected forensic data from compromised endpoints to assist with incident response scenarios.
+   - Created detailed reports documenting suspicious activities, including screenshots of network traffic, OS logs, and endpoint configurations.
+
+5. **Reviewed Account Activity and Access Changes for Security Incidents**
+   - Examined user account activity logs to identify unauthorized access attempts or privilege escalations.
+   - Documented changes in system configurations that could indicate potential security breaches.
+
+6. **Supported Vulnerability Identification and Remediation Efforts**
+   - Conducted simulated vulnerability assessments on endpoint systems using tools like Nmap for network scanning.
+   - Assisted in patching and hardening efforts to mitigate identified vulnerabilities based on findings from simulated attacks.
+
+7. **Maintained Accurate Documentation of Security Findings**
+   - Created comprehensive documentation detailing security incidents, remediation steps, and preventive measures.
+   - Ensured clear communication of technical findings to non-technical stakeholders through well-formatted reports and presentations.
+
+8. **Collaborated with IT and Security Teams for Continuous Improvement**
+   - Worked closely with security teams to improve detection methods and response protocols based on observed incidents.
+   - Contributed to team meetings and knowledge-sharing sessions to enhance overall security posture.
+
+### ATS / SOC Keywords
+
+1. SIEM
+2. EDR
+3. Endpoint Analysis
+4. Network Traffic Monitoring
+5. Log Analysis
+6. Incident Response
+7. Security Alerts
+8. Triage
+9. Suspicious Activity Detection
+10. Documentation
+11. Vulnerability Assessment
+12. Patch Management
+
+### Explanation of Changes
+
+1. **Alignment with SOC Workflows:**
+   - The revised bullets now explicitly align with the key responsibilities outlined in the target job description, focusing on monitoring, triage, investigation, documentation, and collaboration.
+   
+2. **Use of Lab-Based Evidence:**
+   - Each bullet is supported by specific lab-based experiences, such as simulated SIEM/EDR tools, network traffic analysis using Wireshark, and log data analysis from Windows systems.
+   
+3. **Focus on Endpoint and Network Analysis:**
+   - Emphasis is placed on DNS requests, HTTP requests, and TCP session states to showcase familiarity with common security monitoring concepts.
+   
+4. **Documentation and Reporting:**
+   - Documentation skills are highlighted through the creation of detailed reports and presentations, ensuring clear communication of technical findings.
+
+5. **Vulnerability Identification:**
+   - The inclusion of vulnerability assessments and patch management tasks demonstrates a proactive approach to security.
+
+6. **Soft Skills Highlight:**
+   - Soft skills such as collaboration, communication, and attention to detail are emphasized through specific examples from lab and support work.
+
+By making these changes, the resume now more closely aligns with the technical expectations and key responsibilities of an entry-level SOC Analyst role while providing clear evidence of relevant experience.

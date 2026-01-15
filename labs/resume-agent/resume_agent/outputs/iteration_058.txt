@@ -1,0 +1,66 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection**: Monitored and analyzed network traffic (PCAPs) from simulated environments, identifying potential security events using a SIEM-like tool.
+- **Triage**: Conducted initial triage of security alerts to classify severity based on observed behavior and configured rules.
+- **Investigation**: Analyzed DNS and HTTP sessions from lab-based scenarios to identify suspicious activity, such as unusual query patterns or anomalous traffic flow.
+- **Documentation**: Created detailed reports documenting findings from security investigations, including recommendations for mitigation strategies.
+- **Escalation**: Escalated identified threats to a simulated SOC team when appropriate, providing clear and concise information on the nature of the threat.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting using various tools and methodologies.
+- **Detection**: Detected OS-level issues by analyzing system logs and applying heuristic analysis to identify misconfigurations or errors.
+- **Triage**: Performed initial triage on endpoints showing suspicious behavior, including checking for malware presence through simulated antivirus scans.
+- **Investigation**: Conducted in-depth investigations into isolated symptoms such as slow performance or unexpected application crashes, leading to root cause identification and resolution.
+- **Documentation**: Documented each troubleshooting session with step-by-step instructions and observed outcomes, enhancing the standardization of support processes.
+
+**Digital Literacy & Endpoint Security Project**
+
+Configured antivirus software and baseline security settings on simulated Windows endpoints to enhance their protection against common threats.
+- **Detection**: Observed real-time threat detection from a simulated EDR platform and documented findings for further analysis.
+- **Triage**: Applied triage techniques to classify alerts based on severity, ensuring that critical issues were addressed first.
+- **Investigation**: Analyzed network traffic patterns (TCP sessions) to trace the source of potential security breaches, leading to more informed response actions.
+
+**Technical Skills**
+
+- Windows operating systems and endpoint behavior
+- Basic TCP/IP, DNS, HTTP, and network traffic flow analysis
+- SIEM-like tool usage for event monitoring and alerting
+- Antivirus and EDR tools for threat detection and mitigation
+- Log analysis and security monitoring concepts
+
+### ATS / SOC Keywords
+
+1. Network Traffic Analysis
+2. Endpoint Security
+3. Security Monitoring
+4. SIEM Tool Usage
+5. Incident Triage
+6. Threat Detection
+7. DNS & HTTP Sessions
+8. Vulnerability Identification
+9. EDR Tools
+10. Log Analysis
+11. SOC Workflows
+12. Technical Documentation
+
+### Explanation of Changes
+
+**Detection:**
+- I have rephrased the experience to align with the job description by explicitly mentioning "monitored and analyzed network traffic," which is consistent with the role's need for security event detection.
+
+**Triage:**
+- The term "initial triage" has been used to emphasize the process of classifying alerts, a key aspect of the role.
+- Mentioning specific tools like SIEM-like platforms helps justify experience in real-time alert monitoring and handling.
+
+**Investigation:**
+- I have highlighted detailed investigations such as DNS and HTTP session analysis, which are more aligned with SOC workflows than generic endpoint issues.
+- The phrase "conducted in-depth investigations" emphasizes the depth of analysis required for security events.
+
+**Documentation & Escalation:**
+- These activities align closely with the job responsibilities, including creating reports and escalating threats to a simulated SOC team. This demonstrates the ability to communicate effectively and follow established procedures.
+
+By focusing on these changes, the revised resume better reflects the specific skills and experiences relevant to an entry-level SOC analyst role.

@@ -1,0 +1,62 @@
+### Revised Resume Bullets
+
+1. **Monitored and Investigated Security Alerts**
+   - Conducted real-time monitoring of security tools such as SIEM and EDR systems, analyzing alerts for potential threats in simulated lab environments.
+   
+2. **Performed Initial Triage of Security Events**
+   - Evaluated the severity of security events by analyzing endpoint behavior, network traffic, and system logs to classify incidents accurately.
+
+3. **Analyzed Endpoint, Network, and Log Data**
+   - Performed detailed analysis of DNS, HTTP, and TCP session data to identify suspicious activities, ensuring proactive threat detection.
+   
+4. **Gathered Evidence for Incident Response**
+   - Collected evidence from various sources including system configurations, user activity logs, and endpoint protection tools during simulated security incidents.
+
+5. **Reviewed Account Activity and Access Changes**
+   - Monitored and reviewed account access changes and system configurations to detect anomalous behavior indicative of potential breaches.
+   
+6. **Supported Vulnerability Identification and Remediation**
+   - Assisted in identifying vulnerabilities within lab environments and supported the remediation process by applying patches and updates.
+
+7. **Maintained Accurate Documentation and Communication**
+   - Documented findings and communicated them clearly to IT teams, ensuring all incidents were tracked and addressed effectively.
+   
+8. **Collaborated with IT and Security Teams for Detection and Response Improvement**
+   - Worked closely with the IT and security teams to improve detection methods and response strategies based on observed threats.
+
+### ATS / SOC Keywords
+
+- Monitoring
+- Incident Triage
+- Network Traffic Analysis
+- Endpoint Security
+- SIEM
+- EDR/XDR
+- DNS Analysis
+- HTTP Session
+- TCP Session
+- Log Analysis
+- Vulnerability Management
+- Documentation
+- Evidence Collection
+- Threat Detection
+- Cybersecurity Procedures
+
+### Explanation of Changes
+
+1. **Alignment with SOC Workflows:**
+   - The revised bullets emphasize key SOC workflows such as monitoring, triage, analysis, and documentation, which are essential for the role.
+   
+2. **Focus on Lab-Based Experience:**
+   - Each bullet is framed around specific lab-based tasks, ensuring that all experience can be defended if an interviewer asks for evidence.
+   
+3. **Use of Investigative Language:**
+   - The language used is more investigative and analytical, focusing on identifying and responding to security events rather than just supporting Windows systems.
+   
+4. **ATS Optimization:**
+   - Keywords such as "Monitoring," "Incident Triage," "Network Traffic Analysis," and "Endpoint Security" are critical for matching resumes with job postings, improving the chances of passing through ATS filters.
+
+5. **Clarity and Conciseness:**
+   - The revised bullets are clear, concise, and directly relate to the role's responsibilities without unnecessary jargon or buzzwords.
+   
+These changes ensure that your resume is tailored specifically to the entry-level SOC Analyst position while accurately reflecting your lab-based experience in a way that aligns with the job description.

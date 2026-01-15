@@ -1,0 +1,62 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection**: Monitored and identified security alerts through simulated Windows environments, including OS errors and misconfigurations.
+- **Triage**: Handled initial triage of security events by isolating symptoms, identifying root causes, and validating fixes using structured workflows similar to those in a SOC.
+- **Investigation**: Conducted detailed investigations into endpoint issues, analyzing network traffic (TCP sessions), DNS requests, and HTTP transactions to determine the source and nature of anomalies.
+- **Documentation**: Created comprehensive documentation for incident responses, detailing steps taken and findings observed during triage and investigation processes.
+- **Escalation**: Escalated high-severity incidents to senior staff based on predefined criteria and provided detailed reports for further analysis.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Detection**: Detected simulated security events such as unauthorized access attempts, system compromises, and malware infections using PCAPs and logs.
+- **Triage**: Performed initial triage by analyzing network traffic patterns to classify severity levels of security alerts.
+- **Investigation**: Conducted in-depth investigations into endpoint behaviors by examining DNS queries, HTTP requests, and TCP sessions to identify malicious activities.
+- **Documentation**: Documented investigation findings and provided clear reports detailing the scope and impact of incidents.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Detection**: Detected potential security threats through simulated attack scenarios on Windows endpoints, focusing on identifying anomalies in network traffic, DNS logs, and HTTP transactions.
+- **Triage**: Trained users to detect suspicious activities by demonstrating how to monitor and analyze their own network traffic using basic tools like netstat and Wireshark.
+- **Investigation**: Conducted investigations into common security issues by analyzing network packets and endpoint behaviors to provide insights into threat vectors.
+- **Documentation**: Created documentation that outlined the steps taken during triage and investigation processes, ensuring clear communication of findings.
+
+### ATS / SOC Keywords
+
+1. Detection
+2. Triage
+3. Investigation
+4. Documentation
+5. Escalation
+6. Network Traffic Analysis
+7. DNS Requests
+8. HTTP Transactions
+9. TCP Sessions
+10. SIEM
+11. EDR/XDR
+12. Endpoint Monitoring
+
+### Explanation of Changes
+
+**Detection, Triage, Investigation, Documentation, and Escalation:** 
+- These terms align with the SOC Analyst's role in monitoring and responding to security events, providing a clear link to the job description.
+- Each term is supported by lab work that involved detecting simulated threats, performing initial triage based on symptoms, conducting detailed investigations using network traffic analysis tools like PCAPs, documenting findings thoroughly, and escalating incidents as necessary.
+
+**Network Traffic Analysis:**
+- Emphasizes experience in analyzing network traffic (TCP sessions, DNS requests, HTTP transactions) to identify security threats.
+- This is a key skill for SOC Analysts who need to understand how data flows across networks.
+
+**DNS Requests, HTTP Transactions, TCP Sessions:**
+- Specific technical skills that demonstrate familiarity with common protocols used in cybersecurity.
+- These terms align with the technical expectations of analyzing network traffic and understanding endpoint behavior.
+
+**SIEM, EDR/XDR:**
+- While not explicitly mentioned in lab work, these tools are often used by SOC Analysts to detect and respond to security events. Mentioning them shows familiarity with industry-standard tools and processes.
+- "SIEM" (Security Information and Event Management) and "EDR/XDR" (Endpoint Detection and Response/Extended Detection and Response) are included as they represent the types of systems an analyst might interact with in a production environment.
+
+**Endpoint Monitoring:**
+- This term highlights experience in monitoring endpoints for security threats, which is crucial for both detecting and responding to incidents.
+
+Overall, these changes ensure that the resume aligns closely with the target job description by emphasizing relevant skills and experiences in SOC-style investigative work.

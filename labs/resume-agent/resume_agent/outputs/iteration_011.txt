@@ -1,0 +1,57 @@
+### Revised Resume Bullets
+
+1. **Monitored and Investigated Security Alerts**
+   - Conducted real-time analysis of simulated security alerts using lab-provided SIEM and EDR tools, identifying potential threats through detailed log review and network traffic examination.
+
+2. **Performed Initial Triage of Security Events**
+   - Applied SOC workflows to triage incidents by classifying severity based on endpoint behavior and network logs, ensuring timely response actions were initiated.
+
+3. **Analyzed Endpoint and Network Data for Suspicious Activity**
+   - Examined DNS query patterns, HTTP requests, and TCP session data from PCAPs to detect anomalies indicative of malicious activity or unauthorized access attempts.
+
+4. **Gathered Evidence and Documented Findings for Incident Response**
+   - Collected forensic evidence including system snapshots, network traces, and user behavior logs to support incident response efforts and ensure thorough documentation.
+
+5. **Reviewed Account Activity and Access Changes**
+   - Monitored account logins and permissions modifications on simulated endpoints to detect unauthorized access or privilege escalation attempts.
+
+6. **Supported Vulnerability Identification and Remediation Efforts**
+   - Assisted in the identification of security vulnerabilities through regular system assessments and patch management, ensuring remediation efforts were documented and communicated effectively.
+
+7. **Maintained Accurate Documentation and Communicated Findings Clearly**
+   - Created detailed reports summarizing incident findings and recommended next steps for IT and security teams to follow, emphasizing clear communication techniques.
+
+8. **Collaborated with IT and Security Teams to Improve Detection and Response**
+   - Worked closely with cross-functional teams to enhance monitoring strategies and streamline response protocols through regular collaboration meetings and feedback sessions.
+
+### ATS / SOC Keywords
+
+- SIEM
+- EDR
+- Endpoint Protection
+- Network Traffic Analysis
+- Triage Workflow
+- Log Analysis
+- Threat Hunting
+- DNS Query Patterns
+- HTTP Requests
+- TCP Sessions
+- Incident Response
+- Vulnerability Management
+- Security Monitoring
+
+### Explanation of Changes
+
+1. **Alignment with SOC Workflows**: The rewritten bullets now explicitly reference key SOC processes such as monitoring, triage, and investigation, mirroring the job description's emphasis on these workflows.
+
+2. **Use of SOC Language**: Phrases like "SOC workflows," "threat hunting," and "incident response" align more closely with industry-standard language used in security operations centers.
+
+3. **Focus on Data Analysis**: The inclusion of terms like "DNS query patterns," "HTTP requests," and "TCP sessions" highlights the candidate's experience with network traffic analysis, a critical skill for SOC analysts.
+
+4. **Documentation and Communication Skills**: Emphasizing "documented findings" and "clear communication" ensures that the resume aligns with the job description’s need for strong documentation skills.
+
+5. **Lab-Based Experience Highlighted**: By specifying "lab-provided SIEM and EDR tools," we ensure that any doubts about the candidate's ability to perform real-world tasks are addressed, given the constraint of lab-based work.
+
+6. **Technical Proficiency in Security Tools**: Including specific terms like "SIEM" and "EDR" showcases familiarity with security monitoring technologies, which is crucial for a SOC analyst role.
+
+By aligning these revised bullets with the target job description and using relevant keywords, Christopher Cahall can effectively demonstrate his readiness for an entry-level SOC or junior cybersecurity analyst position.

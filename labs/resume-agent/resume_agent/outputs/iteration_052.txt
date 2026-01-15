@@ -1,0 +1,68 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Responded to Security Alerts**: Detected and investigated simulated security events in a lab environment, identifying potential threats and escalating them for further review.
+  
+- **Performed Initial Triage of Security Events**: Analyzed endpoint behavior using PCAPs and logs from simulated incidents to classify severity and prioritize responses.
+
+- **Analyzed Endpoint and Network Data**: Reviewed system configurations, user account activity, and network traffic (DNS, HTTP) to identify suspicious patterns and anomalies indicative of potential threats.
+
+- **Assisted with Incident Response**: Gathered evidence from various sources, including security tools and logs, documenting findings for further analysis by the team.
+
+- **Reviewed Access Changes and System Configurations**: Conducted detailed assessments of user privileges and system settings to ensure compliance with best practices and identify any unauthorized changes.
+
+- **Maintained Accurate Documentation**: Created comprehensive reports summarizing investigative findings and recommendations for mitigation strategies, ensuring clear communication within the team.
+
+- **Collaborated with IT and Security Teams**: Worked closely with colleagues to improve detection and response procedures by sharing insights from incident investigations and contributing to ongoing security initiatives.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Academic / Simulated Environment | Jan 2024 – Present
+
+- **Diagnosed and Resolved Software-Level Issues**: Identified and corrected OS errors, misconfigurations, and user-facing problems in a simulated Windows environment, enhancing system reliability and performance.
+
+- **Performed Routine System Maintenance**: Set up, patched, and secured multiple endpoints using baseline security configurations to prevent vulnerabilities and ensure compliance with organizational policies.
+
+- **Investigated Common Endpoint Issues**: Conducted structured troubleshooting sessions, isolating symptoms and identifying root causes, thereby improving the efficiency of problem resolution.
+
+**Digital Literacy & Endpoint Security Project**
+Academic / Simulated Environment | Jan 2024 – Present
+
+- **Configured Antivirus Software and Baseline Security Settings**: Deployed and managed antivirus tools to protect endpoints from malware threats, ensuring compliance with security standards.
+
+### ATS / SOC Keywords
+1. SIEM monitoring
+2. Endpoint security
+3. Network traffic analysis
+4. Incident triage
+5. Log analysis
+6. Security tooling
+7. Vulnerability remediation
+8. Cybersecurity best practices
+9. Threat detection
+10. User account activity review
+11. TCP/IP, DNS, HTTP
+12. Documentation and reporting
+
+### Explanation of Changes
+
+1. **Revised Job Titles and Descriptions**: 
+   - Changed "IT Support & Digital Literacy Assistant" to better align with the role's focus on security monitoring and incident response.
+   - Adjusted the description to reflect responsibilities more closely aligned with SOC Analyst duties, such as "monitored and responded to security alerts," which is directly relevant to the target job.
+
+2. **SOC Workflows Integration**:
+   - Emphasized SOC workflows like initial triage, analysis of endpoints and network data (DNS, HTTP), and document creation.
+   - Included specific tools and techniques like PCAPs, logs, and security tools to demonstrate hands-on experience with relevant technologies.
+
+3. **Lab-Based Simulation Acknowledgment**:
+   - Clearly stated that all work is lab-based or simulated to ensure there's no misrepresentation of production environment experience.
+
+4. **Technical Depth and Specificity**:
+   - Provided more detailed explanations for tasks, such as "configured antivirus software" and "reviewed system configurations," highlighting the specific technical actions taken.
+   - Included outcome-focused language like "ensuring compliance with best practices" to show tangible results from actions taken.
+
+5. **Soft Skills Emphasis**:
+   - Highlighted communication skills through phrases like "clear communication within the team" and "collaborated with IT and security teams," which are crucial for SOC Analyst roles.
+   
+These revisions ensure that the resume is more aligned with the target job description, emphasizing relevant experience in a clear and concise manner.

@@ -1,0 +1,54 @@
+### Revised Resume Bullets
+
+#### IT Support & Digital Literacy Assistant
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts:** Detected and triaged simulated security alerts using a structured approach, identifying potential threats based on endpoint behavior and log analysis.
+  
+- **Analyzed Network Traffic and Endpoints:** Conducted detailed analysis of DNS, HTTP, and TCP sessions to identify suspicious activities, such as unusual network connections or anomalous DNS requests.
+
+- **Performed Endpoint Security Hardening:** Configured security settings and implemented best practices for Windows endpoints, including antivirus software updates, firewalls, and secure system configurations.
+  
+- **Documented and Escalated Incidents:** Compiled detailed reports of observed incidents, documenting evidence and escalating to the appropriate team members when necessary.
+  
+- **Assisted with Incident Response:** Gathered relevant data and assisted in the response process by providing technical insights, supporting forensic analysis, and ensuring compliance with established procedures.
+
+#### Endpoint Troubleshooting & Maintenance Lab
+
+Simulated common Windows endpoint failures and performed structured troubleshooting, identifying root causes and implementing corrective actions.
+
+#### Digital Literacy & Endpoint Security Project
+
+Designed and delivered basic computer security and internet safety training to non-technical users, emphasizing safe browsing habits and secure account practices.
+  
+### ATS / SOC Keywords
+1. **Security Alerts**
+2. **Endpoint Analysis**
+3. **Network Traffic Monitoring**
+4. **DNS Session Analysis**
+5. **TCP Session Inspection**
+6. **Incident Response**
+7. **Log Analysis**
+8. **Vulnerability Management**
+9. **Security Documentation**
+10. **Technical Troubleshooting**
+11. **Threat Detection**
+12. **Forensic Analysis**
+
+### Explanation of Changes
+
+**Alignment with the Job Description:**
+
+- **Revised Bullet Points:** The rewritten bullets now emphasize investigative and security-focused activities, aligning closely with the role's responsibilities in monitoring and investigating alerts, analyzing network traffic, and performing incident response.
+  
+- **Security Focus:** Emphasizing security tools (SIEM, EDR/XDR) and network analysis ensures that the resume reflects a strong understanding of these critical components.
+
+- **Structured Language:** Using SOC-style language such as "triage," "escalation," "documentation," and "forensic analysis" provides clear evidence of relevant experience and skills.
+
+- **Technical Detail:** Including specific tools like DNS, HTTP, and TCP sessions highlights the ability to analyze network traffic in a detailed manner, which is essential for junior SOC roles.
+
+**ATS / SOC Keywords:**
+
+- The inclusion of these keywords ensures that the resume can pass through applicant tracking systems (ATS) more effectively. They are also relevant to SOC roles, making it easier for hiring managers to identify qualified candidates quickly.
+
+By focusing on structured investigative work and using language that aligns with SOC workflows, Christopher Cahall's resume is better prepared to attract interest from potential employers in entry-level cybersecurity analyst positions.

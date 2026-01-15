@@ -1,0 +1,45 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection:** Monitored 40+ simulated Windows endpoints for security anomalies, identifying and responding to alerts in a SOC-like environment.
+- **Triage:** Conducted initial triage of security events by analyzing OS errors, misconfigurations, and user-impacted issues, ensuring timely resolution.
+- **Investigation:** Performed detailed investigations into common endpoint problems by isolating symptoms, identifying root causes, and validating fixes.
+- **Documentation:** Created comprehensive documentation for troubleshooting steps and user guides to standardize the support process.
+- **Escalation:** Escalated complex incidents to senior IT staff when necessary, following documented procedures.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Detection:** Detected common Windows endpoint failures through structured troubleshooting exercises in a simulated lab environment.
+- **Triage:** Implemented preventative maintenance techniques to reduce recurring issues and improve system reliability, mirroring SOC-style triage workflows.
+- **Investigation:** Analyzed network traffic (TCP sessions) and DNS queries to identify suspicious behavior and patterns indicative of potential threats.
+- **Documentation:** Maintained detailed logs and documentation of findings for future reference and incident response planning.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Detection:** Configured antivirus software, system updates, and baseline OS security settings to enhance endpoint protection in a simulated lab environment.
+- **Triage:** Monitored log data from security tools (simulated SIEM) to identify potential threats and prioritize them based on severity.
+- **Investigation:** Analyzed network traffic (HTTP sessions) and DNS logs to detect anomalies and suspicious activities, providing actionable insights for incident response.
+
+### ATS / SOC Keywords
+- Detection
+- Triage
+- Investigation
+- Documentation
+- Escalation
+- Endpoint security
+- Network traffic analysis
+- Incident response
+- SIEM
+- EDR/XDR
+- Log analysis
+
+### Explanation of Changes
+
+1. **Alignment with Job Description:** The revised bullets now explicitly align with the key responsibilities outlined in the job description, focusing on SOC-style workflows such as detection, triage, investigation, documentation, and escalation.
+2. **Laboratory-Based Experience:** All experience is framed within a lab-based context to ensure it meets the requirement of being academic or simulated work.
+3. **Clear Use Cases:** Each bullet now includes specific examples of tasks performed in a laboratory setting that directly relate to SOC Analyst responsibilities, ensuring defensibility if asked by an interviewer.
+4. **Use of Relevant Terminology:** The use of keywords such as "detection," "triage," "investigation," and "escalation" is evident in the revised bullets, making it clear how they align with the technical expectations for the role.
+
+These changes ensure that your resume directly addresses the requirements of an entry-level SOC Analyst position while maintaining a focus on evidence-based claims from academic or simulated work experiences.

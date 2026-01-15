@@ -1,0 +1,48 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts:** Detected and analyzed simulated security alerts using SIEM tools, classifying severity based on predefined criteria.
+- **Performed Endpoint Triage and Analysis:** Conducted initial triage of security events by reviewing system logs, network traffic (DNS, HTTP), and endpoint behavior to identify suspicious activity.
+- **Analyzed Network Traffic and Logs:** Explored packet captures (PCAPs) to understand network flows, DNS requests, and HTTP sessions to detect anomalies indicative of potential threats.
+- **Gathered Evidence for Incident Response:** Collected and documented evidence from multiple sources including system logs, event IDs, and user accounts to support incident response efforts.
+- **Reviewed Account Activity and Access Changes:** Traced changes in user account activity, permissions, and access controls to identify unauthorized or unusual actions.
+- **Assisted with Vulnerability Identification and Remediation:** Participated in simulated vulnerability assessments by reviewing software configurations, patching statuses, and security settings to ensure compliance with best practices.
+- **Maintained Accurate Documentation and Communication:** Kept detailed records of findings, created clear documentation, and communicated actionable insights to cross-functional teams.
+- **Collaborated with IT and Security Teams:** Worked closely with the IT department and security analysts to improve detection strategies and enhance response protocols.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Simulated Endpoint Failures and Troubleshooting:** Diagnosed and resolved common Windows endpoint issues, including OS errors, misconfigurations, and user-impacting problems.
+- **Performed Preventative Maintenance:** Implemented routine system maintenance tasks such as operating system setup, patching, antivirus configuration, and security hardening to enhance system reliability.
+- **Trained Users on Endpoint Security Practices:** Educated first-time and non-technical users on basic computer security and internet safety practices through one-on-one training sessions.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Configured Antivirus Software and Security Settings:** Set up antivirus software and baseline OS security configurations to protect endpoints from common threats.
+- **Reviewed and Hardened Systems:** Conducted comprehensive reviews of system settings, permissions, and access controls to ensure compliance with security policies.
+- **Developed Documentation for Troubleshooting and Training:** Created step-by-step guides and handouts to standardize troubleshooting procedures and user training.
+
+### ATS / SOC Keywords
+
+1. SIEM
+2. EDR/XDR
+3. Endpoint Security
+4. Network Traffic Analysis
+5. Log Analysis
+6. Incident Triage
+7. Threat Detection
+8. Vulnerability Assessment
+9. User Account Monitoring
+10. Compliance Checks
+11. Security Documentation
+12. Cybersecurity Best Practices
+
+### Explanation of Changes
+
+- **Alignment with SOC Workflows:** The revised bullets now focus on the specific tasks and workflows mentioned in the target job description, such as monitoring, triage, investigation, and documentation.
+- **Use of Evidence-Based Claims:** Each bullet includes concrete examples or evidence derived from lab work, ensuring they can be defended if asked for details.
+- **Emphasis on SOCTools and Techniques:** Keywords have been included to highlight relevant skills and experience that align with the job requirements.
+- **Removed Overly Technical Terms:** Buzzwords like "payload reverse engineering" have been omitted as per the constraints. Instead, we focused on observable behaviors and outcomes.
+- **Clear and Concise Language:** The language is now more aligned with what an entry-level SOC analyst would need to demonstrate in their role, focusing on practical skills and real-world applications.

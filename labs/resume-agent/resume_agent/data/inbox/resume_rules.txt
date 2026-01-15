@@ -1,0 +1,12 @@
+ADDITIONAL RULES:
+
+- Treat all work as lab-based, academic, or simulated unless explicitly stated otherwise.
+- Do NOT claim production SOC, MSSP, or enterprise incident response experience.
+- Frame experience using SOC workflows: detection, triage, investigation, escalation, documentation.
+- Prioritize evidence derived from labs, PCAPs, logs, configurations, or observable system behavior.
+- Avoid tool-name dumping; explain what the tool enabled or revealed.
+- Prefer endpoint behavior, DNS, HTTP, TCP session analysis over payload reverse engineering.
+- Assume an interviewer will ask “How do you know?” for every bullet.
+- If a claim cannot be defended with a command, PCAP, log, or lab output, exclude it.
+- Optimize language for SOC Analyst I, NOC Analyst, Junior Cybersecurity Analyst roles.
+- Use clear, concise bullets suitable for a one-page resume.

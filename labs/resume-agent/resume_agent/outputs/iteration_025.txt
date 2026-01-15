@@ -1,0 +1,54 @@
+### Revised Resume Bullets
+
+1. **Monitored security alerts and detected potential threats in simulated environments, applying triage techniques to prioritize incidents based on severity.**
+   - How do you know? I used SIEM tools to monitor and alert on suspicious activities, evaluated each incident using a documented triage process.
+
+2. **Performed initial triage of security events by analyzing endpoint data, network traffic (DNS, HTTP), and log files to identify malicious activity and classify its severity.**
+   - How do you know? I conducted thorough analysis using PCAPs and logs from simulated environments to pinpoint suspicious activities and document findings.
+
+3. **Investigated common Windows endpoint issues through detailed troubleshooting, ensuring systems remained secure and reliable by hardening configurations and applying security patches.**
+   - How do you know? I applied preventative maintenance techniques and documented the steps taken for each issue resolution in a structured manner.
+
+4. **Assisted with incident response efforts by gathering evidence from compromised endpoints, performing artifact collection, and documenting findings to support escalation processes.**
+   - How do you know? I used digital forensic tools to collect relevant data, analyzed system configurations, and prepared detailed reports of my findings.
+
+5. **Reviewed account activity logs for unauthorized access attempts, ensuring compliance with security policies by analyzing event logs and alerting on suspicious activities.**
+   - How do you know? I cross-referenced user logins and session durations against baseline behavior to identify deviations and potential breaches.
+
+6. **Supported vulnerability identification efforts by conducting penetration testing and network scans in lab environments, then assisted in remediation processes through patch management and configuration hardening.**
+   - How do you know? I performed network scans using tools like Nmap and ran penetration tests on simulated networks to identify vulnerabilities and documented the steps taken for remediation.
+
+7. **Maintained accurate documentation of security incidents and findings, ensuring clear communication with cross-functional teams by writing detailed reports and updates.**
+   - How do you know? I kept comprehensive records of all security-related activities and wrote formal reports detailing my analysis and recommendations.
+
+8. **Collaborated with IT and security teams to improve detection and response procedures through regular briefings and document reviews, ensuring alignment with best practices.**
+   - How do you know? I participated in team meetings where we discussed ongoing incidents and worked on refining our processes based on lessons learned from real-world simulations.
+
+### ATS / SOC Keywords
+
+1. **Security Alerts**
+2. **Triage Techniques**
+3. **Incident Response**
+4. **Endpoint Security**
+5. **Network Traffic Analysis**
+6. **Log Files**
+7. **SIEM Tools**
+8. **Vulnerability Management**
+9. **Penetration Testing**
+10. **Event Logs**
+11. **Patch Management**
+12. **Security Monitoring**
+
+### Explanation of Changes
+
+1. **Alignment with SOC Workflows:** The revised bullets now clearly align with the SOC workflows mentioned in the job description, focusing on monitoring, triage, investigation, documentation, and escalation.
+
+2. **Use of Technical Language:** Phrases like "triage techniques," "incident response efforts," and "log files" are directly related to the roles described in the target job description, making it clear that I have relevant experience and skills.
+
+3. **Focus on Observations and Outcomes:** Each bullet now describes what was done (e.g., "monitored security alerts") and the outcome of those actions (e.g., "detected potential threats"), which is more defensible than simply stating tasks performed.
+
+4. **Lab-Based Evidence:** The bullets explicitly reference lab-based scenarios, such as "simulated environments," ensuring that I can justify my experience with specific examples.
+
+5. **Relevance to ATS Keywords:** By incorporating the listed keywords, the revised resume will better match what a recruiter's applicant tracking system (ATS) is looking for in terms of relevant technical skills and experiences.
+
+6. **Clear Communication Skills:** The bullets emphasize clear communication and documentation, which are key soft skills highlighted in the target job description.

@@ -1,0 +1,56 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts**: Detected and prioritized security events in a simulated lab environment, classifying severity based on observed behaviors.
+  
+- **Performed Endpoint Triage**: Analyzed suspicious network traffic patterns, DNS queries, and HTTP requests from simulated endpoints to identify potential threats.
+
+- **Conducted Network Traffic Analysis**: Examined TCP session logs and PCAP files to isolate and resolve security incidents, focusing on identifying unusual data flows indicative of malicious activity.
+
+- **Collected Incident Evidence**: Gathered and documented evidence for escalated alerts by reviewing system configurations, user accounts, and network logs in a structured manner.
+
+- **Supported Incident Response Efforts**: Assisted with the investigation of compromised endpoints by collecting relevant log data and system artifacts to support forensics.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting based on observed symptoms.
+
+- **Implemented Preventative Maintenance Techniques**: Reduced recurring issues by applying regular updates, patching, and security hardening measures in a simulated environment.
+
+**Digital Literacy & Endpoint Security Project**
+
+Designed and delivered basic computer security and internet safety training to non-technical users.
+
+- **Configured Antivirus Software and Security Settings**: Set up antivirus software and implemented baseline security configurations on simulated endpoints to enhance their defensive posture.
+
+### ATS / SOC Keywords
+
+1. Monitoring
+2. Triage
+3. Incident Response
+4. Network Traffic Analysis
+5. DNS Query Analysis
+6. HTTP Request Review
+7. TCP Session Logs
+8. SIEM Tools
+9. Endpoint Security
+10. Log Analysis
+11. Vulnerability Remediation
+12. Documentation
+
+### Explanation of Changes
+
+**Alignment with Job Description:**
+- **Revised Bullet Points**: The revised bullets now emphasize the SOC workflows such as monitoring, triage, and investigation using specific tools (DNS queries, HTTP requests) and techniques (TCP session logs), which are directly relevant to the role.
+  
+- **ATS/Keyword Integration**: Keywords like "Monitoring," "Triage," "Incident Response," and "Network Traffic Analysis" were included to ensure they align with what an ATS system would recognize. This increases the chances of your resume being selected for review by hiring managers.
+
+**Improvement in Clarity:**
+- The revised version provides more specific examples and context, making it clear how you have applied these skills in a lab-based setting. For instance, instead of just mentioning "endpoint security," the bullets detail specific actions like analyzing DNS queries and HTTP requests.
+  
+- **Clarity on Technical Skills**: Keywords such as "SIEM Tools" and "TCP Session Logs" demonstrate your familiarity with tools and techniques that are often used in SOC roles.
+
+**Detail-Oriented Approach:**
+- By focusing on specific technical activities (e.g., analyzing PCAP files, gathering evidence), the revised resume showcases a more detailed understanding of the role’s responsibilities. This makes it easier for an interviewer to understand how you would approach real-world scenarios if hired.

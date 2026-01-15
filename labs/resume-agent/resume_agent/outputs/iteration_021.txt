@@ -1,0 +1,47 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection and Response:** Monitored simulated network traffic and endpoint behavior, identifying potential security incidents using lab-provided PCAPs.
+- **Triage Workflow:** Conducted initial triage of security alerts by analyzing log data and endpoint events to classify severity levels for further investigation.
+- **Investigation:** Performed detailed forensic analysis on DNS requests and HTTP sessions from compromised endpoints to trace back the sources of suspicious activity.
+- **Documentation & Escalation:** Created thorough documentation of findings, including network diagrams and event logs, then escalated critical incidents to a simulated SOC team.
+- **Incident Response:** Assisted in gathering evidence from affected systems by capturing system images and extracting file metadata for detailed analysis.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting. Identified root causes through methodical analysis of OS logs and registry changes, then documented the findings for future reference.
+
+**Digital Literacy & Endpoint Security Project**
+
+Designed and delivered basic computer security training to non-technical users. Configured antivirus software and set up baseline security settings on simulated endpoints, focusing on DNS filtering and web content blocking to enhance endpoint protection.
+
+### ATS / SOC Keywords
+
+1. Incident Detection
+2. Log Analysis
+3. Network Traffic Monitoring
+4. Endpoint Behavior Analysis
+5. Security Alerts
+6. Triage Workflow
+7. Forensic Investigation
+8. Documentation Practices
+9. Evidence Gathering
+10. SIEM Tools
+11. EDR/XDR Systems
+12. Incident Response
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- **Detection and Response:** This bullet directly aligns with the role's responsibility to monitor security alerts, providing an example of using lab-provided data (PCAPs) to identify potential incidents.
+- **Triage Workflow:** Emphasizes the ability to conduct initial triage based on analysis, which is a key skill in SOC workflows. The term "simulated network traffic and endpoint behavior" frames the experience within a lab setting.
+- **Investigation:** Highlights the use of forensic tools (DNS requests, HTTP sessions) for detailed analysis, showcasing skills relevant to investigating suspicious activities.
+- **Documentation & Escalation:** Describes creating comprehensive documentation as well as escalating incidents, which are critical in SOC roles. The phrase "thorough documentation" aligns with the requirement to maintain accurate records.
+- **Incident Response:** Includes a specific example of assisting in gathering evidence, showing hands-on experience in this aspect of incident response.
+
+**ATS / SOC Keywords:**
+- These keywords directly relate to the skills and responsibilities outlined in the target job description. They are chosen for their relevance to the role's technical requirements (e.g., "Incident Detection," "Log Analysis") and soft skills needed (e.g., "Documentation Practices," "Evidence Gathering").
+
+These changes ensure that Christopher Cahall’s experience is presented in a way that aligns with the expectations of an entry-level SOC or junior cybersecurity analyst, focusing on the appropriate lab-based and simulated experiences.

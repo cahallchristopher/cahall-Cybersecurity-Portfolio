@@ -1,0 +1,51 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts:** Handled simulated alerts in a lab environment, applying structured triage workflows to identify and classify events based on severity.
+- **Performed Initial Triage of Security Events:** Evaluated endpoint, network, and log data for suspicious activity using SIEM tools to prioritize response actions.
+- **Analyzed Endpoint Behavior and Network Traffic:** Conducted DNS, HTTP, and TCP session analysis to detect and document anomalies, supporting the detection phase in a simulated SOC workflow.
+- **Supported Incident Response by Gathering Evidence:** Collected relevant system logs and user accounts for forensic analysis, ensuring clear documentation of findings.
+- **Reviewed Account Activity and Access Changes:** Analyzed log data and system configurations to identify potential vulnerabilities and misconfigurations, mirroring the investigative step in security operations.
+- **Maintained Accurate Documentation and Communicated Findings Clearly:** Created detailed reports and handouts summarizing triage and investigation outcomes for team collaboration and knowledge sharing.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Academic / Simulated | Jan 2024 – Present
+
+- **Diagnosed and Resolved Common Windows Endpoint Failures:** Conducted structured troubleshooting sessions, isolating issues such as OS errors and misconfigurations to resolve system-level problems.
+- **Applied Preventative Maintenance Techniques:** Implemented routine updates, antivirus configurations, and security hardening measures on simulated endpoints to enhance overall system reliability.
+
+**Digital Literacy & Endpoint Security Project**
+Academic / Simulated | Jan 2024 – Present
+
+- **Configured Antivirus Software and OS Security Settings:** Set up baseline security configurations for Windows systems to ensure protection against common threats, supporting endpoint security best practices.
+- **Delivered Digital Literacy Training Sessions:** Conducted training sessions on internet safety and cybersecurity best practices, preparing users for safe online interactions.
+
+### ATS / SOC Keywords
+
+1. SIEM
+2. EDR/XDR
+3. Endpoint Security
+4. Network Traffic Analysis
+5. Log Analysis
+6. DNS Analysis
+7. HTTP Session Monitoring
+8. TCP Session Analysis
+9. Incident Response
+10. Vulnerability Assessment
+11. Documentation
+12. Triage
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- The revised bullets focus on the SOC workflows of detection, triage, investigation, documentation, and escalation, which aligns closely with the job description.
+- The use of specific techniques like DNS, HTTP, TCP session analysis is emphasized to showcase hands-on experience in network traffic analysis, a key requirement for the role.
+- Bullet points now include examples of how tasks were performed in a lab or simulated environment, providing evidence that can be verified.
+
+**ATS / SOC Keywords:**
+- These keywords are chosen based on the technical expectations and responsibilities outlined in the job description. They highlight skills related to security operations, incident response, and network analysis.
+- The inclusion of specific terms like SIEM (Security Information and Event Management) and EDR/XDR (Endpoint Detection and Response) demonstrates familiarity with tools commonly used in SOC environments.
+
+By aligning the resume language and content with these changes, Christopher Cahall's experience is more clearly presented as relevant to an entry-level SOC analyst role.

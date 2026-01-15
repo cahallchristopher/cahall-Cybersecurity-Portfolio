@@ -1,0 +1,52 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- Monitored and investigated simulated security events, performing initial triage to classify severity levels.
+- Analyzed DNS query logs, HTTP requests, and TCP sessions from PCAP files for suspicious activities in a lab environment.
+- Documented findings and escalated critical incidents using standard SOC workflows and procedures.
+- Assisted with the collection of evidence by reviewing system configurations and user accounts during simulated attacks.
+- Supported the identification and remediation of vulnerabilities through baseline security hardening and patching efforts on Windows endpoints.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting, including OS errors and misconfigurations.
+Applied preventative maintenance techniques to reduce recurring issues by analyzing system logs and performing routine updates and scans.
+Identified and resolved suspicious network traffic patterns using real-time monitoring tools in a simulated environment.
+
+**Digital Literacy & Endpoint Security Project**
+
+Configured antivirus software and endpoint protection tools on Windows systems, ensuring compliance with security best practices.
+Trained first-time users on basic computer security and internet safety measures, translating technical findings into clear explanations for non-technical audiences.
+Developed step-by-step documentation for troubleshooting and user guidance, enhancing the standardization of support processes.
+
+### ATS / SOC Keywords
+
+1. Security event monitoring
+2. Initial triage
+3. Suspicious activity analysis
+4. DNS query logs
+5. HTTP requests
+6. TCP sessions
+7. PCAP file review
+8. Incident documentation
+9. Vulnerability identification
+10. Endpoint hardening
+11. Patch management
+12. SOC workflow
+
+### Explanation of Changes
+
+**Alignment with Job Description:**
+- **Monitoring and Investigation:** The revised bullets now explicitly mention monitoring security events, initial triage, and analyzing network traffic patterns.
+- **Triage and Classification:** Emphasis on the classification of severity levels to align with typical job responsibilities in an entry-level SOC role.
+- **Data Analysis:** Specific mentions of DNS query logs, HTTP requests, and TCP sessions from PCAP files to showcase familiarity with network traffic analysis tools used in SOCs.
+- **Documentation and Escalation:** Stronger emphasis on documenting findings and escalating critical incidents, which are key responsibilities in a SOC Analyst I role.
+
+**Laboratory and Support Work:**
+- The experience is now framed using SOC workflows, ensuring that each task aligns with the job description's focus on detection, triage, investigation, documentation, and escalation.
+- Avoidance of tool-specific names while highlighting the use of tools for analysis and evidence collection.
+- Prioritization of observable system behavior over technical jargon to ensure clarity.
+
+These changes make the resume more relevant to an entry-level SOC or junior cybersecurity analyst role by directly addressing the expected skills and responsibilities as outlined in the target job description.

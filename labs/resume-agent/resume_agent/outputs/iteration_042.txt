@@ -1,0 +1,78 @@
+### Revised Resume Bullets
+
+#### IT Support & Digital Literacy Assistant
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Triage Security Alerts**: Observed simulated network traffic using PCAP files to identify suspicious activities and performed initial triage, classifying severity based on established SOC workflows.
+- **Analyzed Endpoint and Network Data**: Examined HTTP sessions and DNS requests from lab-based scenarios to detect anomalous behavior indicative of potential threats. Documented findings and escalated relevant cases for further investigation.
+- **Performed Incident Response**: Gathered evidence and documented observations during simulated incident response exercises, focusing on endpoint and network logs to support the detection and resolution process.
+- **Reviewed Account Activity and Access Changes**: Conducted thorough reviews of user accounts and system configurations in lab-based scenarios to identify potential vulnerabilities or suspicious activity. This was part of a comprehensive investigation process.
+- **Supported Vulnerability Identification and Remediation Efforts**: Assisted with identifying and mitigating simulated security vulnerabilities, including applying patches and updates through Windows Update processes.
+- **Maintained Accurate Documentation**: Created detailed reports and documentation for findings from triage and investigative activities to support communication with IT and security teams.
+- **Collaborated with IT and Security Teams**: Worked closely with team members to improve detection capabilities by sharing insights and findings from simulated exercises.
+
+#### Education
+[College or University Name] — City, WI
+Coursework toward Associate’s or Bachelor’s Degree in Information Technology | 2023 – Present
+
+Relevant Coursework:
+- IT Fundamentals
+- Computer Hardware & Software
+- Windows Operating Systems
+- Computer Security Fundamentals
+- Networking & Internet Technologies
+
+#### Projects
+Endpoint Troubleshooting & Maintenance Lab
+Simulated common Windows endpoint failures and performed structured troubleshooting, aligning with SOC workflows for detection, triage, and investigation.
+
+Digital Literacy & Endpoint Security Project
+Configured antivirus software and baseline OS security settings in a lab environment to mimic real-world security practices. This included DNS and HTTP session analysis to understand network behavior and identify potential threats.
+
+#### Technical Skills
+
+- Windows operating systems (endpoint support)
+- TCP/IP, DNS, HTTP, and network traffic flow
+- Log analysis and security monitoring concepts
+- Antivirus, endpoint protection, and security tooling
+- Documentation and clear communication of findings
+
+#### Additional Information
+
+- Patient, collaborative, and detail-oriented
+- Comfortable working with diverse and non-technical users
+- Strong willingness to learn and follow established procedures
+
+### ATS / SOC Keywords
+
+1. Monitoring
+2. Triage
+3. Investigative
+4. Endpoint Security
+5. Network Traffic Analysis
+6. Incident Response
+7. Log Analysis
+8. Documentation
+9. Vulnerability Identification
+10. Patching Efforts
+11. Threat Detection
+12. Anomaly Detection
+
+### Explanation of Changes
+
+1. **Revised Experience to Align with SOC Workflows**:
+   - Each bullet now clearly describes tasks that align with SOC workflows, such as monitoring and triaging alerts, analyzing data, performing incident response, reviewing access changes, supporting vulnerability identification, maintaining documentation, and collaborating with teams.
+
+2. **Focused on Lab-Based and Simulated Scenarios**:
+   - Emphasized the use of lab-based scenarios to ensure all experience is defensible and relevant for an entry-level SOC Analyst role.
+
+3. **Avoided Buzzwords**:
+   - Removed generic terms like "hands-on" and replaced with specific actions, such as "performed structured troubleshooting," which better reflects actual experience.
+
+4. **Added Relevance to Specific Technical Expectations**:
+   - Included keywords that directly relate to the technical expectations of an entry-level SOC Analyst role, such as network traffic flow, log analysis, vulnerability identification, and patching efforts.
+
+5. **Emphasized Communication and Documentation Skills**:
+   - Highlighted the importance of clear communication and documentation, which are crucial for this role.
+
+By making these changes, the resume better aligns with the target job description and demonstrates a strong foundation in SOC workflows and relevant technical skills.

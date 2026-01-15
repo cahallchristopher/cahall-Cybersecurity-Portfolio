@@ -1,0 +1,49 @@
+### Revised Resume Bullets
+
+1. **Monitored and investigated simulated security alerts in a lab environment, performing initial triage to classify severity levels based on documented procedures.**
+   - This directly aligns with the responsibility of monitoring and investigating alerts from security tools.
+   
+2. **Analyzed DNS requests, HTTP traffic, and TCP sessions to identify potential threats in network traffic, providing evidence for incident response efforts.**
+   - This reflects the experience with network traffic analysis using non-payload-based techniques.
+
+3. **Performed detailed triage of endpoint issues by isolating symptoms, identifying root causes, and validating fixes through structured troubleshooting processes.**
+   - This highlights the investigative workflow in a simulated environment.
+
+4. **Reviewed account activity logs, access changes, and system configurations to assist with incident response efforts, ensuring accurate documentation of findings.**
+   - This demonstrates experience with log analysis and investigation.
+
+5. **Supported vulnerability identification by performing routine maintenance tasks such as OS setup, patching, antivirus configuration, and basic security hardening on simulated endpoints.**
+   - This shows engagement in preventative maintenance to reduce recurring issues.
+
+6. **Documented incident findings and communicated them clearly to IT and security teams for further action, ensuring adherence to established procedures.**
+   - This emphasizes the importance of clear communication and documentation.
+
+7. **Assisted with endpoint behavior analysis by diagnosing software-level issues across multiple simulated Windows endpoints in a lab environment.**
+   - This aligns with the responsibility of monitoring and investigating alerts related to endpoint security.
+
+### ATS / SOC Keywords
+
+1. Monitoring
+2. Triage
+3. Network Traffic Analysis
+4. Incident Response
+5. DNS Requests
+6. HTTP Traffic
+7. TCP Sessions
+8. Log Analysis
+9. Security Alerts
+10. Endpoint Behavior
+11. Documentation
+12. Incident Reporting
+
+### Explanation of Changes
+
+- **Alignment with Job Description**: The revised resume bullets directly correlate with the responsibilities outlined in the target job description, such as monitoring and investigating security alerts, performing triage, analyzing network traffic, reviewing logs, and documenting findings.
+  
+- **Focus on SOC Workflows**: By emphasizing investigative and analytical processes (triage, investigation, documentation), we ensure that the resume aligns well with the expected workflow in a cybersecurity analyst role.
+  
+- **Use of Lab-Based Experience**: The experience is framed around simulated environments to avoid any implication of production SOC responsibilities. This is consistent with the strict constraints provided.
+
+- **Avoidance of Buzzwords**: The language used is clear and supported by specific examples from lab work, ensuring that each claim can be substantiated.
+  
+- **ATS Optimization**: Keywords are strategically included to optimize the resume for ATS systems, making it more likely to pass initial screenings.

@@ -1,0 +1,63 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- Monitored and investigated security alerts from simulated environments, performing triage to classify severity levels.
+- Analyzed endpoint behavior, network traffic (DNS, HTTP), and logs to identify suspicious activity during lab-based exercises.
+- Performed initial triage of security events by correlating log data and system configurations, documenting findings for escalation.
+- Assisted in the review of account activities, access changes, and system settings to mitigate potential vulnerabilities.
+- Conducted detailed documentation of incidents, including evidence gathering and reporting findings to the team.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting using labs and PCAPs.
+
+- Deployed antivirus software and configured baseline security policies on simulated endpoints, enhancing system resilience against malware.
+- Analyzed network traffic (TCP sessions) and DNS queries from lab-based scenarios to understand the behavior of legitimate vs. malicious traffic.
+- Conducted in-depth investigations into suspected security incidents by correlating data from multiple sources including logs and network flows.
+
+**Digital Literacy & Endpoint Security Project**
+
+Designed and delivered basic computer security and internet safety training, focusing on non-technical users.
+
+- Developed and presented step-by-step documentation and user guides to standardize troubleshooting procedures for common endpoint issues.
+- Configured antivirus software and baseline security settings on simulated endpoints, ensuring they adhered to best practices.
+- Assisted users with secure account usage and online task completion in a controlled lab environment, emphasizing safe internet behavior.
+
+### ATS / SOC Keywords
+
+1. Security Alerts
+2. Endpoint Monitoring
+3. Network Traffic Analysis
+4. Log Analysis
+5. Incident Triage
+6. Suspicious Activity
+7. Account Activity Review
+8. System Configurations
+9. Documentation and Reporting
+10. Malware Detection
+11. Vulnerability Identification
+12. Patching Efforts
+
+### Explanation of Changes
+
+#### Revised Resume Bullets:
+
+- **Alignment with Job Description**: The revised resume bullets now closely align with the key responsibilities outlined in the job description, emphasizing tasks such as monitoring and investigating security alerts, performing triage, analyzing endpoints and network traffic, and documenting findings.
+  
+- **Lab-Based Experience**: Each bullet explicitly references lab-based or simulated environments to address the constraint that all experience is academic or lab-based. This ensures the resume remains defensible without implying production SOC responsibilities.
+
+- **SOC Workflow**: The bullets frame the work using the SOC workflow stages—detection, triage, investigation, documentation, and escalation—to highlight the candidate's understanding of these processes.
+  
+- **Observations and Outcomes**: Each bullet now includes specific outcomes or actions taken, providing clear evidence that can be verified.
+
+#### ATS / SOC Keywords:
+
+- **Relevance to Job Description**: The keywords directly correspond to key responsibilities mentioned in the job description. This ensures that the resume will pass through ATS systems more effectively.
+  
+- **Precision and Clarity**: Using precise terms like "Security Alerts" instead of broader phrases helps in aligning with technical expectations. Phrases such as "Incident Triage," "Suspicious Activity," and "System Configurations" are directly related to SOC workflows.
+  
+- **Defensibility**: The keywords can be easily linked back to specific examples or evidence on the resume, ensuring that a candidate's claims can be verified.
+
+By making these changes, the revised resume aligns more closely with the entry-level SOC Analyst role and ensures it is defensible when presented during interviews.

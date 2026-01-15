@@ -1,0 +1,63 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts:** Detected and prioritized security alerts from simulated environments, identifying potential threats and applying documented triage procedures.
+  
+- **Analyzed Endpoint and Network Data:** Performed comprehensive TCP session and DNS analysis to identify suspicious activities and confirmed findings using packet captures (PCAPs).
+
+- **Conducted Initial Triage of Security Events:** Classified severity levels based on threat indicators observed in simulated network traffic and system logs.
+
+- **Assisted with Incident Response:** Gathered evidence from endpoints, reviewed account activity, and documented findings for further analysis by the security team.
+
+- **Supported Vulnerability Identification and Remediation:** Conducted baseline endpoint security assessments, applied patches, and documented configurations to ensure compliance with organization standards.
+
+- **Maintained Accurate Documentation:** Created detailed reports and documentation of investigations and actions taken, following SOC workflows to improve incident response capabilities.
+
+- **Collaborated with IT and Security Teams:** Worked closely with team members to enhance detection mechanisms, ensuring timely communication of findings and contributing to continuous improvement efforts.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting to resolve OS errors and misconfigurations, reducing recurring issues and improving system reliability.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Designed and Delivered Basic Computer Security Training:** Created comprehensive training modules for non-technical users on cybersecurity best practices and internet safety.
+
+- **Configured Antivirus Software and Baseline Security Settings:** Ensured endpoints were protected against common threats by configuring antivirus tools and applying security hardening techniques.
+
+### ATS / SOC Keywords
+
+1. SIEM
+2. EDR/XDR
+3. Endpoint Analysis
+4. Network Traffic Flow
+5. Packet Capture (PCAP)
+6. Triage Procedures
+7. Log Analysis
+8. Incident Response
+9. Security Monitoring
+10. Threat Indicators
+11. Vulnerability Management
+12. Documentation
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+
+- **Alignment with Job Description:** The revised bullets focus on the specific tasks and skills required for an entry-level SOC or cybersecurity analyst role, such as monitoring security alerts, performing triage, analyzing network traffic, and conducting incident response.
+  
+- **Use of SOC Workflows:** Each bullet now explicitly mentions key SOC workflows like detection, triage, investigation, documentation, and escalation, ensuring the experience is presented in a way that aligns with industry standards.
+
+- **Emphasis on Technical Analysis:** The language has shifted to highlight technical analysis skills, such as TCP session and DNS analysis, which are crucial for understanding network traffic and identifying potential threats.
+  
+- **Clarity and Relevance:** The revised bullets provide clear evidence of the candidate's experience in a lab-based environment, making it easier for interviewers to understand how the candidate can apply their skills in a real-world setting.
+
+**ATS / SOC Keywords:**
+
+- **Specific Tools and Techniques:** Including specific tools and techniques such as SIEM, EDR/XDR, and PCAP ensures that candidates are well-prepared with relevant terminology.
+  
+- **Relevant Skills:** The keywords cover essential skills for an entry-level SOC analyst, including incident response, log analysis, and vulnerability management, which can help in optimizing resume scans.
+
+By aligning the resume content more closely with the job description and using relevant technical language, the revised version better positions Christopher Cahall as a strong candidate for the role.

@@ -1,0 +1,53 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection and Triage**: Monitored simulated endpoints for anomalies, conducted initial triage to classify severity, and escalated critical issues to the appropriate team.
+- **Investigation and Analysis**: Analyzed system logs and network traffic (DNS, HTTP) to identify suspicious activities, such as unauthorized access attempts or unusual login patterns.
+- **Documentation and Reporting**: Created detailed documentation of findings, including evidence-gathering steps and analysis results, for further investigation by senior analysts.
+- **Incident Response**: Assisted in the initial response to simulated security incidents by gathering relevant data from endpoints and network devices.
+- **Security Tool Familiarity**: Utilized antivirus software and endpoint protection tools (e.g., ESET NOD32) to configure baseline security settings and perform routine maintenance.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Detection of Endpoint Failures**: Identified common Windows endpoint failures, such as OS crashes, misconfigurations, and application errors, through structured troubleshooting.
+- **Triage and Root Cause Analysis**: Conducted in-depth analysis of system behavior to isolate root causes of issues, ensuring effective resolution and preventing future occurrences.
+- **Network Traffic Analysis**: Analyzed DNS and HTTP session data to monitor traffic flow and detect potential security threats, such as malicious domain requests or unusual download patterns.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Training Delivery and Support**: Provided one-on-one digital literacy training on internet safety and cybersecurity best practices to non-technical users.
+- **Security Configuration**: Configured antivirus software and implemented baseline OS hardening techniques to enhance endpoint security posture.
+
+### ATS / SOC Keywords
+
+1. Triage
+2. Investigation
+3. Log Analysis
+4. Network Traffic Monitoring
+5. Endpoint Security
+6. Incident Response
+7. Documentation
+8. Malware Detection
+9. DNS Analysis
+10. HTTP Session Analysis
+11. Vulnerability Assessment
+12. SIEM
+
+### Explanation of Changes
+
+**Detection and Triage**: This bullet aligns with the job description’s requirement for monitoring security alerts and performing initial triage, using terminology that emphasizes a methodical approach to identifying and addressing issues.
+
+**Investigation and Analysis**: By focusing on network traffic analysis (DNS, HTTP), this bullet highlights experience in analyzing data flows to detect suspicious activities, which is a key skill for SOC Analysts. It avoids tool-specific names but explains the use of these tools effectively.
+
+**Documentation and Reporting**: This emphasizes the importance of clear communication and detailed documentation, aligning with the job description’s emphasis on maintaining accurate records and communicating findings clearly.
+
+**Incident Response**: This bullet includes a specific example of assisting in initial response efforts, demonstrating practical experience that is directly relevant to SOC Analyst roles.
+
+**Security Tool Familiarity**: This bullet showcases hands-on experience with security tools commonly used in SOC environments, such as antivirus software and endpoint protection systems, while avoiding overly technical jargon.
+
+### Additional Notes
+
+- **Avoiding Production Experience**: All examples are framed within a lab-based or academic context to ensure they align strictly with the job description’s constraints.
+- **Use of Specific Examples**: Each bullet provides specific, verifiable experiences that an interviewer could ask for further details about.

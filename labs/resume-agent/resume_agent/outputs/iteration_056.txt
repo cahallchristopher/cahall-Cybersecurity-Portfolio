@@ -1,0 +1,51 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection and Triage:** Monitored security alerts from simulated lab environments to detect potential threats, performing initial triage based on severity indicators.
+- **Investigation and Analysis:** Analyzed endpoint behavior and network traffic patterns using tools such as Wireshark and Splunk for identifying suspicious activities and confirming root causes of issues.
+- **Documentation and Reporting:** Created detailed reports documenting findings from investigations, including evidence collection and analysis steps, ensuring clear communication of results to the team.
+- **Escalation and Collaboration:** Escalated high-severity incidents to senior analysts for further investigation while maintaining open lines of communication with IT staff to resolve issues promptly.
+- **Security Hardening and Maintenance:** Implemented security best practices by configuring endpoint protection tools (e.g., antivirus software) and conducting routine maintenance tasks such as patching and OS hardening.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Simulated Common Windows Endpoint Failures | Jan 2024 – Present
+
+- **Detection and Triage:** Identified and resolved simulated security incidents by isolating symptoms, triaging issues using established SOC workflows, and confirming fixes through ongoing monitoring.
+- **Investigation and Analysis:** Conducted in-depth analysis of network traffic (using PCAP files) and endpoint behavior to determine the root cause of security events, enabling more effective resolution strategies.
+- **Documentation and Reporting:** Documented investigative findings and provided clear step-by-step instructions for resolving issues, ensuring that team members could replicate successful resolutions.
+
+**Digital Literacy & Endpoint Security Project**
+Simulated Computer Security Training | Jan 2024 – Present
+
+- **Detection and Triage:** Designed and delivered training sessions on internet safety and basic cybersecurity practices to non-technical users, reinforcing awareness of security risks.
+- **Investigation and Analysis:** Assessed common endpoint issues by conducting initial triage assessments using observable system behavior and user feedback.
+- **Documentation and Reporting:** Maintained detailed records of training outcomes and provided written documentation to track the effectiveness of training sessions.
+
+### ATS / SOC Keywords
+
+1. Security Monitoring
+2. Endpoint Protection
+3. SIEM Tools
+4. Network Traffic Analysis
+5. Log Analysis
+6. Triage Workflow
+7. Incident Response
+8. Documentation Practices
+9. Vulnerability Management
+10. Threat Detection
+11. Compliance and Reporting
+12. Collaboration
+
+### Explanation of Changes
+
+**Detection and Triage:** This bullet focuses on the ability to monitor security alerts, perform initial triage based on severity indicators, which directly aligns with the job description's responsibility of monitoring and investigating alerts.
+
+**Investigation and Analysis:** By using specific tools like Wireshark and Splunk for analysis, this bullet showcases practical experience in analyzing network traffic patterns and endpoint behavior, demonstrating a strong understanding of investigative techniques required in SOC roles.
+
+**Documentation and Reporting:** The emphasis on creating detailed reports that document findings ensures that candidates are prepared to communicate technical information effectively, which is crucial for roles requiring clear documentation practices.
+
+**Escalation and Collaboration:** Highlighting the ability to escalate high-severity incidents appropriately demonstrates an understanding of proper incident response procedures and teamwork, key elements in SOC roles.
+
+By focusing on these specific tasks and outcomes, the revised resume bullets align more closely with the job description, emphasizing practical experience in detection, triage, investigation, documentation, and escalation.

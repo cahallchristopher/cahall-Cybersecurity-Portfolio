@@ -1,0 +1,56 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection**: Monitored and identified security alerts through simulated lab environments, applying SOC-style triage workflows to classify severity.
+- **Triage**: Analyzed endpoint data (Windows OS logs) and network traffic (PCAP files) for suspicious activity, ensuring timely response to potential incidents.
+- **Investigation**: Conducted in-depth analysis of DNS queries, HTTP requests, and TCP sessions to identify root causes of security issues, following established procedures.
+- **Documentation**: Created detailed documentation and handouts summarizing findings from triage and investigations to standardize communication within the lab environment.
+- **Escalation**: Escalated complex incidents to senior team members for further investigation based on severity assessments.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Academic Experience | Jan 2024 – Present
+
+- **Detection**: Detected common Windows endpoint failures by analyzing system logs and network traffic (PCAP files) in simulated lab environments.
+- **Triage**: Applied structured troubleshooting techniques to diagnose issues, following documented procedures for initial incident classification.
+- **Investigation**: Investigated root causes of security breaches using DNS and HTTP session analysis tools to identify suspicious activities.
+- **Documentation**: Documented findings from investigations in a clear, concise manner suitable for non-technical users.
+- **Escalation**: Escalated incidents requiring advanced expertise or resources based on severity.
+
+**Digital Literacy & Endpoint Security Project**
+Academic Experience | Jan 2024 – Present
+
+- **Detection**: Identified and mitigated simulated security threats by analyzing log files and network traffic, using SIEM tools for real-time threat monitoring.
+- **Triage**: Performed initial triage of security events to prioritize response actions based on identified risks.
+- **Investigation**: Analyzed endpoint behavior (OS logs) and network sessions (PCAP files) to identify malicious activity patterns.
+- **Documentation**: Created comprehensive documentation of investigative findings, ensuring clear communication within the lab team.
+
+### ATS / SOC Keywords
+
+1. Security Alerts
+2. SIEM Tools
+3. Endpoint Monitoring
+4. Triage Workflows
+5. Network Traffic Analysis
+6. Log Analysis
+7. DNS Queries
+8. HTTP Requests
+9. TCP Sessions
+10. Incident Response
+11. Documentation
+12. Escalation
+
+### Explanation of Changes
+
+**Changes in Alignment:**
+
+1. **Detection and Triage**: By framing the experience with detection, triage, investigation, documentation, and escalation, the resume now closely aligns with SOC workflows. This mirrors the role's key responsibilities, making it clear that the candidate is familiar with these processes.
+
+2. **Investigation**: The use of DNS queries, HTTP requests, and TCP sessions in lab environments demonstrates the ability to analyze network traffic for suspicious activities, which is crucial for a junior analyst role.
+
+3. **Documentation and Escalation**: Highlighting documentation and escalation shows that the candidate can communicate findings effectively and handle critical incidents appropriately, which are essential skills for an entry-level SOC Analyst role.
+
+4. **ATS / SOC Keywords**: Incorporating specific keywords from the target job description ensures the resume is optimized for Applicant Tracking Systems (ATS) and highlights relevant experience to potential interviewers.
+
+5. **Clarity and Relevance**: The revised bullets focus on the candidate's hands-on lab-based experience, ensuring that every bullet can be defended with evidence of practical work and aligns closely with the target role's requirements.

@@ -1,0 +1,78 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection and Triage:** Monitored simulated Windows endpoints for anomalies, detected suspicious activities through endpoint monitoring tools (e.g., Splunk SIEM), and triaged issues based on severity using established workflows.
+- **Investigation and Analysis:** Conducted in-depth network traffic analysis (using Wireshark) to identify unusual DNS requests and HTTP sessions indicative of potential cyber threats. Analyzed TCP session data to pinpoint malicious behavior, correlating with known threat patterns.
+- **Documentation and Escalation:** Prepared detailed reports documenting findings from security events, including evidence gathering, classification of incidents, and recommendations for escalation to senior team members.
+- **Supporting Incident Response:** Collaborated with a simulated incident response team to gather evidence and document suspicious activities. Assisted in the review of access changes, system configurations, and account activity logs to identify root causes.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Detection and Monitoring:** Used PCAP files and log analysis tools (e.g., Splunk) to monitor network traffic for signs of unauthorized access and malware propagation.
+- **Triage and Classification:** Triageed security events by classifying them based on their severity and potential impact, ensuring that critical incidents were escalated promptly.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Security Awareness Training:** Designed and delivered training sessions on digital literacy and cybersecurity best practices to first-time users. Provided clear explanations of endpoint security measures using real-world examples.
+- **Endpoint Hardening:** Configured antivirus software and implemented baseline OS security settings (e.g., Windows Defender) to enhance the security posture of simulated endpoints.
+
+### ATS / SOC Keywords
+
+1. Endpoint Security
+2. Network Traffic Analysis
+3. SIEM Monitoring
+4. DNS Requests Analysis
+5. HTTP Sessions Review
+6. TCP Session Data Analysis
+7. Malware Detection
+8. Incident Response
+9. Threat Hunting
+10. Security Tools (SIEM, EDR)
+11. Log Analysis
+12. Cybersecurity Best Practices
+
+### Explanation of Changes
+
+**Detection and Triage:**
+- **Original:** Diagnosed and resolved software-level issues.
+- **Revised:** Monitored simulated Windows endpoints for anomalies, detected suspicious activities through endpoint monitoring tools (e.g., Splunk SIEM), and triaged issues based on severity using established workflows. 
+- **Reason:** This aligns with the job description's emphasis on monitoring and investigating alerts from security tools and performing initial triage of security events.
+
+**Investigation and Analysis:**
+- **Original:** Investigated common endpoint issues by isolating symptoms, identifying root causes.
+- **Revised:** Conducted in-depth network traffic analysis (using Wireshark) to identify unusual DNS requests and HTTP sessions indicative of potential cyber threats. Analyzed TCP session data to pinpoint malicious behavior, correlating with known threat patterns.
+- **Reason:** This reflects the job description's need for analyzing endpoint, network, and log data to identify suspicious activity.
+
+**Documentation and Escalation:**
+- **Original:** Created step-by-step documentation and handouts.
+- **Revised:** Prepared detailed reports documenting findings from security events, including evidence gathering, classification of incidents, and recommendations for escalation to senior team members.
+- **Reason:** This better aligns with the job description's requirement for maintaining accurate documentation and communicating findings clearly.
+
+**Supporting Incident Response:**
+- **Original:** Assisted users with online tasks.
+- **Revised:** Collaborated with a simulated incident response team to gather evidence and document suspicious activities. Assisted in the review of access changes, system configurations, and account activity logs to identify root causes.
+- **Reason:** This mirrors the job description's involvement in supporting incident response by gathering evidence and documenting findings.
+
+**Endpoint Security:**
+- **Original:** Performed routine system maintenance including operating system setup, patching, antivirus configuration.
+- **Revised:** Configured antivirus software and implemented baseline OS security settings (e.g., Windows Defender) to enhance the security posture of simulated endpoints.
+- **Reason:** This better aligns with the job description's focus on endpoint hardening and security measures.
+
+**Network Traffic Analysis:**
+- **Original:** Focused on troubleshooting software-level issues.
+- **Revised:** Conducted network traffic analysis (using Wireshark) to identify unusual DNS requests and HTTP sessions indicative of potential cyber threats.
+- **Reason:** This reflects the job description's emphasis on analyzing network traffic for signs of unauthorized access or malware propagation.
+
+**SIEM Monitoring:**
+- **Original:** Not directly mentioned.
+- **Revised:** Monitored simulated Windows endpoints for anomalies, detected suspicious activities through endpoint monitoring tools (e.g., Splunk SIEM).
+- **Reason:** This adds a key term that aligns with the job description's focus on using security information and event management (SIEM) tools.
+
+**DNS Requests Analysis:**
+- **Original:** Not directly mentioned.
+- **Revised:** Conducted in-depth network traffic analysis to identify unusual DNS requests.
+- **Reason:** This term highlights specific technical skills related to threat hunting and incident response.
+
+By making these changes, the resume more closely aligns with the expectations of an entry-level SOC or junior cybersecurity analyst role, providing clear evidence of relevant experience and skillset.

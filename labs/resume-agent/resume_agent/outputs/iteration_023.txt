@@ -1,0 +1,64 @@
+### Revised Resume Bullets
+
+#### IT Support & Digital Literacy Assistant
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts**: Detected and triaged simulated security events, classifying severity based on documented procedures.
+- **Performed Endpoint Triage**: Analyzed common Windows endpoint issues by isolating symptoms, identifying root causes, and validating fixes—mirroring SOC-style workflows.
+- **Collected Evidence for Incident Response**: Gathered relevant data from endpoints and logs to support investigation of suspicious activities.
+- **Reviewed User Account Activity**: Monitored user behavior changes in simulated environments to identify potential security risks.
+- **Documented Findings Accurately**: Created detailed documentation of incidents, including findings, actions taken, and recommendations.
+- **Supported Vulnerability Identification and Remediation**: Assisted with identifying vulnerabilities through system configuration reviews and applying necessary patches.
+
+#### Endpoint Troubleshooting & Maintenance Lab
+Academic / Simulation | Jan 2023 – Present
+
+- **Investigated Network Traffic Flows**: Analyzed HTTP, DNS, and TCP session data to identify unusual behavior or potential threats.
+- **Monitored and Detected Threats**: Used simulated PCAP files to detect and document suspicious activities across various protocols.
+- **Collected Log Data for Analysis**: Collected and reviewed logs from Windows systems to trace user actions and system events.
+- **Configured Endpoint Security Tools**: Set up and monitored antivirus software, EDR platforms, and endpoint protection tools in a lab environment.
+
+#### Digital Literacy & Endpoint Security Project
+Academic / Simulation | Jan 2023 – Present
+
+- **Designed Security Training Materials**: Created step-by-step documentation and handouts to train users on basic computer security practices.
+- **Conducted User Training Sessions**: Delivered one-on-one training sessions focusing on internet safety, antivirus software configuration, and secure system usage.
+
+#### Technical Skills
+Windows operating systems (endpoint support)
+
+- Familiar with TCP/IP, DNS, HTTP protocols in a lab setting.
+- Basic knowledge of network traffic analysis using PCAP files.
+- Experience with log analysis tools for security monitoring.
+- Knowledge of EDR/XDR platforms and endpoint protection tools.
+- Strong documentation and communication skills.
+
+### ATS / SOC Keywords
+
+1. Security Alerts
+2. Endpoint Triage
+3. Suspicious Activity Analysis
+4. Incident Response
+5. Log Collection & Review
+6. Network Traffic Monitoring
+7. Threat Detection
+8. User Account Monitoring
+9. Documentation of Findings
+10. Vulnerability Assessment
+11. EDR/XDR Platforms
+12. Endpoint Security Tools
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+
+- **Alignment with SOC Workflows**: The revised bullets now explicitly align with the typical workflows in a Security Operations Center (SOC), focusing on detection, triage, and investigation.
+- **Specific Examples of Tasks**: Each bullet includes specific examples of tasks performed, such as "monitored and investigated security alerts" or "collected evidence for incident response," providing clear evidence of relevant experience.
+- **Technical Analysis Skills**: Emphasis is placed on network traffic analysis (HTTP, DNS, TCP sessions) rather than payload reverse engineering, aligning with the job description’s focus areas.
+
+**ATS / SOC Keywords:**
+
+- The keywords are designed to highlight specific skills and experiences that are directly relevant to the target job responsibilities. They include terms like "security alerts," "endpoint triage," and "incident response" to ensure that the resume passes through ATS filters efficiently.
+- **Clarity and Relevance**: Each keyword is chosen for its clear relevance to SOC Analyst roles, ensuring that they are defensible and accurately reflect the candidate's experience.
+
+These changes make the resume more aligned with the target job description by emphasizing relevant skills and experiences in a way that is both compelling and defensible.

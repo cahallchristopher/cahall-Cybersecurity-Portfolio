@@ -1,0 +1,49 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts:** Created structured detection mechanisms by analyzing PCAPs, log files, and security tool outputs to monitor for suspicious activity.
+- **Performed Triage of Security Events:** Identified and classified severity levels of alerts from simulated SIEM and EDR tools, ensuring appropriate escalation for further investigation.
+- **Analyzed Endpoint and Network Data:** Conducted in-depth analysis of network traffic (DNS, HTTP), TCP sessions, and system logs to pinpoint sources of anomalies, supporting triage workflows.
+- **Gathered Evidence for Incident Response:** Collected and documented evidence from endpoints, network devices, and security tools during simulated incident response exercises.
+- **Reviewed Account Activity and System Configurations:** Examined user account activities, access changes, and system configurations to support incident investigation and detection of malicious activity.
+- **Supported Vulnerability Identification and Remediation:** Assisted in identifying potential vulnerabilities through regular security audits and provided actionable recommendations for remediation efforts.
+- **Maintained Accurate Documentation:** Kept detailed records of findings, actions taken, and communications during triage and investigation processes to ensure clear and concise documentation.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Simulated Endpoint Failures and Performed Structured Troubleshooting:** Conducted comprehensive analysis of failed endpoints using lab-based scenarios, identifying root causes through systematic troubleshooting techniques.
+- **Applied Preventative Maintenance Techniques:** Implemented proactive security measures such as regular patching, antivirus software updates, and baseline OS hardening to reduce recurring issues and improve system reliability.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Designed and Delivered Basic Computer Security Training:** Trained first-time users on internet safety and cybersecurity best practices through interactive workshops and hands-on sessions.
+- **Configured Antivirus Software and Security Settings:** Set up and maintained antivirus software, system updates, and baseline security configurations to ensure endpoint protection.
+
+### ATS / SOC Keywords
+
+1. SIEM
+2. EDR/XDR
+3. Endpoint Protection
+4. Network Traffic Analysis
+5. Log Analysis
+6. Incident Response
+7. Triage Workflow
+8. Threat Detection
+9. Security Tooling
+10. Vulnerability Assessment
+11. Documentation
+12. Cybersecurity Best Practices
+
+### Explanation of Changes
+
+- **Alignment with Job Description:** The revised resume bullets were crafted to closely match the responsibilities and technical expectations outlined in the target job description. This includes focusing on detection, triage, investigation, documentation, and escalation processes—key aspects of an entry-level SOC Analyst role.
+  
+- **Laboratory-Based Experience Emphasis:** By highlighting lab-based scenarios and simulations, we ensure that all experience is rooted in practical, defensible examples rather than theoretical or hypothetical situations. This approach meets the requirement to avoid assumptions about production environments.
+
+- **Use of Specific Techniques and Tools:** The use of terms like "PCAPs," "log files," "SIEM tools," and "vulnerability assessment" align with technical expectations and provide concrete evidence of relevant skills and experience.
+  
+- **Focus on Observations and Outcomes:** Rather than merely listing tasks, the revised bullets describe specific actions taken and their outcomes, ensuring that each example can be validated if an interviewer asks for evidence or explanation.
+
+- **Soft Skills Highlighted:** The inclusion of soft skills such as communication, documentation, and attention to detail emphasizes the ability to explain technical issues clearly, a critical skill for non-technical users in SOC roles.

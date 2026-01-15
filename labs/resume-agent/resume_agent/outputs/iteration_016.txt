@@ -1,0 +1,50 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts**: Detected and responded to simulated security alerts using a lab environment, performing initial triage and classifying severity.
+- **Analyzed Network Traffic and Logs**: Reviewed DNS, HTTP, and TCP session data to identify suspicious activity, mirroring network traffic analysis practices.
+- **Performed Endpoint Troubleshooting**: Diagnosed and resolved common Windows endpoint issues, focusing on OS errors, misconfigurations, and user-impacting problems, aligning with SOC triage workflows.
+- **Collected Evidence for Incident Response**: Gathered evidence from endpoints and networks to document findings during simulated incidents.
+- **Reviewed Account Activity and Access Changes**: Examined system configurations and account activities to identify potential security issues, supporting the review of account activity best practices.
+- **Supported Vulnerability Management**: Assisted in identifying vulnerabilities through endpoint assessments and applied remediation efforts, focusing on patching and hardening techniques.
+- **Maintained Accurate Documentation**: Created detailed documentation for incidents and findings, ensuring clear communication within a simulated SOC environment.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Conducted Structured Endpoint Troubleshooting**: Diagnosed and resolved common Windows endpoint failures in a lab setting, applying preventative maintenance to reduce recurring issues.
+- **Performed Routine System Maintenance**: Executed OS setup, patching, antivirus configuration, and basic security hardening on simulated endpoints, mirroring SOC workflows for endpoint security.
+- **Analyzed Endpoint Behavior**: Observed and documented endpoint behavior using network traffic analysis tools to identify anomalies and root causes of issues.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Designed and Delivered Security Training**: Created and conducted basic computer security training sessions for first-time and non-technical users, emphasizing internet safety and cybersecurity best practices.
+- **Configured Antivirus Software**: Set up antivirus software configurations on simulated endpoints to ensure baseline security settings were in place.
+
+### ATS / SOC Keywords
+
+1. Network Traffic Analysis
+2. Log Analysis
+3. Endpoint Troubleshooting
+4. Incident Response
+5. Security Monitoring
+6. DNS, HTTP, TCP Session Analysis
+7. Suspicious Activity Detection
+8. Vulnerability Management
+9. Documentation and Reporting
+10. Triage Workflow
+11. System Configuration Review
+12. Endpoint Security
+
+### Explanation of Changes
+
+The revised resume bullets have been tailored to align more closely with the job description for an entry-level SOC Analyst role by:
+
+- **Emphasizing SOC Workflows**: Each bullet now reflects specific steps within a typical SOC workflow, such as monitoring and investigating security alerts, performing triage, analyzing network traffic, and documenting findings.
+- **Using Relevant Language**: Terms like "monitored," "investigated," and "triaged" have been used to mirror the language from the job description. This makes it clear that the candidate has experience in these areas.
+- **Focusing on Technical Analysis**: The revised bullets focus more on technical analysis of network traffic, logs, and endpoints, aligning with the expectation for basic knowledge of TCP/IP, DNS, HTTP, and network traffic flow.
+- **Highlighting Documentation and Reporting**: There is an emphasis on creating detailed documentation to support incident response efforts, which is a key skill in SOC roles.
+- **Incorporating Lab Experience**: The lab-based experience is described in terms that can be applied to real-world scenarios, such as performing structured troubleshooting and using network traffic analysis tools.
+
+These changes ensure the resume is more relevant to the job description and will resonate better with potential interviewers.

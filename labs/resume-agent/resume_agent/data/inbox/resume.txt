@@ -1,0 +1,79 @@
+Christopher Cahall
+
+City, WI
+(555) 555-5555 • youremail@email.com
+
+LinkedIn: linkedin.com/in/christophercahall
+
+SUMMARY
+
+Entry-level cybersecurity and IT professional with hands-on experience supporting, maintaining, and securing Windows systems in lab-based and community-focused environments. Strong foundation in troubleshooting, endpoint security, and user support, with growing experience translating technical findings into clear explanations for non-technical users. Seeking an entry-level SOC or junior cybersecurity analyst role.
+
+TECHNICAL EXPERIENCE
+
+IT Support & Digital Literacy Assistant
+Academic / Volunteer Experience | Jan 2024 – Present
+
+Diagnosed and resolved software-level issues across 40+ simulated Windows endpoints, focusing on OS errors, misconfigurations, and user-impacting problems.
+
+Performed routine system maintenance including operating system setup, patching, antivirus configuration, and basic security hardening.
+
+Investigated common endpoint issues by isolating symptoms, identifying root causes, and validating fixes—mirroring SOC-style triage workflows.
+
+Delivered one-on-one digital literacy and security awareness training to first-time and non-technical users.
+
+Assisted users with online tasks including job applications, homework, research, telehealth access, and secure account usage.
+
+Created step-by-step documentation and handouts to standardize troubleshooting and user guidance.
+
+Managed multiple support tasks while maintaining organization, prioritization, and clear communication.
+
+EDUCATION
+
+[College or University Name] — City, WI
+Coursework toward Associate’s or Bachelor’s Degree in Information Technology | 2023 – Present
+
+Relevant Coursework:
+IT Fundamentals • Computer Hardware & Software • Windows Operating Systems • Computer Security Fundamentals • Networking & Internet Technologies
+
+PROJECTS
+
+Endpoint Troubleshooting & Maintenance Lab
+
+Simulated common Windows endpoint failures and performed structured troubleshooting.
+
+Applied preventative maintenance techniques to reduce recurring issues and improve system reliability.
+
+Digital Literacy & Endpoint Security Project
+
+Designed and delivered basic computer security and internet safety training.
+
+Configured antivirus software, system updates, and baseline OS security settings.
+
+TECHNICAL SKILLS
+
+Windows operating systems (endpoint support)
+
+Laptop troubleshooting and break/fix
+
+Endpoint maintenance and basic security hardening
+
+Antivirus and endpoint protection tools
+
+Internet safety and cybersecurity best practices
+
+Home Wi-Fi and basic network troubleshooting
+
+Technical documentation and user training
+
+ADDITIONAL INFORMATION
+
+Patient, collaborative, and detail-oriented
+
+Comfortable working with diverse and non-technical users
+
+Strong willingness to learn and follow established procedures
+
+Valid Wisconsin driver’s license
+
+Available for daytime, evening, and weekend shifts

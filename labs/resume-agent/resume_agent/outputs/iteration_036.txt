@@ -1,0 +1,53 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts**: Conducted initial triage on simulated security alerts, performing a detailed analysis to determine the severity of potential incidents. 
+- **Analyzed Endpoint Data**: Reviewed system logs and network traffic from simulated Windows endpoints to identify suspicious activities such as unusual login attempts and data exfiltration.
+- **Performed Incident Triage**: Assessed real-time alerts using simulated PCAPs and log files, prioritized response actions based on urgency and impact.
+- **Gathered Evidence for Incidents**: Collected relevant artifacts from compromised systems, documented findings in a structured format to support further analysis.
+- **Reviewed Account Activity**: Monitored user activity logs to detect unauthorized access or potential insider threats.
+- **Supported Endpoint Security**: Configured and maintained antivirus software and baseline security settings on simulated endpoints.
+- **Documented Findings**: Maintained detailed records of investigative processes, findings, and resolutions in a structured report format for team review.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Simulated Common Endpoint Failures**: Conducted hands-on troubleshooting of simulated Windows endpoint issues, applying preventative maintenance techniques to reduce recurring failures.
+- **Analyzed Network Traffic**: Performed DNS and HTTP analysis on simulated network traffic to identify potential security threats such as malicious domain requests and anomalous data transfer patterns.
+- **Investigated Suspicious Activity**: Analyzed TCP session logs from simulated environments to detect signs of unauthorized access or lateral movement.
+- **Supported Incident Response Efforts**: Assisted in the initial response phase by gathering evidence, documenting findings, and supporting forensic analysis.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Delivered Digital Literacy Training**: Designed and delivered cybersecurity training sessions focusing on internet safety and endpoint security best practices to non-technical users.
+- **Configured Endpoint Security Settings**: Configured antivirus software and system updates for simulated endpoints to ensure baseline security measures were in place.
+
+### ATS / SOC Keywords
+
+1. Incident Triage
+2. Network Traffic Analysis
+3. Suspicious Activity Detection
+4. Log Analysis
+5. SIEM Monitoring
+6. Endpoint Security
+7. Antivirus Configuration
+8. TCP Session Analysis
+9. DNS Analysis
+10. HTTP Analysis
+11. Cybersecurity Training
+12. Documentation
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- The revised bullets now align with the key responsibilities outlined in the target job description by emphasizing security monitoring, incident triage, log analysis, and evidence gathering.
+- Specific scenarios like analyzing simulated PCAPs, logs, and network traffic are included to provide concrete examples of lab-based investigative work.
+- The addition of "Incident Triage" and "Suspicious Activity Detection" directly addresses the job's focus on initial alert response.
+- Emphasis on "Gathered Evidence for Incidents," "Reviewed Account Activity," and "Documented Findings" ensures a clear connection to the role's documentation responsibilities.
+
+**ATS / SOC Keywords:**
+- The keyword list is tailored to include terms relevant to both the job description and typical ATS systems, ensuring that keywords like "Incident Triage" and "Suspicious Activity Detection" are prominently featured.
+- By including specific technical skills such as "Network Traffic Analysis," "TCP Session Analysis," and "DNS Analysis," we ensure that candidates' resumes stand out in an automated screening process.
+
+These changes improve alignment by directly addressing the job requirements, providing concrete evidence of relevant experience through lab-based scenarios, and using keywords likely to be searched for during the hiring process.

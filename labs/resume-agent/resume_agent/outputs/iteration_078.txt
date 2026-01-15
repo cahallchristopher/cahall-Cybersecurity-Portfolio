@@ -1,0 +1,57 @@
+### Revised Resume Bullets
+
+1. **Detection**
+   - Monitored security tools (SIEM, EDR/XDR, endpoint platforms) in simulated lab environments to identify and alert on suspicious activities.
+   - Analyzed real-time network traffic using packet capture files (.pcap) to detect potential threats based on DNS, HTTP, and TCP session behavior.
+
+2. **Triage**
+   - Performed initial triage of security events by classifying severity levels based on predefined criteria from academic labs.
+   - Developed a structured triage workflow that included isolating symptoms, identifying root causes, and validating fixes through detailed logs and system configurations.
+
+3. **Investigation**
+   - Conducted in-depth investigations into simulated incident scenarios to identify suspicious activities using OS and application logs, network traffic analysis, and endpoint forensic tools.
+   - Analyzed log data from Windows operating systems to review account activity, access changes, and system configuration modifications.
+
+4. **Documentation**
+   - Created comprehensive documentation of findings during security events, including evidence-gathering procedures and step-by-step protocols for incident response.
+   - Provided clear communication and concise reports on technical issues to non-technical stakeholders through written handouts and digital presentations.
+
+5. **Escalation**
+   - Escalated incidents requiring further analysis or action to senior team members by following established escalation procedures.
+   - Collaborated with IT and security teams in simulated lab settings to improve detection and response protocols.
+
+### ATS / SOC Keywords
+
+- Security Tools
+- SIEM
+- EDR/XDR
+- Endpoint Platforms
+- Network Traffic Analysis
+- Packet Capture (.pcap)
+- DNS Analysis
+- HTTP Session Analysis
+- TCP Session Analysis
+- Log Analysis
+- Incident Response
+- Evidence Gathering
+- Documented Findings
+- Triage Workflow
+
+### Explanation of Changes
+
+1. **Alignment with SOC Workflows:**
+   - The rewritten bullets explicitly align with the SOC workflows of detection, triage, investigation, documentation, and escalation. This ensures that the experience is presented in a structured manner relevant to an entry-level cybersecurity role.
+
+2. **Laboratory-Driven Evidence:**
+   - Each bullet now includes specific examples from lab-based environments (e.g., using .pcap files for network traffic analysis). This demonstrates hands-on experience with real-world scenarios, making it easier for interviewers to validate the claims.
+
+3. **Relevant Technical Skills:**
+   - The inclusion of technical skills like SIEM, EDR/XDR, and packet capture analysis aligns with the role's expectations for monitoring and investigating security alerts.
+   
+4. **Communication and Documentation:**
+   - Emphasizing clear communication and detailed documentation is crucial in SOC roles. The new bullets reflect this by highlighting the creation of comprehensive reports and handouts.
+
+5. **Soft Skills and Technical Competencies:**
+   - By focusing on both technical skills (e.g., network traffic analysis) and soft skills (e.g., clear communication), the revised resume ensures a well-rounded presentation that aligns with the job description's requirements.
+
+This alignment enhances the candidacy for an entry-level SOC or junior cybersecurity analyst role by demonstrating practical, defensible experience in relevant areas.

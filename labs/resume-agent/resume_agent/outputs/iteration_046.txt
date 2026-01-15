@@ -1,0 +1,60 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- Monitored and investigated simulated security alerts in a lab environment, classifying severity levels based on predefined criteria.
+- Analyzed endpoint behavior, network traffic (DNS, HTTP, TCP sessions), and logs to identify potential threats and suspicious activities.
+- Conducted initial triage of security events by correlating log data with known threat indicators, leading to timely resolution of incidents.
+- Gathered evidence and documented findings for escalation to the IT team, ensuring clear communication of actionable insights.
+- Reviewed account activity, access changes, and system configurations to identify and mitigate vulnerabilities in simulated lab environments.
+- Implemented preventative maintenance techniques to reduce recurring issues and improve endpoint reliability, focusing on Windows operating systems and security hardening practices.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Academic / Simulated Environment | Jan 2024 – Present
+
+- Diagnosed and resolved common OS errors, misconfigurations, and user-impacted issues in simulated lab environments.
+- Performed routine system maintenance tasks including operating system setup, patching, antivirus configuration, and security hardening on Windows endpoints.
+- Isolated symptoms and identified root causes of endpoint issues, aligning with SOC-style triage workflows to ensure efficient problem resolution.
+- Conducted structured troubleshooting sessions, leveraging PCAPs (Packet Capture) and log analysis to diagnose network traffic anomalies and suspicious activities.
+
+**Digital Literacy & Endpoint Security Project**
+Academic / Simulated Environment | Jan 2024 – Present
+
+- Designed and delivered digital literacy and security awareness training for non-technical users in simulated environments.
+- Configured antivirus software, system updates, and baseline OS security settings to enhance endpoint protection against common threats.
+- Analyzed network traffic patterns (DNS, HTTP) to identify potential security risks and validated findings with lab outputs.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Academic / Simulated Environment | Jan 2024 – Present
+
+- Applied preventative maintenance techniques such as regular updates, OS hardening, and endpoint security hardening practices.
+- Created step-by-step documentation for troubleshooting procedures and user guidance to standardize incident response efforts.
+
+### ATS / SOC Keywords
+
+1. Security Alert Monitoring
+2. Endpoint Behavior Analysis
+3. Network Traffic Investigation
+4. Log Analysis
+5. Incident Triage
+6. Threat Detection
+7. Vulnerability Assessment
+8. Evidence Gathering
+9. Documentation
+10. Severity Classification
+11. Cybersecurity Tools
+12. SOC Analyst
+
+### Explanation of Changes
+
+**Changes in Language and Focus:**
+- The revised resume bullets now emphasize the structured, methodical approach to security incidents using SOC workflows such as detection, triage, investigation, documentation, and escalation.
+- Specific tools (e.g., PCAPs, logs) and evidence (PCAP outputs, lab-based exercises) are highlighted to provide concrete examples of how I have applied these skills in simulated environments.
+
+**ATS / SOC Relevance:**
+- Keywords such as "Security Alert Monitoring," "Endpoint Behavior Analysis," and "Log Analysis" align with the technical expectations outlined in the target job description.
+- Additional terms like "Incident Triage," "Threat Detection," and "Vulnerability Assessment" further reinforce my readiness to perform tasks typical of an entry-level SOC analyst.
+
+**Improved Clarity:**
+- The revised language is clearer, more focused on specific outcomes and methodologies, making it easier for an interviewer to understand the depth of experience without overusing buzzwords or unsupported claims.

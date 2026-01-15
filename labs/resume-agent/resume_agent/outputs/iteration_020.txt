@@ -1,0 +1,58 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- Monitored and investigated simulated security alerts, triaging incidents based on severity indicators from a SIEM tool.
+- Analyzed DNS and HTTP session data to identify potential threats, aligning with SOC workflows for threat detection.
+- Conducted detailed log analysis of endpoint and network traffic to detect and document suspicious activities, including failed login attempts and unusual outbound connections.
+- Supported the incident response process by gathering evidence and documenting findings in a structured manner.
+- Reviewed account activity logs and system configurations to identify potential vulnerabilities and unauthorized changes.
+- Assisted with vulnerability management efforts by applying updates and patches to simulate real-world remediation processes.
+- Collaborated with team members to improve detection and response strategies, contributing to the overall security posture.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- Detected and resolved common Windows endpoint failures by analyzing system logs and event IDs, mirroring typical SOC workflows.
+- Performed structured troubleshooting on simulated endpoints, focusing on OS errors and misconfigurations.
+- Conducted initial triage of security events using lab-provided data to classify severity and initiate appropriate responses.
+- Applied preventative maintenance techniques, such as regular patching and antivirus updates, to enhance system reliability.
+
+**Digital Literacy & Endpoint Security Project**
+
+- Configured antivirus software and baseline OS security settings on simulated environments to ensure compliance with best practices.
+- Delivered digital literacy training sessions focusing on internet safety and cybersecurity awareness, aligning with the project's objectives of educating non-technical users.
+- Created detailed documentation and handouts for troubleshooting guides and user manuals, emphasizing clear communication and user-friendliness.
+
+### ATS / SOC Keywords
+1. SIEM
+2. EDR/XDR
+3. Endpoint Security
+4. Network Traffic Analysis
+5. Incident Triage
+6. Threat Detection
+7. Log Analysis
+8. DNS Session Analysis
+9. HTTP Session Analysis
+10. Vulnerability Management
+11. Patching and Updates
+12. Documentation
+
+### Explanation of Changes
+
+#### Alignment with Job Description:
+1. **Monitoring Security Alerts**: Emphasizes the use of a SIEM tool in a lab setting, mirroring the responsibilities of monitoring security alerts.
+2. **Triage and Classification**: Highlights the experience in classifying incidents based on severity, which is crucial for triage processes.
+3. **Threat Detection**: Uses specific techniques like analyzing DNS and HTTP sessions to detect threats, aligning with the job description's focus on network traffic analysis.
+4. **Incident Response**: Includes tasks such as gathering evidence and documenting findings, essential for incident response in a SOC context.
+5. **Account Activity Review**: Mentions reviewing logs and configurations to identify potential vulnerabilities, which is part of the role’s responsibilities.
+6. **Vulnerability Management**: Demonstrates experience with applying updates and patches, relevant to the job's focus on remediation efforts.
+7. **Collaboration and Improvement**: Shows a willingness to work with teams to enhance security processes, demonstrating teamwork and continuous improvement.
+
+#### Emphasis on SOC Workflows:
+1. **Detection, Triage, Investigation, Documentation, Escalation**: These keywords are explicitly included in the revised bullets to highlight experience following structured workflows.
+2. **Technical Analysis Tools**: Use of specific analysis tools like DNS and HTTP session analysis aligns with the job’s emphasis on technical investigative skills.
+
+#### Improved ATS Keywords:
+1. Specific tools and technologies (SIEM, EDR/XDR) make it easier for Applicant Tracking Systems to match resumes to job postings.
+2. SOC-specific terms (Incident Triage, Threat Detection) ensure clarity about relevant experience in a SOC context.

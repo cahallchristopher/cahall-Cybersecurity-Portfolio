@@ -1,0 +1,25 @@
+### Scoring and Analysis
+
+#### 1. Score this resume from 1–10 for SOC Analyst I readiness:
+
+**Score: 7**
+
+The resume provides relevant experience aligned with entry-level SOC roles but needs some refinement to better align with the typical tasks and responsibilities of a SOC Analyst.
+
+#### 2. List 3 specific weaknesses:
+- **Lack of Production Experience:** The experience is entirely lab-based or academic, which may not fully prepare the candidate for real-world production environments.
+- **Limited Exposure to SIEM Tools:** While there are mentions of log analysis, no specific SIEM tool usage is mentioned, which could be a significant gap in practical skills.
+- **Vulnerability Assessment Experience:** There's an emphasis on endpoint security and incident response but less on vulnerability assessment or penetration testing, which are critical for a SOC Analyst.
+
+#### 3. List 3 specific strengths:
+- **Structured Triage and Analysis:** The candidate has experience performing triage and analysis of security events, including classifying severity levels.
+- **Detailed Documentation Skills:** The ability to create detailed reports and escalate incidents demonstrates strong documentation skills, which are crucial in a SOC role.
+- **User Training Experience:** Conducting training sessions on cybersecurity best practices shows an understanding of educating end-users about security awareness.
+
+#### 4. Rewrite ONE bullet to be clearer and more defensible:
+
+**Original:**
+- "Supported Endpoint Security Hardening: Configured antivirus software, applied security patches, and implemented baseline hardening measures on simulated endpoints to enhance protection against threats."
+
+**Rewritten:**
+- "Implemented Endpoint Security Controls: Deployed and configured antivirus solutions, applied critical security patches, and enforced security baselines on simulated endpoints through command-line interfaces (e.g., `wmic`, `powershell`) and GUI tools. Analyzed system configurations using logs and event viewer alerts to ensure compliance with

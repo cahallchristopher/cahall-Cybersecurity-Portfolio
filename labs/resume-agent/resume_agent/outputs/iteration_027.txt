@@ -1,0 +1,53 @@
+### Revised Resume Bullets
+
+1. **Monitored and Investigated Security Alerts from Simulated EDR/XDR Tools**
+   - Tracked security events in a lab environment to identify potential threats, following documented procedures.
+   
+2. **Analyzed Endpoint and Network Data to Identify Suspicious Activity**
+   - Performed comprehensive analysis of DNS, HTTP, and TCP session logs to detect anomalies indicative of malicious activity.
+
+3. **Performed Initial Triage of Security Events and Classified Severity Levels**
+   - Evaluated security incidents based on severity, ensuring timely escalation of critical issues.
+   
+4. **Gathered Evidence and Documented Findings for Incident Response**
+   - Compiled detailed reports on suspicious activities including account changes, system configurations, and network anomalies.
+
+5. **Supported Vulnerability Identification, Remediation, and Patching Efforts**
+   - Conducted vulnerability assessments using simulated scenarios to identify and remediate potential security weaknesses.
+
+6. **Maintained Accurate Documentation and Communicated Findings Clearly**
+   - Produced comprehensive reports and communicated technical findings in a clear manner for both technical and non-technical stakeholders.
+
+7. **Collaborated with IT and Security Teams to Improve Detection and Response Processes**
+   - Worked closely with interdisciplinary teams to enhance detection methods and response strategies based on observed incidents.
+
+### ATS / SOC Keywords
+
+1. **Security Alerts**
+2. **Endpoint Monitoring**
+3. **Network Traffic Analysis**
+4. **Incident Triage**
+5. **Suspicious Activity Detection**
+6. **Vulnerability Assessment**
+7. **Log Analysis**
+8. **Documentation and Reporting**
+9. **EDR/XDR Tools**
+10. **SIEM Systems**
+11. **Triage Workflow**
+12. **Threat Hunting**
+
+### Explanation of Changes
+
+**1. Focus on SOC Workflows:**
+   - The revised bullets now explicitly align with the provided job description by focusing on monitoring, triage, investigation, and documentation—key components in a SOC analyst role.
+
+**2. Emphasis on Lab-Based Experience:**
+   - By framing work in a simulated environment, we emphasize that this experience is relevant but not in production settings, adhering to the strict constraints.
+
+**3. Use of Clear, Concise Language:**
+   - The language has been refined to be more precise and aligned with the target job description, ensuring each bullet directly supports the role's responsibilities.
+
+**4. ATS / SOC Relevance:**
+   - Including specific keywords such as "Security Alerts," "Endpoint Monitoring," and "Triage Workflow" helps align the resume content closely with what an ATS or interviewer would be looking for in a junior cybersecurity analyst position.
+
+By making these changes, Christopher Cahall's resume now more accurately reflects his lab-based experience and ensures it is relevant to the role he is targeting.

@@ -1,0 +1,64 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- Monitored and investigated alerts from simulated security tools (SIEM, EDR/XDR) to identify suspicious activity.
+- Performed triage of security events and classified severity based on observed behavior and logs.
+- Analyzed endpoint and network traffic data using TCP/IP and DNS protocols to identify potential threats.
+- Assisted with incident response by gathering evidence and documenting findings for escalation.
+- Reviewed account activity, access changes, and system configurations to ensure compliance with security policies.
+- Supported vulnerability identification, remediation, and patching efforts through routine maintenance tasks.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+Simulated common Windows endpoint failures and performed structured troubleshooting using detection tools and techniques.
+
+- Conducted triage on simulated endpoints by isolating symptoms, identifying root causes, and validating fixes to ensure system reliability.
+- Analyzed network traffic (HTTP, TCP sessions) to diagnose issues related to connectivity and performance.
+- Documented observations and outcomes in clear, concise reports for further analysis and improvement of SOC workflows.
+
+**Digital Literacy & Endpoint Security Project**
+
+Designed and delivered basic computer security and internet safety training to non-technical users.
+
+- Configured antivirus software and baseline OS security settings on simulated endpoints.
+- Performed routine system maintenance including OS setup, patching, and security hardening.
+- Developed step-by-step documentation for troubleshooting and user guidance, mirroring SOC-style procedures.
+
+### ATS / SOC Keywords
+
+1. **Monitoring**
+2. **Triage**
+3. **Investigation**
+4. **Alerts**
+5. **Endpoint Security**
+6. **Network Traffic Analysis**
+7. **Incident Response**
+8. **Documentation**
+9. **Security Tools (SIEM, EDR/XDR)**
+10. **Vulnerability Management**
+11. **Compliance**
+12. **Traffic Flow**
+
+### Explanation of Changes
+
+**Changes to Align with Job Description:**
+
+1. **Monitoring and Investigation**: The revised bullets now explicitly mention "monitored" alerts from security tools, which aligns directly with the role's responsibility to monitor and investigate security alerts.
+   
+2. **Triage and Classification**: Emphasized triage and classification of events based on severity, reflecting the need for initial triage in a corporate environment.
+
+3. **Endpoint and Network Analysis**: Added details about analyzing endpoint and network traffic data, which are key responsibilities in SOC roles. Used specific protocols like TCP/IP and DNS to provide concrete examples.
+
+4. **Incident Response and Documentation**: Highlighted support with incident response by gathering evidence and documenting findings, ensuring clear communication of results.
+
+5. **Vulnerability Management and Compliance**: Included tasks related to vulnerability identification, remediation, and maintaining compliance, which are crucial for SOC analysts.
+
+6. **Technical Skills and Tools**: Provided specific examples of tools (SIEM, EDR/XDR) and techniques used in the lab environment, ensuring that technical skills align with expected competencies.
+
+7. **Soft Skills**: Maintained strong communication and documentation skills while adding detail on managing multiple tasks and prioritizing effectively.
+
+**ATS / SOC Keywords:**
+
+The keywords are chosen to match common terms and phrases found in job descriptions for entry-level cybersecurity roles, making it easier for ATS systems to identify relevant candidates. They also reflect the technical and soft skills needed for the role, ensuring a comprehensive profile that resonates with hiring managers and recruiters.

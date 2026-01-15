@@ -1,0 +1,44 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Investigated Security Alerts**: Analyzed simulated security alerts using SIEM tools to identify potential threats, following established procedures.
+- **Triage of Security Events**: Conducted initial triage on security events by evaluating severity and classifying incidents based on observed behavior and log data.
+- **Endpoint Behavior Analysis**: Performed in-depth analysis of endpoint behaviors by reviewing OS logs and event viewer entries to detect anomalies indicative of malicious activity.
+- **Network Traffic and Log Data Analysis**: Analyzed network traffic (DNS, HTTP) and system logs for suspicious activities, such as unauthorized access attempts or unusual user behavior.
+- **Incident Response Support**: Gathered evidence and documented findings from simulated incidents involving endpoint compromise, supporting the escalation process to higher-level analysts.
+- **Vulnerability Identification and Remediation**: Assisted in identifying and addressing vulnerabilities through patching procedures and endpoint hardening techniques.
+- **Documentation and Communication**: Maintained accurate documentation of security events and findings using standard reporting tools, ensuring clear communication with stakeholders.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Detection and Triage of Endpoint Failures**: Detected and triaged common Windows endpoint failures by analyzing system logs, event viewer entries, and network traffic to identify root causes.
+- **Investigation and Resolution of Endpoint Issues**: Investigated symptoms related to OS errors, misconfigurations, and user-impacting problems by performing in-depth analysis of DNS, HTTP, and TCP session data.
+- **Documentation of Troubleshooting Steps**: Created detailed documentation of troubleshooting steps and findings, ensuring clear communication with non-technical users through step-by-step guides and handouts.
+
+**Digital Literacy & Endpoint Security Project**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Security Awareness Training Delivery**: Designed and delivered digital literacy and security awareness training sessions to first-time and non-technical users, focusing on best practices in endpoint protection.
+- **Endpoint Protection Tool Configuration**: Configured antivirus software and baseline OS security settings to enhance endpoint resilience against common threats.
+
+### ATS / SOC Keywords
+1. Security Alerts Monitoring
+2. Initial Triage
+3. Endpoint Behavior Analysis
+4. Network Traffic Analysis
+5. Log Data Analysis
+6. Incident Response Support
+7. Vulnerability Identification
+8. Documentation and Communication
+9. SIEM Tools
+10. EDR/XDR Platforms
+11. Endpoint Hardening
+12. Patching Procedures
+
+### Explanation of Changes
+The rewritten resume bullets align more closely with the target job description by emphasizing relevant SOC workflows such as detection, triage, investigation, documentation, and escalation. The use of specific terms like "SIEM tools," "EDR/XDR platforms," and "vulnerability identification" reflects a deeper understanding of security monitoring concepts and tools commonly used in professional settings.
+
+The language has been refined to focus on the outcomes and actions taken during lab-based scenarios rather than just describing tasks, which better prepares the candidate for questions about their experience and knowledge. This approach ensures that each bullet can be defended with concrete examples from academic or simulated environments, making them more relevant and credible to potential interviewers.

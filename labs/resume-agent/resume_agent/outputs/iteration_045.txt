@@ -1,0 +1,53 @@
+### Revised Resume Bullets
+
+1. **Monitored and Investigated Security Alerts**
+   - Analyzed alerts from simulated SIEM, EDR/XDR tools, and endpoint security platforms in lab environments to identify potential threats.
+   
+2. **Performed Initial Triage of Security Events**
+   - Classified the severity of detected security events based on predefined criteria using SOC-style triage workflows.
+
+3. **Analyzed Endpoint, Network, and Log Data**
+   - Reviewed OS logs, DNS queries, HTTP requests, and TCP sessions to identify suspicious activity patterns.
+   
+4. **Assisted with Incident Response**
+   - Gathered evidence from endpoints and network traffic by analyzing PCAP files and system configurations during simulated incident response exercises.
+
+5. **Reviewed Account Activity and Access Changes**
+   - Monitored user account activities, access changes, and system configurations using tools such as Windows Event Viewer to detect anomalies.
+   
+6. **Supported Vulnerability Identification and Remediation Efforts**
+   - Conducted vulnerability assessments on simulated systems and documented remediation steps for identified issues.
+
+7. **Maintained Accurate Documentation of Findings**
+   - Created detailed reports and documentation to communicate findings clearly, following established procedures.
+
+8. **Collaborated with IT and Security Teams**
+   - Worked closely with the SOC team to improve detection capabilities by sharing insights from lab exercises and simulations.
+
+### ATS / SOC Keywords
+
+1. Security Monitoring
+2. Endpoint Security Analysis
+3. Network Traffic Analysis
+4. Triage Workflow
+5. SIEM Tools
+6. EDR/XDR Platforms
+7. DNS Query Analysis
+8. HTTP Request Logs
+9. TCP Session Review
+10. Incident Response
+11. Vulnerability Assessment
+12. Documentation and Reporting
+
+### Explanation of Changes
+
+**Revised Resume Bullets:**
+- **Alignment with Job Description:** The revised bullets focus on specific SOC tasks such as monitoring, triaging, and investigating security alerts. This directly aligns with the job responsibilities mentioned in the target role description.
+- **SOC Workflows:** Each bullet incorporates elements of SOC workflows like initial triage, analysis, and documentation to ensure a clear match with the expected responsibilities.
+- **Lab-based Experience:** The language emphasizes lab-based experience and simulations, which is crucial for an entry-level position that doesn't involve production systems.
+
+**ATS / SOC Keywords:**
+- **Relevance:** These keywords are specifically chosen to reflect the technical skills and experiences required in SOC roles. They include both general SOC tasks (like monitoring and triage) and specific technical skills (such as EDR/XDR platforms, SIEM tools).
+- **Defensibility:** The choice of these keywords is grounded in the evidence from lab-based projects and support work, ensuring that a candidate can back up their claims with concrete examples.
+
+These changes ensure that the resume directly addresses the requirements of the target job description while maintaining the authenticity of lab-based experiences.

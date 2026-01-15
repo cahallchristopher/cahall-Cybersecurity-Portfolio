@@ -1,0 +1,51 @@
+### Revised Resume Bullets
+
+**IT Support & Digital Literacy Assistant**
+Academic / Volunteer Experience | Jan 2024 – Present
+
+- **Monitored and Resolved Security Alerts:** Detected and investigated simulated security alerts from a lab environment, applying basic triage to classify severity levels.
+- **Performed Endpoint Triage and Analysis:** Analyzed network traffic (TCP sessions), DNS queries, and HTTP requests to identify suspicious activities on multiple endpoints.
+- **Conducted Network Traffic Analysis:** Examined PCAP files for anomalies such as unexpected connections, unusual DNS queries, or malicious HTTP requests.
+- **Documented Incident Findings:** Created detailed documentation of security incidents, including evidence collection and steps taken during the investigation process.
+- **Supported Incident Response Efforts:** Gathered relevant log data (e.g., system logs, application logs) to assist in incident response activities.
+- **Reviewed Account Activity and Access Changes:** Examined user account changes and access modifications on simulated Windows environments to identify potential security breaches.
+- **Supported Vulnerability Management:** Assisted with the identification and remediation of vulnerabilities by applying patches and configurations based on lab scenarios.
+
+**Endpoint Troubleshooting & Maintenance Lab**
+
+- **Troubleshot Endpoint Failures:** Diagnosed and resolved common issues in a Windows environment, such as OS errors, misconfigurations, and user-reported problems.
+- **Performed Preventative Maintenance:** Conducted routine maintenance tasks like system updates, antivirus scans, and security hardening to ensure endpoint reliability.
+- **Analyzed Network Traffic Patterns:** Examined network sessions (TCP sessions) and DNS queries to identify potential vulnerabilities or threats.
+
+**Digital Literacy & Endpoint Security Project**
+
+- **Delivered Basic Security Training:** Provided digital literacy training on computer security best practices, internet safety, and secure account usage for non-technical users.
+- **Configured Antivirus Software:** Set up and configured antivirus software to ensure baseline endpoint protection in a simulated environment.
+- **Investigated Common Issues:** Conducted triage of common issues like system slowness, unexpected reboots, or security alerts by isolating symptoms and validating fixes.
+
+### ATS / SOC Keywords
+
+1. Endpoint Triage
+2. Network Traffic Analysis
+3. DNS Query Analysis
+4. HTTP Request Analysis
+5. SIEM Monitoring
+6. EDR/XDR Investigation
+7. Incident Response
+8. Log Analysis
+9. Security Tooling
+10. Vulnerability Management
+11. User Account Review
+12. Patch Management
+
+### Explanation of Changes
+
+- **Revised Bullet Points:** The revised bullet points focus on aligning the experience with SOC workflows and emphasizing investigative and analytical skills rather than just support tasks. This change ensures that each task can be directly related to the responsibilities described in the target job description.
+  
+- **Inclusion of Lab Work:** By framing lab-based work as part of a simulated environment, the revised experience clearly demonstrates the ability to handle security alerts, perform network traffic analysis, and document findings—key elements for an entry-level SOC role.
+
+- **Use of Specific Terminology:** The inclusion of terms like "Endpoint Triage," "Network Traffic Analysis," and "Incident Response" directly align with the job description's expectations. These terms indicate a deeper understanding of security monitoring and response processes.
+  
+- **ATS Keywords:** The list of ATS keywords provides relevant search terms that can be used by applicant tracking systems to match candidates to job postings. This ensures that resume content is easily searchable and highlights key skills required for an SOC Analyst role.
+
+By making these changes, the revised resume more accurately reflects the experience needed for an entry-level SOC Analyst position while ensuring clarity and professionalism in the presentation of technical skills and experience.
