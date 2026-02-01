@@ -1,0 +1,30 @@
+# Create lab directory (safe if it already exists)
+New-Item -ItemType Directory -Path C:\SOAR-Lab -Force | Out-Null
+
+# Move into lab directory
+Set-Location C:\SOAR-Lab
+
+# Download SwiftOnSecurity Sysmon configuration
+Invoke-WebRequest `
+  -Uri "https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml" `
+  -OutFile "sysmonconfig.xml"
+
+# Download Sysmon from Sysinternals
+Invoke-WebRequest `
+  -Uri "https://download.sysinternals.com/files/Sysmon.zip" `
+  -OutFile "Sysmon.zip"
+
+# Extract Sysmon binaries
+Expand-Archive -Path Sysmon.zip -DestinationPath Sysmon
+
+# Move into Sysmon directory
+Set-Location C:\SOAR-Lab\Sysmon
+
+# Install Sysmon using SwiftOnSecurity configuration
+.\Sysmon64.exe -accepteula -i ..\sysmonconfig.xml
+
+# Verify configuration
+.\Sysmon64.exe -c
+
+# Verify service status
+Get-Service Sysmon64
