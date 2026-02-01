@@ -1,0 +1,5 @@
+cd C:\SOAR-Lab
+
+Invoke-WebRequest `
+  -Uri "https://downloads.limacharlie.io/sensor/windows/64" `
+  -OutFile "lc_sensor.exe"
