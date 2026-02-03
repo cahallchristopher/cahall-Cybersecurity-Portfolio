@@ -1,0 +1,59 @@
+HEALTHCARE VENDOR RISK SOC LAB — NETWORK DIAGRAM
+===============================================
+
+                   Internet
+                       |
+                       |
+                +----------------+
+                |                |
+                |  External DNS  |
+                |  & Web Traffic |
+                |                |
+                +----------------+
+                       |
+                       |
+                =====================
+                ||  Ubuntu Gateway ||
+                =====================
+                |  - dnsmasq DNS   |
+                |  - DNS logging   |
+                |  - Firewall     |
+                |  - Audit point  |
+                =====================
+                  |              |
+                  |              |
+        ------------              ------------
+        |                                         |
++---------------------+              +----------------------+
+|                     |              |                      |
+|   Windows System    |              |   Vendor System      |
+|   (Internal Asset)  |              |   (3rd Party Access) |
+|                     |              |                      |
+| - User activity     |              | - Limited access     |
+| - Patient data      |              | - Monitored traffic  |
+| - Trusted role      |              | - No implicit trust  |
+|                     |              |                      |
++---------------------+              +----------------------+
+
+---------------------------------------------------------------
+LOGGING & VISIBILITY
+---------------------------------------------------------------
+• All DNS requests pass through Ubuntu Gateway
+• Vendor activity is logged and attributable
+• No direct internet access from internal systems
+• Gateway logs support audits and SOC review
+
+---------------------------------------------------------------
+SOC QUESTIONS THIS DIAGRAM ANSWERS
+---------------------------------------------------------------
+• Where does vendor traffic enter the network?
+• What activity is logged?
+• What system enforces policy?
+• Where would alerts be generated?
+• Could this pass a compliance audit?
+
+---------------------------------------------------------------
+DESIGN PRINCIPLE
+---------------------------------------------------------------
+If traffic does not pass through the gateway,
+it is considered unmonitored and non-compliant.
