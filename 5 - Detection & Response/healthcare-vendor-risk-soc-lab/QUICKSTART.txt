@@ -1,0 +1,54 @@
+HEALTHCARE VENDOR RISK SOC LAB — QUICKSTART
+==========================================
+
+This lab demonstrates how third-party vendor access can introduce
+risk into healthcare environments when logging and monitoring
+controls are weak or missing.
+
+There is no malware.
+There is no exploitation.
+The risk comes from visibility gaps.
+
+------------------------------------------
+LAB PURPOSE
+------------------------------------------
+• Model healthcare vendor access risk
+• Log and audit network behavior
+• Generate SOC-style alerts
+• Map technical controls to HIPAA safeguards
+• Practice explaining detection logic clearly
+
+------------------------------------------
+LAB COMPONENTS
+------------------------------------------
+• Ubuntu Server
+  - Acts as a secure gateway
+  - Runs dnsmasq for DNS logging
+  - Enforces basic firewall controls
+
+• Windows System
+  - Represents systems accessing patient data
+
+• Vendor System (Kali or Linux)
+  - Simulates third-party billing / service vendor
+  - Access is limited but monitored
+
+------------------------------------------
+WHAT TO LOOK FOR
+------------------------------------------
+• Unexpected DNS queries
+• Access outside approved domains
+• Repeated external lookups
+• Logging gaps that prevent attribution
+• How alerts would surface in a SOC
+
+------------------------------------------
+WHY THIS MATTERS
+------------------------------------------
+Many healthcare breaches occur because vendors are trusted
+but not monitored.
+
+This lab focuses on detection, auditing, and accountability
+rather than exploitation.
+
+
