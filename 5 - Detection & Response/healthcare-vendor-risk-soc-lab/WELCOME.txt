@@ -1,0 +1,73 @@
+WELCOME — HEALTHCARE VENDOR RISK SOC LAB
+======================================
+
+This lab is intentionally quiet.
+
+There are no exploits.
+There is no malware.
+Nothing dramatic happens.
+
+That is the point.
+
+--------------------------------------
+WHAT THIS LAB IS ABOUT
+--------------------------------------
+Healthcare security failures often do not come from attackers
+breaking in.
+
+They come from:
+• Over-trusted vendors
+• Poor visibility
+• Weak logging
+• Assumptions that “someone else is watching”
+
+This lab focuses on detection, auditing, and accountability
+in environments where sensitive data must be protected.
+
+--------------------------------------
+HOW TO READ THIS LAB
+--------------------------------------
+Think like a SOC analyst.
+
+Ask:
+• What access exists?
+• What activity is logged?
+• What activity is NOT logged?
+• How would we know if something went wrong?
+• Could we explain this during an audit?
+
+Each file in this lab answers one of those questions.
+
+--------------------------------------
+WHY HEALTHCARE
+--------------------------------------
+Healthcare environments are complex.
+Third-party vendors are common.
+Data sensitivity is high.
+Compliance requirements are strict.
+
+In many roles, HIPAA safeguards are not abstract rules.
+They shape daily behavior, access decisions, and documentation.
+
+This lab reflects that reality.
+
+--------------------------------------
+WHAT SUCCESS LOOKS LIKE
+--------------------------------------
+Success is not “finding an attack.”
+
+Success is being able to say:
+• We know what our vendors are doing
+• We can trace access to logs
+• We can detect abnormal behavior
+• We can explain our controls clearly
+
+--------------------------------------
+INTENDED AUDIENCE
+--------------------------------------
+• Entry-level SOC analysts
+• Security interns
+• IT professionals moving into security
+• Anyone learning to think defensively
+
+
