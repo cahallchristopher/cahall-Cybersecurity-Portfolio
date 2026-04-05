@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LightIDS Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0d1117; --surface: #161b22; --border: #30363d;
+      --accent: #00d4aa; --danger: #f85149; --warn: #e3b341;
+      --info: #58a6ff; --success: #3fb950; --text: #e6edf3; --muted: #8b949e;
+      --sidebar: 210px;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; font-size: 14px; display: flex; min-height: 100vh; }
+    .sidebar { width: var(--sidebar); background: var(--surface); border-right: 1px solid var(--border); display: flex; flex-direction: column; position: fixed; top: 0; left: 0; bottom: 0; }
+    .sidebar-logo { padding: 1.2rem 1rem; border-bottom: 1px solid var(--border); }
+    .sidebar-logo .title { font-size: 1.1rem; font-weight: 800; color: var(--accent); letter-spacing: 2px; }
+    .sidebar-logo .sub   { font-size: .65rem; color: var(--muted); letter-spacing: 1px; margin-top: 2px; }
+    .nav { flex: 1; padding: 1rem 0; }
+    .nav a { display: flex; align-items: center; gap: .6rem; padding: .5rem 1rem; color: var(--muted); text-decoration: none; font-size: .85rem; font-weight: 500; border-left: 3px solid transparent; transition: all .15s; }
+    .nav a:hover { color: var(--text); background: rgba(0,212,170,.07); border-left-color: var(--accent); }
+    .nav .sep { font-size: .65rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--muted); padding: 1rem 1rem .4rem; opacity: .6; }
+    .sidebar-footer { padding: .8rem 1rem; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .user-info .name { font-size: .8rem; font-weight: 600; }
+    .user-info .role { font-size: .65rem; color: var(--muted); }
+    .btn-out { background: none; border: 1px solid var(--border); color: var(--muted); border-radius: 5px; padding: .3rem .5rem; cursor: pointer; font-size: .75rem; }
+    .btn-out:hover { border-color: var(--danger); color: var(--danger); }
+    .main { margin-left: var(--sidebar); flex: 1; display: flex; flex-direction: column; }
+    .topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: .8rem 1.5rem; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 50; }
+    .topbar h2 { font-size: 1rem; font-weight: 700; }
+    .topbar .ts { font-size: .75rem; color: var(--muted); }
+    .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--success); margin-right: 5px; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+    .content { padding: 1.5rem; display: flex; flex-direction: column; gap: 1.2rem; }
+    .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: .8rem; }
+    .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; position: relative; overflow: hidden; }
+    .stat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+    .stat-card.c0::before { background: var(--accent); }
+    .stat-card.c1::before { background: var(--danger); }
+    .stat-card.c2::before { background: #f97316; }
+    .stat-card.c3::before { background: var(--warn); }
+    .stat-card.c4::before { background: var(--info); }
+    .stat-card .lbl { font-size: .68rem; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 600; }
+    .stat-card .val { font-size: 2rem; font-weight: 800; margin-top: .3rem; line-height: 1; }
+    .stat-card.c0 .val { color: var(--accent); }
+    .stat-card.c1 .val { color: var(--danger); }
+    .stat-card.c2 .val { color: #f97316; }
+    .stat-card.c3 .val { color: var(--warn); }
+    .stat-card.c4 .val { color: var(--info); }
+    .stat-card .ico { position: absolute; right: .8rem; top: .8rem; font-size: 1.6rem; opacity: .15; }
+    .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .panel-hdr { padding: .8rem 1rem; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .panel-hdr h3 { font-size: .85rem; font-weight: 700; }
+    .panel-body { padding: 1rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; align-items: start; }
+    .tbl-wrap { overflow-x: auto; max-height: 360px; overflow-y: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: .8rem; }
+    th { text-align: left; padding: .5rem .7rem; font-size: .65rem; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); border-bottom: 1px solid var(--border); white-space: nowrap; }
+    td { padding: .5rem .7rem; border-bottom: 1px solid rgba(48,54,61,.5); max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(255,255,255,.03); }
+    .badge { display: inline-block; padding: .15rem .5rem; border-radius: 4px; font-size: .68rem; font-weight: 700; text-transform: uppercase; }
+    .bCRITICAL { background: rgba(248,81,73,.2);  color: var(--danger); }
+    .bHIGH     { background: rgba(249,115,22,.2); color: #f97316; }
+    .bMEDIUM   { background: rgba(227,179,65,.2); color: var(--warn); }
+    .bLOW      { background: rgba(63,185,80,.2);  color: var(--success); }
+    .tbadge    { background: rgba(31,111,235,.15); color: var(--info); border-radius: 4px; padding: .15rem .45rem; font-size: .68rem; font-weight: 600; }
+    .filter-bar { display: flex; gap: .6rem; flex-wrap: wrap; margin-bottom: .8rem; }
+    .filter-bar select, .filter-bar input { background: #1c2128; border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: .35rem .6rem; font-size: .8rem; outline: none; }
+    .filter-bar select:focus, .filter-bar input:focus { border-color: var(--accent); }
+    .btn-a { padding: .35rem .7rem; border-radius: 6px; font-size: .8rem; font-weight: 600; cursor: pointer; border: 1px solid; background: var(--accent); color: #000; border-color: var(--accent); }
+    .btn-g { padding: .35rem .7rem; border-radius: 6px; font-size: .8rem; font-weight: 600; cursor: pointer; border: 1px solid var(--border); background: transparent; color: var(--muted); }
+    .btn-g:hover { color: var(--text); border-color: var(--accent); }
+    .chart-wrap { position: relative; height: 220px; width: 100%; min-height: 220px; }
+    .ip-row { display: flex; align-items: center; gap: .6rem; padding: .35rem 0; }
+    .ip-row .ip  { font-family: monospace; font-size: .8rem; min-width: 110px; }
+    .ip-row .bar { flex: 1; background: var(--bg); border-radius: 4px; height: 8px; overflow: hidden; }
+    .ip-row .fill { height: 100%; background: var(--accent); border-radius: 4px; }
+    .ip-row .cnt { font-size: .75rem; color: var(--muted); min-width: 30px; text-align: right; }
+    .ip-row .loc { font-size: .68rem; color: var(--muted); min-width: 100px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .pills { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .pill  { display: flex; align-items: center; gap: .4rem; background: #1c2128; border: 1px solid var(--border); border-radius: 20px; padding: .3rem .7rem; font-size: .75rem; }
+    .pill .dot2 { width: 8px; height: 8px; border-radius: 50%; }
+    .empty { text-align: center; padding: 2rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    <div>🛡️</div>
+    <div class="title">LightIDS</div>
+    <div class="sub">Security Operations</div>
+  </div>
+  <nav class="nav">
+    <div class="sep">Monitoring</div>
+    <a href="#overview">📊 Overview</a>
+    <a href="#alerts">🚨 Alerts</a>
+    <a href="#top-ips">🌍 Top IPs</a>
+    <a href="#blocked">🚫 Blocked</a>
+    <div class="sep">Export</div>
+    <a href="/export/json">📄 JSON</a>
+    <a href="/export/csv">📋 CSV</a>
+  </nav>
+  <div class="sidebar-footer">
+    <div class="user-info">
+      <div class="name">{{ session.get('username','Admin') }}</div>
+      <div class="role">SOC Analyst</div>
+    </div>
+    <a href="/logout"><button class="btn-out">Sign Out</button></a>
+  </div>
+</aside>
+<div class="main">
+  <div class="topbar">
+    <h2><span class="dot"></span>Security Dashboard</h2>
+    <div class="ts">🕐 {{ now }} &nbsp;|&nbsp; Refresh in <span id="cd">30</span>s</div>
+  </div>
+  <div class="content">
+    <div id="overview" class="stat-grid">
+      <div class="stat-card c0"><div class="ico">🔔</div><div class="lbl">Total Alerts</div><div class="val">{{ summary.total }}</div></div>
+      <div class="stat-card c1"><div class="ico">🔴</div><div class="lbl">Critical</div><div class="val">{{ summary.by_severity.get('CRITICAL', 0) }}</div></div>
+      <div class="stat-card c2"><div class="ico">🟠</div><div class="lbl">High</div><div class="val">{{ summary.by_severity.get('HIGH', 0) }}</div></div>
+      <div class="stat-card c3"><div class="ico">🟡</div><div class="lbl">Medium</div><div class="val">{{ summary.by_severity.get('MEDIUM', 0) }}</div></div>
+      <div class="stat-card c4"><div class="ico">🚫</div><div class="lbl">Blocked IPs</div><div class="val">{{ summary.blocked_count }}</div></div>
+    </div>
+    <div class="panel">
+      <div class="panel-hdr"><h3>📌 Alerts by Type</h3></div>
+      <div class="panel-body">
+        <div class="pills">
+          {% set tc = {'brute_force':'#f85149','cve_exploit':'#f97316','bad_crawler':'#e3b341','bad_ip':'#58a6ff','bad_referrer':'#a371f7','rate_limit':'#00d4aa'} %}
+          {% for atype, cnt in summary.by_type.items() %}
+          <div class="pill">
+            <span class="dot2" style="background:{{ tc.get(atype,'#8b949e') }}"></span>
+            <strong>{{ cnt }}</strong>
+            <span style="color:var(--muted)">{{ atype.replace('_',' ').title() }}</span>
+          </div>
+          {% else %}
+          <span style="color:var(--muted)">No alerts yet</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="two-col">
+      <div class="panel">
+        <div class="panel-hdr"><h3>📈 Last 24 Hours</h3></div>
+        <div class="panel-body"><div class="chart-wrap"><canvas id="tlChart"></canvas></div></div>
+      </div>
+      <div class="panel">
+        <div class="panel-hdr"><h3>🍩 Distribution</h3></div>
+        <div class="panel-body"><div class="chart-wrap"><canvas id="typeChart"></canvas></div></div>
+      </div>
+    </div>
+    <div id="alerts" class="panel">
+      <div class="panel-hdr">
+        <h3>🚨 Recent Alerts</h3>
+        <div style="display:flex;gap:.5rem">
+          <a href="/export/json"><button class="btn-g">JSON</button></a>
+          <a href="/export/csv"><button class="btn-g">CSV</button></a>
+        </div>
+      </div>
+      <div class="panel-body">
+        <div class="filter-bar">
+          <select id="fType">
+            <option value="">All Types</option>
+            <option value="brute_force">Brute Force</option>
+            <option value="cve_exploit">CVE Exploit</option>
+            <option value="bad_crawler">Bad Crawler</option>
+            <option value="bad_ip">Bad IP</option>
+            <option value="bad_referrer">Bad Referrer</option>
+            <option value="rate_limit">Rate Limit</option>
+          </select>
+          <input type="text" id="fIP" placeholder="Filter by IP..." style="width:140px">
+          <button class="btn-a" onclick="applyFilters()">Filter</button>
+          <button class="btn-g" onclick="clearFilters()">Clear</button>
+        </div>
+        <div class="tbl-wrap">
+          <table id="alertTable">
+            <thead><tr><th>#</th><th>Time</th><th>Type</th><th>Severity</th><th>Source IP</th><th>Description</th><th>Blocked</th></tr></thead>
+            <tbody>
+              {% for a in alerts %}
+              <tr>
+                <td style="color:var(--muted)">{{ a.id }}</td>
+                <td style="color:var(--muted)">{{ a.timestamp[:19] }}</td>
+                <td><span class="tbadge">{{ a.alert_type.replace('_',' ') }}</span></td>
+                <td><span class="badge b{{ a.severity }}">{{ a.severity }}</span></td>
+                <td><code style="font-size:.78rem">{{ a.source_ip }}</code></td>
+                <td title="{{ a.description }}">{{ a.description[:80] }}{% if a.description|length > 80 %}…{% endif %}</td>
+                <td>{% if a.blocked %}🚫{% else %}—{% endif %}</td>
+              </tr>
+              {% else %}
+              <tr><td colspan="7" class="empty">No alerts yet</td></tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div id="top-ips" class="panel">
+      <div class="panel-hdr"><h3>🌍 Top Offending IPs</h3></div>
+      <div class="panel-body">
+        {% if summary.top_ips %}
+          {% set max_cnt = summary.top_ips[0].cnt %}
+          {% for e in summary.top_ips %}
+          <div class="ip-row">
+            <span class="ip">{{ e.source_ip }}</span>
+            <div class="bar"><div class="fill" style="width:{{ (e.cnt / max_cnt * 100)|int }}%"></div></div>
+            <span class="cnt">{{ e.cnt }}</span>
+            <span class="loc">{{ e.get('location','') }}</span>
+          </div>
+          {% endfor %}
+        {% else %}
+          <div class="empty">No IP data yet</div>
+        {% endif %}
+      </div>
+    </div>
+    <div id="blocked" class="panel">
+      <div class="panel-hdr"><h3>🚫 Blocked IPs</h3></div>
+      <div class="panel-body">
+        {% if blocked %}
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>IP</th><th>Blocked At</th><th>Reason</th></tr></thead>
+            <tbody>
+              {% for b in blocked %}
+              <tr>
+                <td><code>{{ b.ip }}</code></td>
+                <td style="color:var(--muted)">{{ b.blocked_at[:19] }}</td>
+                <td>{{ b.reason }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% else %}
+          <div class="empty">No IPs currently blocked</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+const tlData   = {{ summary.timeline | tojson }};
+const byType   = {{ summary.by_type  | tojson }};
+const tcColors = {brute_force:'#f85149',cve_exploit:'#f97316',bad_crawler:'#e3b341',bad_ip:'#58a6ff',bad_referrer:'#a371f7',rate_limit:'#00d4aa'};
+new Chart(document.getElementById('tlChart'), {
+  type: 'bar',
+  data: {
+    labels: tlData.length ? tlData.map(d => d.hour.slice(11,16)) : ['No data'],
+    datasets: [{ label: 'Alerts', data: tlData.length ? tlData.map(d => d.cnt) : [0],
+      backgroundColor: 'rgba(0,212,170,.5)', borderColor: 'rgba(0,212,170,1)',
+      borderWidth: 1, borderRadius: 3 }]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color: '#8b949e', font: { size: 10 } }, grid: { color: '#30363d' } },
+      y: { ticks: { color: '#8b949e', font: { size: 10 } }, grid: { color: '#30363d' }, beginAtZero: true }
+    }
+  }
+});
+const tLabels = Object.keys(byType);
+new Chart(document.getElementById('typeChart'), {
+  type: 'doughnut',
+  data: {
+    labels: tLabels.length ? tLabels.map(l => l.replace(/_/g,' ')) : ['No data'],
+    datasets: [{ data: tLabels.length ? Object.values(byType) : [1],
+      backgroundColor: tLabels.length ? tLabels.map(k => tcColors[k]||'#8b949e') : ['#30363d'],
+      borderWidth: 2, borderColor: '#161b22' }]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'right',
+      labels: { color: '#8b949e', font: { size: 10 }, boxWidth: 12, padding: 10 } } },
+    cutout: '65%'
+  }
+});
+let secs = 30;
+const cdEl = document.getElementById('cd');
+setInterval(() => { secs--; if(cdEl) cdEl.textContent = secs; if(secs <= 0) location.reload(); }, 1000);
+function applyFilters() {
+  const type = document.getElementById('fType').value;
+  const ip   = document.getElementById('fIP').value.trim();
+  let url = '/api/alerts?limit=200';
+  if(type) url += `&type=${encodeURIComponent(type)}`;
+  if(ip)   url += `&ip=${encodeURIComponent(ip)}`;
+  fetch(url).then(r => r.json()).then(renderTable).catch(console.error);
+}
+function clearFilters() {
+  document.getElementById('fType').value = '';
+  document.getElementById('fIP').value   = '';
+  applyFilters();
+}
+function renderTable(alerts) {
+  const tbody = document.querySelector('#alertTable tbody');
+  if(!alerts.length) { tbody.innerHTML = '<tr><td colspan="7" class="empty">No matching alerts</td></tr>'; return; }
+  const sc = {CRITICAL:'bCRITICAL',HIGH:'bHIGH',MEDIUM:'bMEDIUM',LOW:'bLOW'};
+  tbody.innerHTML = alerts.map(a => `
+    <tr>
+      <td style="color:var(--muted)">${a.id}</td>
+      <td style="color:var(--muted)">${(a.timestamp||'').slice(0,19)}</td>
+      <td><span class="tbadge">${(a.alert_type||'').replace(/_/g,' ')}</span></td>
+      <td><span class="badge ${sc[a.severity]||''}">${a.severity}</span></td>
+      <td><code style="font-size:.78rem">${a.source_ip}</code></td>
+      <td title="${a.description||''}">${(a.description||'').slice(0,80)}${(a.description||'').length>80?'…':''}</td>
+      <td>${a.blocked?'🚫':'—'}</td>
+    </tr>`).join('');
+}
+</script>
+</body>
+</html>
+
