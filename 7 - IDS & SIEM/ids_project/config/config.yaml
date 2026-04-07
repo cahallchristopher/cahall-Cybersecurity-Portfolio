@@ -1,0 +1,95 @@
+database:
+  path: "data/ids.db"
+
+log_paths:
+  auth_log:      "/var/log/auth.log"
+  syslog:        "/var/log/syslog"
+  apache_access: "/var/log/apache2/access.log"
+  apache_error:  "/var/log/apache2/error.log"
+  nginx_access:  "/var/log/nginx/access.log"
+
+detection:
+
+  brute_force:
+    enabled: true
+    threshold: 5
+    window_seconds: 60
+    severity: "HIGH"
+
+  cve_patterns:
+    enabled: true
+    severity: "CRITICAL"
+    patterns:
+      - "../"
+      - "/etc/passwd"
+      - "/etc/shadow"
+      - "cmd="
+      - "exec("
+      - ";bash"
+      - "wget%20"
+      - "curl%20"
+      - "<script"
+      - "UNION+SELECT"
+      - "UNION%20SELECT"
+      - "1=1--"
+      - "DROP+TABLE"
+      - "base64_decode"
+      - "file://"
+
+  bad_crawlers:
+    enabled: true
+    severity: "MEDIUM"
+    user_agents:
+      - "sqlmap"
+      - "nikto"
+      - "nmap"
+      - "masscan"
+      - "dirbuster"
+      - "gobuster"
+      - "wfuzz"
+      - "hydra"
+      - "acunetix"
+      - "nessus"
+      - "metasploit"
+      - "python-requests/2"
+      - "go-http-client"
+      - "libwww-perl"
+
+  bad_ips:
+    enabled: true
+    severity: "HIGH"
+    blacklist:
+      - "192.168.56.99"
+    blocklist_file: "data/blocklist.txt"
+
+  bad_referrers:
+    enabled: true
+    severity: "MEDIUM"
+    patterns:
+      - "eval("
+      - "<script"
+      - "base64_decode"
+      - "viagra"
+      - "casino"
+
+  rate_limit:
+    enabled: true
+    max_requests: 100
+    window_seconds: 60
+    severity: "MEDIUM"
+
+ip_blocking:
+  enabled: false
+  repeat_offender_threshold: 3
+
+dashboard:
+  host: "0.0.0.0"
+  port: 5000
+  secret_key: "change-this-to-a-random-string"
+  username: "admin"
+  password: "admin123"
+
+monitoring:
+  poll_interval: 5
+
+

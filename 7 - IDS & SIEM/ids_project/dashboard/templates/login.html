@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LightIDS Login</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0d1117;
+      color: #e6edf3;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 2.5rem 2rem;
+      width: 100%;
+      max-width: 380px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.5);
+    }
+    .logo { text-align: center; margin-bottom: 2rem; }
+    .logo .icon { font-size: 3rem; display: block; }
+    .logo h1 { font-size: 1.5rem; color: #00d4aa; letter-spacing: 2px; margin-top: .4rem; }
+    .logo p  { font-size: .75rem; color: #8b949e; letter-spacing: 1px; margin-top: .2rem; }
+    label {
+      display: block;
+      font-size: .75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #8b949e;
+      margin-bottom: .4rem;
+      margin-top: 1rem;
+    }
+    input {
+      width: 100%;
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      color: #e6edf3;
+      padding: .6rem .8rem;
+      font-size: .95rem;
+      outline: none;
+    }
+    input:focus { border-color: #00d4aa; }
+    .btn {
+      width: 100%;
+      background: #00d4aa;
+      color: #000;
+      border: none;
+      border-radius: 6px;
+      padding: .7rem;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 1.5rem;
+    }
+    .btn:hover { opacity: .85; }
+    .error {
+      background: rgba(248,81,73,.15);
+      border: 1px solid #f85149;
+      color: #f85149;
+      border-radius: 6px;
+      padding: .6rem .8rem;
+      font-size: .85rem;
+      margin-bottom: 1rem;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 1.5rem;
+      font-size: .7rem;
+      color: #8b949e;
+      letter-spacing: .5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <span class="icon">🛡️</span>
+      <h1>LightIDS</h1>
+      <p>INTRUSION DETECTION SYSTEM</p>
+    </div>
+    {% if error %}
+    <div class="error">⚠ {{ error }}</div>
+    {% endif %}
+    <form method="POST">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="admin" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="••••••••" required>
+      <button type="submit" class="btn">Sign In</button>
+    </form>
+    <div class="footer">SOC ANALYST DASHBOARD · CONFIDENTIAL</div>
+  </div>
+</body>
+</html>
+
