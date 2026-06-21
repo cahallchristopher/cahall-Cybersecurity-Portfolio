@@ -39,14 +39,15 @@ OpenWrt VM (virtualized router/firewall)
 
    What's in this repo
 
-File
-What it covers
-PROJECT_JOURNAL.md
-Chronological build log — every phase, in order
-TROUBLESHOOTING_GUIDE.md
-Every bug hit, root cause, and fix, organized by category
-COMMAND_REFERENCE.mdEvery command used, grouped by tool
-ARCHITECTURE.md
-Network diagrams, IP plan, firewall rules, trust zones
-LESSONS_LEARNED.md
-What I'd do differently, and why
+File                                                       what it covers
+                                                         
+                                                         
+PROJECT_JOURNAL.md                                       Chronological build log:every phase,in order
+
+TROUBLESHOOTING_GUIDE.md                                 Every bug hit,root cause,and fix
+
+COMMAND_REFERENCE.md                                     Every command used, grouped by tool
+
+ARCHITECTURE.md                                         Network diagrams, IP plan, firewall rules, trust zones
+ 
+LESSONS_LEARNED.md                                      What I'd do differently, and why
