@@ -1,48 +1,141 @@
-## Home Cyber Range: Virtualized Network with Red/Blue Segmentation, IDS, and SIEM
+# Home Cyber Range (SOC Analyst Lab)
 
-Built a home cyber range that simulates a small enterprise network on a single Linux Mint workstation.
+## overview
 
-Designed separate red team and blue team network segments using KVM, GNS3, and pfSense to create realistic attack and defense scenarios. Configured routing, firewall rules, and network isolation to control traffic between environments.
+i built a small cyber range to practice soc work in a realistic setup. it’s a virtual network with segmentation, logging, and detection tools.
 
-Deployed a security monitoring stack with Wazuh and Suricata to collect logs, detect threats, and generate alerts. Integrated endpoints, network sensors, and centralized logging to improve visibility across the environment.
+it’s meant to simulate what you’d see in a basic enterprise environment. multiple zones, controlled traffic, and security monitoring in place.
 
-Created attacker and target systems to test common attack techniques and validate detection rules. Used the lab to analyze network traffic, investigate alerts, and practice incident response workflows.
+---
 
-Deployed Wazuh and Suricata to collect logs, monitor network traffic, and generate security alerts. Created attacker and target systems to test detections and practice incident response workflows.
+## what this lab is
 
-Installed, configured, and maintained every component by hand. Troubleshot issues involving virtual networking, DNS, routing, firewall policies, and service connectivity.
+this is a segmented virtual network with attack and defense components.
 
-Documented the full build process, including terminal commands, configuration changes, problems encountered, and the steps used to resolve them.
+it includes:
+- network segmentation
+- intrusion detection
+- centralized logging
+- siem-style analysis
+- controlled attack simulation
 
-**Technologies:** Linux Mint, KVM, GNS3, pfSense, Wazuh, Suricata, Virtual Networking, SIEM, IDS/IPS, Network Segmentation
+---
 
-Architecture
-Internet
-   │
-Linux Mint host (wlo1 — real uplink, never modified)
-   │
-OpenWrt VM (virtualized router/firewall)
-   ├── WAN   — internet uplink
-   ├── MGMT  — administrative access (SSH)
-   ├── LAN   — general segment, bridges into GNS3
-   └── IOT   — isolated segment
-        │
-   GNS3 (network simulation platform)
-        │
-   pfSense (4-interface firewall, the core of the range)
-   ├── WAN   — uplink through OpenWrt
-   ├── LAN   — Blue Team / Wazuh SIEM (192.168.1.0/24)
-   ├── DMZ   — Metasploitable2 target (192.168.20.0/24)
-   └── RED   — Kali Linux attacker (192.168.30.0/24)
+## network layout
 
-   Firewall rules enforce real segmentation: RED can attack DMZ, DMZ can never reach LAN, and a single narrow exception (UDP/514 syslog) lets DMZ ship logs to the SIEM without opening anything else.
+- **WAN** – simulated internet
+- **LAN** – internal systems
+- **DMZ** – exposed services
+- **RED** – attacker network
 
-   What's in this repo
+traffic is restricted by default. only specific flows are allowed between zones.
 
-Project Documentation Structure
-	File	What It Covers
-1	PROJECT_JOURNAL.md	Chronological build log covering every phase of the project from start to finish.
-2	ARCHITECTURE.md	Network diagrams, IP address plan, firewall rules, and trust zones.
-3	COMMAND_REFERENCE.md	Every command used during the build, grouped by tool and technology.
-4	TROUBLESHOOTING_GUIDE.md	Issues encountered, root causes, troubleshooting steps, and fixes, organized by category.
-5	LESSONS_LEARNED.md	What worked well, what could be improved, and what would be done differently in future builds.
+---
+
+## tools used
+
+### network and virtualization
+- OpenWrt (routing)
+- pfSense (firewall)
+- libvirt / KVM (virtual machines)
+
+### attack simulation
+- Kali Linux (attacker system)
+- Metasploitable2 (vulnerable target)
+
+### detection and logging
+- Suricata (intrusion detection)
+- Wazuh (log analysis / siem)
+- syslog (log forwarding)
+
+---
+
+## what i practiced here
+
+### network segmentation
+i built a multi-zone network and enforced separation between systems.
+
+everything is blocked by default. only required traffic is allowed through firewall rules.
+
+---
+
+### detection pipeline
+i set up a basic detection flow:
+
+suricata detects traffic  
+logs get forwarded  
+wazuh processes and shows alerts  
+
+i tested this with custom rules to make sure alerts actually show up end to end.
+
+---
+
+### troubleshooting real issues
+
+#### bridge interface issue
+a virtual bridge kept coming back after i deleted it.
+
+it wasn’t obvious at first. i checked running services, but that didn’t explain it.
+
+eventually i traced it to a conflict between NetworkManager and libvirt.
+
+i confirmed it by checking MAC addresses before and after reboot.
+
+---
+
+### legacy system support
+i also worked with older systems that don’t behave well with modern tools.
+
+- ubuntu 8.04
+- fips-restricted amazon linux 2
+
+i had to deal with broken repositories and missing packages. some things needed manual fixes instead of normal installs.
+
+---
+
+### siem and logging issues
+at one point, logs were not showing in wazuh.
+
+suricata was running, but alerts were not being ingested.
+
+the issue ended up being a small xml config error. there was no obvious error message, so i had to check each step in the pipeline.
+
+---
+
+## current status
+
+the lab is working.
+
+- OpenWrt handles routing
+- pfSense handles firewall rules
+- Kali runs attack simulations
+- Wazuh collects logs and shows alerts
+- Suricata monitors LAN traffic
+
+---
+
+## known limitation
+
+suricata only sees LAN traffic right now.
+
+it does not inspect traffic between RED and DMZ yet. i plan to fix that later.
+
+---
+
+## files in this project
+
+- `PROJECT_JOURNAL.md` – full build notes
+- `TROUBLESHOOTING_GUIDE.md` – fixes and errors i ran into
+- `LESSONS_LEARNED.md` – what i would improve next time
+
+---
+
+## why this matters
+
+this setup helps me practice real soc tasks like:
+
+- alert triage
+- log analysis
+- intrusion detection
+- incident investigation
+- network troubleshooting
