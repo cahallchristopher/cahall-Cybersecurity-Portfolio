@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+models/*.keras
+models/*.h5
+logs/*.log
+logs/*.json
+.DS_Store
+Thumbs.db
