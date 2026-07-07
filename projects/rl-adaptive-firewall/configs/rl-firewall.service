@@ -1,0 +1,48 @@
+[Unit]
+Description=RL Adaptive Firewall
+Documentation=https://github.com/yourname/rl-firewall
+After=network-online.target libvirtd.service
+Wants=network-online.target
+# Don't start until the network is fully up — we need enp1s0 and enp2s0
+# to have their IP addresses before nfqueue rules make sense
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/adam/rl-firewall
+
+# Load nfqueue kernel module before anything else
+ExecStartPre=/sbin/modprobe nfnetlink_queue
+
+# Set up iptables NFQUEUE rules
+ExecStartPre=/bin/bash /home/adam/rl-firewall/rules/setup_nfqueue.sh
+
+# Start metrics exporter in background (& is not allowed in systemd,
+# so we use a separate service for this — see rl-firewall-metrics.service)
+
+# Start the main firewall process
+ExecStart=/home/adam/rl-firewall/venv/bin/python /home/adam/rl-firewall/rl_firewall.py
+
+# On stop: restore normal forwarding before the process exits
+ExecStopPost=/bin/bash /home/adam/rl-firewall/rules/teardown_nfqueue.sh
+
+# Restart automatically if the process crashes
+# (but not if it exits cleanly with Ctrl+C / SIGTERM)
+Restart=on-failure
+RestartSec=10
+
+# Give TensorFlow time to load before the watchdog times out
+TimeoutStartSec=60
+
+# Log to the system journal as well as our own log file
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=rl-firewall
+
+# Environment — suppress the CUDA warnings (we have no GPU)
+Environment=TF_ENABLE_ONEDNN_OPTS=0
+Environment=CUDA_VISIBLE_DEVICES=""
+Environment=TF_CPP_MIN_LOG_LEVEL=3
+
+[Install]
+WantedBy=multi-user.target
