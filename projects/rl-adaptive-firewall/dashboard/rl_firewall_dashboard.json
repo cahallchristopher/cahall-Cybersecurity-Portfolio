@@ -1,0 +1,224 @@
+{
+  "title": "RL Adaptive Firewall",
+  "uid": "rl-firewall-v1",
+  "timezone": "browser",
+  "refresh": "5s",
+  "time": { "from": "now-15m", "to": "now" },
+  "panels": [
+    {
+      "id": 1,
+      "title": "Packets Processed",
+      "type": "stat",
+      "gridPos": { "x": 0, "y": 0, "w": 4, "h": 4 },
+      "targets": [{
+        "expr": "rl_firewall_packets_total",
+        "legendFormat": "Packets"
+      }],
+      "options": { "colorMode": "background", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" },
+        "thresholds": { "steps": [
+          { "color": "green", "value": 0 },
+          { "color": "yellow", "value": 1000 },
+          { "color": "red", "value": 10000 }
+        ]}}}
+    },
+    {
+      "id": 2,
+      "title": "Active Flows",
+      "type": "stat",
+      "gridPos": { "x": 4, "y": 0, "w": 4, "h": 4 },
+      "targets": [{
+        "expr": "rl_firewall_flows_active",
+        "legendFormat": "Flows"
+      }],
+      "options": { "colorMode": "background" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" },
+        "thresholds": { "steps": [
+          { "color": "green", "value": 0 },
+          { "color": "yellow", "value": 100 },
+          { "color": "red", "value": 1000 }
+        ]}}}
+    },
+    {
+      "id": 3,
+      "title": "Blocked IPs",
+      "type": "stat",
+      "gridPos": { "x": 8, "y": 0, "w": 4, "h": 4 },
+      "targets": [{
+        "expr": "rl_firewall_blocked_ips",
+        "legendFormat": "Blocked"
+      }],
+      "options": { "colorMode": "background" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" },
+        "thresholds": { "steps": [
+          { "color": "green", "value": 0 },
+          { "color": "orange", "value": 1 },
+          { "color": "red", "value": 10 }
+        ]}}}
+    },
+    {
+      "id": 4,
+      "title": "Agent Epsilon (Exploration Rate)",
+      "type": "stat",
+      "gridPos": { "x": 12, "y": 0, "w": 4, "h": 4 },
+      "targets": [{
+        "expr": "rl_firewall_epsilon",
+        "legendFormat": "Epsilon"
+      }],
+      "options": { "colorMode": "background" },
+      "fieldConfig": { "defaults": {
+        "min": 0, "max": 1,
+        "unit": "percentunit",
+        "color": { "mode": "thresholds" },
+        "thresholds": { "steps": [
+          { "color": "green", "value": 0 },
+          { "color": "yellow", "value": 0.3 },
+          { "color": "red", "value": 0.7 }
+        ]}}}
+    },
+    {
+      "id": 5,
+      "title": "Total Reward",
+      "type": "stat",
+      "gridPos": { "x": 16, "y": 0, "w": 4, "h": 4 },
+      "targets": [{
+        "expr": "rl_firewall_total_reward",
+        "legendFormat": "Reward"
+      }],
+      "options": { "colorMode": "background" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" },
+        "thresholds": { "steps": [
+          { "color": "red", "value": -1000 },
+          { "color": "yellow", "value": 0 },
+          { "color": "green", "value": 100 }
+        ]}}}
+    },
+    {
+      "id": 6,
+      "title": "Training Loss over Time",
+      "type": "timeseries",
+      "gridPos": { "x": 0, "y": 4, "w": 12, "h": 8 },
+      "targets": [{
+        "expr": "rl_firewall_avg_loss",
+        "legendFormat": "Avg Loss (last 100 steps)"
+      }],
+      "fieldConfig": { "defaults": {
+        "color": { "mode": "palette-classic" },
+        "custom": { "lineWidth": 2 }
+      }}
+    },
+    {
+      "id": 7,
+      "title": "Cumulative Reward over Time",
+      "type": "timeseries",
+      "gridPos": { "x": 12, "y": 4, "w": 12, "h": 8 },
+      "targets": [{
+        "expr": "rl_firewall_total_reward",
+        "legendFormat": "Total Reward"
+      }],
+      "fieldConfig": { "defaults": {
+        "color": { "mode": "fixed", "fixedColor": "green" },
+        "custom": { "lineWidth": 2 }
+      }}
+    },
+    {
+      "id": 8,
+      "title": "Action Distribution",
+      "type": "timeseries",
+      "gridPos": { "x": 0, "y": 12, "w": 14, "h": 8 },
+      "targets": [
+        { "expr": "rl_firewall_action_allow",      "legendFormat": "ALLOW" },
+        { "expr": "rl_firewall_action_block_ip",   "legendFormat": "BLOCK_IP" },
+        { "expr": "rl_firewall_action_rate_limit", "legendFormat": "RATE_LIMIT" },
+        { "expr": "rl_firewall_action_log_watch",  "legendFormat": "LOG_WATCH" },
+        { "expr": "rl_firewall_action_block_port", "legendFormat": "BLOCK_PORT" }
+      ],
+      "fieldConfig": { "defaults": {
+        "custom": { "lineWidth": 2, "fillOpacity": 10 }
+      }}
+    },
+    {
+      "id": 9,
+      "title": "Replay Buffer Fill",
+      "type": "timeseries",
+      "gridPos": { "x": 14, "y": 12, "w": 10, "h": 8 },
+      "targets": [{
+        "expr": "rl_firewall_buffer_size",
+        "legendFormat": "Buffer Size"
+      }],
+      "fieldConfig": { "defaults": {
+        "color": { "mode": "fixed", "fixedColor": "blue" },
+        "custom": { "lineWidth": 2 },
+        "max": 50000
+      }}
+    },
+    {
+      "id": 10,
+      "title": "System CPU Usage",
+      "type": "timeseries",
+      "gridPos": { "x": 0, "y": 20, "w": 12, "h": 6 },
+      "targets": [{
+        "expr": "100 - (avg by(instance) (rate(node_cpu_seconds_total{mode='idle'}[1m])) * 100)",
+        "legendFormat": "CPU %"
+      }],
+      "fieldConfig": { "defaults": {
+        "unit": "percent", "min": 0, "max": 100,
+        "color": { "mode": "thresholds" },
+        "thresholds": { "steps": [
+          { "color": "green", "value": 0 },
+          { "color": "yellow", "value": 70 },
+          { "color": "red", "value": 90 }
+        ]}
+      }}
+    },
+    {
+      "id": 11,
+      "title": "System Memory Usage",
+      "type": "timeseries",
+      "gridPos": { "x": 12, "y": 20, "w": 12, "h": 6 },
+      "targets": [{
+        "expr": "(1 - (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)) * 100",
+        "legendFormat": "Memory %"
+      }],
+      "fieldConfig": { "defaults": {
+        "unit": "percent", "min": 0, "max": 100,
+        "color": { "mode": "thresholds" },
+        "thresholds": { "steps": [
+          { "color": "green", "value": 0 },
+          { "color": "yellow", "value": 70 },
+          { "color": "red", "value": 90 }
+        ]}
+      }}
+    },
+    {
+      "id": 12,
+      "title": "Training Episodes",
+      "type": "stat",
+      "gridPos": { "x": 0, "y": 26, "w": 6, "h": 4 },
+      "targets": [{
+        "expr": "rl_firewall_episodes_total",
+        "legendFormat": "Episodes"
+      }],
+      "options": { "colorMode": "value", "graphMode": "area" }
+    },
+    {
+      "id": 13,
+      "title": "Watched IPs",
+      "type": "stat",
+      "gridPos": { "x": 6, "y": 26, "w": 6, "h": 4 },
+      "targets": [{
+        "expr": "rl_firewall_watched_ips",
+        "legendFormat": "Watched"
+      }],
+      "options": { "colorMode": "background" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" },
+        "thresholds": { "steps": [
+          { "color": "green", "value": 0 },
+          { "color": "yellow", "value": 5 },
+          { "color": "red", "value": 20 }
+        ]}}}
+    }
+  ],
+  "schemaVersion": 38,
+  "version": 1
+}
