@@ -1,0 +1,25 @@
+[Unit]
+Description=RL Firewall Prometheus Metrics Exporter
+After=rl-firewall.service
+Wants=rl-firewall.service
+# Wait for the main firewall to start so agent_state.json exists
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/adam/rl-firewall
+
+ExecStart=/home/adam/rl-firewall/venv/bin/python /home/adam/rl-firewall/metrics/exporter.py
+
+Restart=on-failure
+RestartSec=10
+TimeoutStartSec=30
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=rl-firewall-metrics
+
+Environment=TF_CPP_MIN_LOG_LEVEL=3
+
+[Install]
+WantedBy=multi-user.target
