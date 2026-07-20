@@ -1,216 +1,169 @@
-# Exegol + TryHackMe Setup on Lubuntu VM
+# 🛡️ PhishGuard — Real-Time Phishing Detection Browser Extension
 
-![Exegol](https://img.shields.io/badge/Exegol-v5.1.8-blue)
-![Platform](https://img.shields.io/badge/Platform-Lubuntu%2024.04-orange)
-![Docker](https://img.shields.io/badge/Docker-Required-blue)
-![License](https://img.shields.io/badge/License-Personal%20Use-green)
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![Manifest](https://img.shields.io/badge/Manifest-V3-green)
+![Platform](https://img.shields.io/badge/platform-Chrome-yellow)
+![Threats](https://img.shields.io/badge/threats-70%2C000%2B-red)
+![F1 Score](https://img.shields.io/badge/F1%20Score-97%25-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-## 📋 Overview
+> **A working Chrome extension that detects phishing sites in real time — built from scratch, no frameworks, no shortcuts.**
 
-This repository documents the complete setup of **Exegol** (a powerful pentesting framework) on a **Lubuntu VirtualBox VM** with optimized performance settings for penetration testing and cybersecurity labs, specifically configured for **TryHackMe**.
+| What it does | How good is it | How it learns |
+|---|---|---|
+| Scans every URL you visit | 70,000+ live threat database | Q-learning adapts weights from your feedback |
+| Injects red warning banner automatically | 97% F1 score after training | Retrains on live phishing feeds |
+| Inspects page DOM for credential harvesting | 11 independent detection checks | Precision/recall metrics tracked per epoch |
 
-## 🎯 Project Goals
+---
 
-- Install Exegol using best practices (pipx installation)
-- Configure persistent workspace for tools and loot
-- Set up OpenVPN integration for TryHackMe
-- Optimize VirtualBox VM for maximum performance
-- Create convenient aliases for common workflows
+## ⚡ See It In Action
+
+**Visiting a known phishing site:**
+```
+🔴 PhishGuard Warning: Known phishing site, No HTTPS — Click to dismiss
+```
+
+**Visiting Google:**
+```
+✅ Site looks safe — Tracking 70,965 threats
+```
+
+**After professional bulk training:**
+```
+Epoch 3/3 — Train: 96% | F1: 0.974 | Precision: 0.972 | Recall: 0.977
+True Positives: 420 | False Positives: 12 | F1 Score: 0.974
+```
+
+---
+
+## 🔍 11 Detection Checks — Two Layers
+
+### URL Layer (runs before the page loads)
+| Check | What it catches |
+|---|---|
+| **No HTTPS** | Unencrypted pages — credentials sent in plaintext |
+| **Suspicious keywords** | `login`, `verify`, `account`, `confirm` in the URL path |
+| **Live blacklist** | 70,000+ confirmed phishing URLs from OpenPhish + URLhaus |
+| **Redirect parameters** | `?goto=`, `?url=`, `?redirect=` — destination hiding |
+| **Excessive subdomains** | `login.secure.verify.paypal.evil.com` — depth > 4 |
+| **High-risk TLDs** | `.xyz`, `.tk`, `.ml`, `.ga`, `.cf` — free domains abused by phishers |
+| **Long URLs** | > 100 characters — obfuscation technique |
+
+### DOM Layer (runs after the page loads)
+| Check | What it catches |
+|---|---|
+| **External form action** | Form submits credentials to a different domain |
+| **Password field on HTTP** | Credentials sent unencrypted |
+| **Hidden iframes** | Zero-size cross-origin iframes — clickjacking signature |
+| **Urgency language** | "Your account will be suspended", "verify immediately" |
+
+---
+
+## 🧠 Q-Learning Adaptive Scoring
+
+Each check has a weight. Weights adjust based on your feedback:
+
+```
+"Mark as safe"    → weights decrease → fewer false positives
+"Confirm threat"  → weights increase → more aggressive detection
+```
+
+Weights persist across sessions in `chrome.storage.local`. The more you use it, the more accurate it gets for your browsing patterns.
+
+---
+
+## 🔬 Professional Training Pipeline
+
+The `training/` folder contains 6 scripts that train the model using security engineer practices:
+
+```
+train-5-reset.js              → reset weights to defaults
+train-1-url-patterns.js       → general URL heuristics (15 phishing + 15 safe)
+train-2-homoglyphs.js         → brand spoofing: paypa1, g00gle, micros0ft
+train-3-redirects.js          → redirect chain attacks
+train-4-tld-risk.js           → high-risk TLD scoring
+train-6-bulk-professional.js  → live feeds + 80/20 split + precision/recall/F1
+```
+
+`train-6-bulk-professional.js` fetches 500+ live phishing URLs, splits 80/20 train/test, runs 3 epochs, and outputs a full confusion matrix — the same evaluation approach used in production security tools.
+
+---
 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────┐
-│ VirtualBox Host (Windows/Mac/Linux)                 │
-│  ├── Optimized VM Settings                          │
-│  └── Hardware Virtualization Enabled                │
-└──────────────────┬──────────────────────────────────┘
-                   │
-┌──────────────────▼──────────────────────────────────┐
-│ Lubuntu 24.04 VM                                    │
-│  ├── Docker Engine                                  │
-│  ├── Exegol (via pipx)                             │
-│  └── ~/exegol-workspace/                           │
-│      ├── vpn/      (TryHackMe .ovpn files)         │
-│      ├── tools/    (Custom scripts)                │
-│      └── loot/     (Captured data)                 │
-└──────────────────┬──────────────────────────────────┘
-                   │
-┌──────────────────▼──────────────────────────────────┐
-│ Exegol Docker Container "thm"                       │
-│  ├── Full pentesting suite                         │
-│  ├── Mounted workspace (/workspace)                │
-│  └── OpenVPN client                                │
-└─────────────────────────────────────────────────────┘
+┌─────────────────┐     messages      ┌──────────────────────┐
+│   popup.js      │ ◄───────────────► │   background.js      │
+│  (UI + scoring) │                   │  (fetch + storage)   │
+└─────────────────┘                   └──────────────────────┘
+                                               │
+                                    chrome.storage.local
+                                    (70,000+ URL blacklist)
+                                               │
+┌─────────────────┐                            ▼
+│   content.js    │ ◄──────── reads ────── phishList[]
+│  (DOM inspector)│
+│  auto-banner    │
+└─────────────────┘
 ```
 
-## ⚡ Features
+**Why Manifest V3?** Service Workers sleep between events — far less memory than MV2 persistent background pages.
 
-- ✅ **Optimized Installation**: Uses pipx for clean Python package management
-- ✅ **Persistent Storage**: Workspace mounted for data persistence
-- ✅ **TryHackMe Ready**: Pre-configured OpenVPN integration
-- ✅ **Performance Tuned**: VirtualBox optimizations for smooth operation
-- ✅ **Convenient Aliases**: Quick commands for common tasks
-- ✅ **Best Practices**: Follows Linux FHS with proper directory structure
+**Why weighted scoring over a blacklist?** Blacklists only catch known threats. Phishing sites spin up and disappear within hours. Heuristic scoring catches novel sites by pattern before they're reported.
 
-## 📦 Prerequisites
-
-### Host Machine Requirements
-- VirtualBox 6.1+ or 7.0+
-- CPU with VT-x/AMD-V support (enabled in BIOS)
-- Minimum 16GB RAM (8GB for VM)
-- 50GB+ free disk space
-- SSD recommended for best performance
-
-### VM Specifications (Recommended)
-- **OS**: Lubuntu 24.04 LTS
-- **RAM**: 8GB (minimum 4GB)
-- **CPU**: 4 cores
-- **Disk**: 40GB dynamic VDI
-- **Network**: NAT or Bridged
-
-## 🚀 Quick Start
-
-### 1. Install Exegol
-```bash
-# One-liner installation
-sudo apt update && sudo apt install -y docker.io docker-compose git pipx && \
-sudo systemctl enable docker --now && \
-sudo usermod -aG docker $USER && \
-pipx install exegol && \
-pipx ensurepath && \
-mkdir -p ~/exegol-workspace/{vpn,tools,loot}
-```
-
-### 2. Configure Aliases
-```bash
-cat >> ~/.bashrc << 'EOF'
-
-# ─── Exegol Aliases ───────────────────────────────────────────
-alias exegol-install='exegol install'
-alias exegol-start='exegol start thm -w ~/exegol-workspace'
-alias exegol-stop='exegol stop'
-alias exegol-shell='exegol exec thm'
-alias thm-vpn='sudo openvpn ~/workspace/vpn/*.ovpn &'
-alias thm-check='ip addr show tun0'
-alias exegol-thm='exegol start thm -w ~/exegol-workspace && exegol exec thm sudo openvpn ~/workspace/vpn/*.ovpn'
-# ──────────────────────────────────────────────────────────────
-EOF
-
-source ~/.bashrc
-```
-
-### 3. Logout and Login
-```bash
-logout
-# Required for Docker group permissions
-```
-
-### 4. Install Exegol Image
-```bash
-exegol install
-# Choose "full" when prompted (recommended for pentesting)
-```
-
-### 5. Download TryHackMe VPN
-1. Go to https://tryhackme.com/access
-2. Download your `.ovpn` file
-3. Copy to workspace:
-```bash
-cp ~/Downloads/*.ovpn ~/exegol-workspace/vpn/
-```
-
-### 6. Start Hacking!
-```bash
-# Start container with workspace
-exegol-start
-
-# Enter the container
-exegol-shell
-
-# Connect to TryHackMe (inside container)
-sudo openvpn /workspace/vpn/*.ovpn &
-
-# Verify VPN connection
-ip addr show tun0
-```
-
-## 📚 Documentation
-
-- [Complete Setup Commands](setup-commands.md) - Step-by-step installation guide
-- [VirtualBox Optimization](virtualbox-optimization.md) - Performance tuning guide
-- [Troubleshooting Guide](troubleshooting.md) - Common issues and solutions
-
-## 🛠️ Available Commands
-
-| Command | Description |
-|---------|-------------|
-| `exegol-install` | Install Exegol Docker image |
-| `exegol-start` | Start THM container with workspace |
-| `exegol-stop` | Stop the container |
-| `exegol-shell` | Enter the container shell |
-| `exegol-thm` | All-in-one: Start + Connect VPN |
-| `thm-vpn` | Connect to TryHackMe VPN (inside container) |
-| `thm-check` | Verify VPN connection |
-
-## 🔧 Workspace Structure
-
-```
-~/exegol-workspace/
-├── vpn/               # TryHackMe .ovpn files
-│   └── yourname.ovpn
-├── tools/             # Custom tools and scripts
-│   └── custom-script.sh
-└── loot/              # Captured flags, hashes, data
-    └── machine-name/
-        ├── flags.txt
-        └── credentials.txt
-```
-
-## 📊 Performance Metrics
-
-After optimization:
-- **Boot Time**: ~15 seconds
-- **Docker Start**: ~3 seconds
-- **Container Launch**: ~2 seconds
-- **VPN Connection**: ~5 seconds
-
-## 🎓 Learning Outcomes
-
-Through this project, I learned:
-- Docker containerization for cybersecurity tools
-- Python package management with pipx
-- VirtualBox VM optimization techniques
-- OpenVPN configuration and networking
-- Linux system administration best practices
-- Efficient pentesting workflow automation
-
-## 🔐 Security Considerations
-
-- ✅ Exegol containers are isolated from host system
-- ✅ TryHackMe VPN credentials stored securely in workspace
-- ✅ Docker daemon runs with proper user permissions
-- ✅ All tools confined to container environment
-- ⚠️ Remember: Only use on authorized systems and CTF platforms
-
-## 📝 License
-
-This documentation is for **personal educational use only**. Exegol is subject to its own [EULA](https://docs.exegol.com/legal/eula) and is strictly limited to personal, non-commercial, educational, or research purposes.
-
-## 🙏 Acknowledgments
-
-- [Exegol Project](https://github.com/ThePorgs/Exegol) by ThePorgs
-- [TryHackMe](https://tryhackme.com) for providing awesome learning platform
-- Lubuntu team for the lightweight distro
-
-## 📧 Contact
-
-**Christopher Cahall**
-- GitHub: [@cahallchristopher](https://github.com/cahallchristopher)
-- Portfolio: [Cybersecurity Portfolio](https://github.com/cahallchristopher/cahall-Cybersecurity-Portfolio)
+**Why chrome.alarms over setInterval?** Service Workers sleep. `setInterval` stops firing. `chrome.alarms` persist and fire on schedule regardless of worker state.
 
 ---
 
-**Last Updated**: February 2026
-**Exegol Version**: v5.1.8
-**Lubuntu Version**: 24.04 LTS
+## 🚀 Install & Run in 60 Seconds
+
+```bash
+# 1. Clone or download the phishguard/ folder
+# 2. Open Chrome → chrome://extensions
+# 3. Enable Developer mode (top right)
+# 4. Click Load unpacked → select phishguard/
+# 5. Click the shield icon → Update threat list
+```
+
+Test it:
+- `https://google.com` → ✅ green
+- `http://anything` → 🟠 No HTTPS warning  
+- `https://example.com/verify-account/login` → 🟠 Suspicious keywords
+- Any URL from the OpenPhish feed → 🔴 DANGER + automatic page banner
+
+---
+
+## 🛠️ Lab Environment
+
+Built and tested in a cybersecurity home lab — not just on a local machine:
+
+| Component | Details |
+|---|---|
+| Host OS | Linux (Ubuntu) |
+| Hypervisor | KVM/QEMU with virt-manager |
+| Guest OS | Windows 10 22H2 |
+| VM RAM | 4GB / 16GB host |
+| VM Storage | 60GB qcow2 |
+| Display | SPICE + QXL paravirtualised |
+| Network | libvirt NAT — virbr2, 192.168.122.0/24 |
+| Drivers | VirtIO storage + network, SPICE guest tools |
+
+Setting up the VM involved solving 10 real infrastructure problems: PCI address conflicts, libvirt network creation from scratch, VirtIO driver loading during Windows install, swtpm TPM permissions, and SPICE clipboard integration. Full troubleshooting notes in the repo.
+
+---
+
+## 📚 Skills Demonstrated
+
+`Chrome Extension Manifest V3` `Service Workers` `Content Scripts` `Message Passing` `chrome.storage` `chrome.alarms` `Threat Intelligence APIs` `URL Heuristics` `DOM Inspection` `Q-Learning` `Precision/Recall/F1` `Shannon Entropy` `KVM/QEMU` `libvirt` `VirtIO` `SPICE Protocol` `Bash Scripting` `GitHub API`
+
+---
+
+## 📄 License
+
+MIT — free to use, modify, and distribute.
+
+---
+
+*Built by Chris Cahall as part of a cybersecurity home lab project.*  
+*Questions or feedback: [github.com/cahallchristopher](https://github.com/cahallchristopher)*
