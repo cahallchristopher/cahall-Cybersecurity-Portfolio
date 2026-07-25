@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Database -- contains sensitive lookup results
+osint.db
+*.db
+*.sqlite3
+
+# API keys -- NEVER commit
+.env
+
+# Maigret output reports
+reports/
+*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
