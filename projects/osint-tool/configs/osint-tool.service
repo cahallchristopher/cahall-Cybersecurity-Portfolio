@@ -1,0 +1,20 @@
+[Unit]
+Description=OSINT People & Identity Lookup Tool
+Documentation=https://github.com/cahallchristopher/cahall-Cybersecurity-Portfolio/tree/main/projects/osint-tool
+After=network.target tor@default.service
+Wants=tor@default.service
+
+[Service]
+Type=simple
+User=chris
+WorkingDirectory=/home/chris/osint-tool
+EnvironmentFile=/home/chris/osint-tool/.env
+ExecStart=/home/chris/osint-tool/venv/bin/uvicorn main:app --host 127.0.0.1 --port 8000
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=osint-tool
+
+[Install]
+WantedBy=multi-user.target
