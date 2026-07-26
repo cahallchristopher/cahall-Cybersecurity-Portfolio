@@ -1,1 +1,0 @@
-# CyberAI SOC Assistant
