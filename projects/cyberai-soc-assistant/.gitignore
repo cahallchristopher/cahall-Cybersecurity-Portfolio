@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Embeddings (large binary-like file)
+data/embeddings/
+
+# Knowledge base documents (may contain sensitive data)
+data/documents/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
