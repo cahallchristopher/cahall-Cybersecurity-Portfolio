@@ -1,0 +1,45 @@
+#!/bin/bash
+GUEST=$1
+ACTION=$2
+if [ "$ACTION" != "started" ]; then
+    exit 0
+fi
+sleep 3
+attach_to_bridge() {
+    local iface=$1
+    local bridge=$2
+    if [ -n "$iface" ] && [ "$iface" != "-" ]; then
+        ip link set "$iface" master "$bridge" 2>/dev/null
+        ip link set "$iface" up 2>/dev/null
+        logger "cyber-range hook: attached $iface to $bridge"
+    fi
+}
+case "$GUEST" in
+    cr-openwrt-router)
+        sleep 3
+        LAN_VNET=$(ip link | grep -B1 "fe:54:00:1b:cf:e9" | grep -o "vnet[0-9]*")
+        DMZ_VNET=$(ip link | grep -B1 "fe:54:00:1c:67:13" | grep -o "vnet[0-9]*")
+        MGMT_VNET=$(ip link | grep -B1 "fe:54:00:2e:22:44" | grep -o "vnet[0-9]*")
+        AD_VNET=$(ip link | grep -B1 "fe:54:00:27:37:f7" | grep -o "vnet[0-9]*")
+        attach_to_bridge "$LAN_VNET" br-lan
+        attach_to_bridge "$DMZ_VNET" br-dmz
+        attach_to_bridge "$MGMT_VNET" br-mgmt
+        attach_to_bridge "$AD_VNET" br-ad
+        ;;
+    kali-attacker)
+        sleep 2
+        LAN_VNET=$(ip link | grep -B1 "fe:54:00:43:42:e4" | grep -o "vnet[0-9]*")
+        attach_to_bridge "$LAN_VNET" br-lan
+        ;;
+    metasploitable2)
+        sleep 2
+        DMZ_VNET=$(ip link | grep -B1 "fe:54:00:d1:1a:d3" | grep -o "vnet[0-9]*")
+        attach_to_bridge "$DMZ_VNET" br-dmz
+        ;;
+    win2k22)
+        sleep 3
+        AD_VNET=$(ip link | grep -B1 "fe:54:00:76:9f:63" | grep -o "vnet[0-9]*")
+        attach_to_bridge "$AD_VNET" br-ad
+        ;;
+esac
+exit 0

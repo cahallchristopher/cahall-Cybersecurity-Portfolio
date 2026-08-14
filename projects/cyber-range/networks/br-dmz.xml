@@ -1,0 +1,5 @@
+<network>
+  <name>br-dmz</name>
+  <bridge name='br-dmz' stp='on' delay='0'/>
+  <mac address='52:54:00:aa:bb:02'/>
+</network>

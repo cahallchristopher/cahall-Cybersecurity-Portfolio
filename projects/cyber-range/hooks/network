@@ -1,0 +1,22 @@
+#!/bin/bash
+
+NETWORK=$1
+ACTION=$2
+
+if [ "$ACTION" != "started" ]; then
+    exit 0
+fi
+
+case "$NETWORK" in
+    br-lan|br-dmz|br-mgmt|br-ad)
+        # Disable STP delay
+        ip link set "$NETWORK" type bridge stp_state 0
+        # Disable rp_filter
+        sysctl -w net.ipv4.conf.${NETWORK}.rp_filter=0
+        sysctl -w net.ipv4.conf.all.rp_filter=0
+        logger "cyber-range hook: configured $NETWORK"
+        ;;
+esac
+
+exit 0
+

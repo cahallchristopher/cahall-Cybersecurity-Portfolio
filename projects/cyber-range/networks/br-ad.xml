@@ -1,0 +1,7 @@
+<network>
+  <name>br-ad</name>
+  <bridge name='br-ad' stp='on' delay='0'/>
+  <mac address='52:54:00:aa:bb:04'/>
+  <ip address='10.20.20.1' netmask='255.255.255.0'>
+  </ip>
+</network>

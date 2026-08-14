@@ -1,0 +1,5 @@
+<network>
+  <name>br-mgmt</name>
+  <bridge name='br-mgmt' stp='on' delay='0'/>
+  <mac address='52:54:00:aa:bb:03'/>
+</network>

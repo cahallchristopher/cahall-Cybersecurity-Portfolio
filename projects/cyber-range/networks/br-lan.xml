@@ -1,0 +1,5 @@
+<network>
+  <name>br-lan</name>
+  <bridge name='br-lan' stp='on' delay='0'/>
+  <mac address='52:54:00:aa:bb:01'/>
+</network>
